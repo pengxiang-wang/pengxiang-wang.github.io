@@ -1,8 +1,11 @@
 ---
-title: About
+title: 关于我
 icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+我叫WPX，大家都叫我肖恩，本站是我的个人网站，我会记录自己学到的知识、经验、分享，也会包含一些生活内容。
+
+
+
+我目前是一名在读博士生，来自[北京大学数学科学学院](https://www.math.pku.edu.cn)信息科学系，专业人工智能、机器学习相关领域，主要方向为持续学习（Continual Learning）。我也会在本站发布科研笔记，欢迎感兴趣的小伙伴一起讨论呀～
