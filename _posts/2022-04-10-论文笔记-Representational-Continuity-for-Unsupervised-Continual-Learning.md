@@ -1,19 +1,20 @@
 ---
 title: 论文笔记：Representational Continuity for Unsupervised Continual Learning
 author: Shawn Wang
-date: 2022-04-09 12:00:00 +0800
+date: 2022-04-11 13:00:00 +0800
 categories: [科研, 持续学习]
 tags: [论文笔记]
 math: true
-comments: true
 ---
 
 
 ## 论文信息 
 
-[原文链接](https://openreview.net/forum?id=9Hrka5PA7LW)
 
-- 题目：Representational Continuity for Unsupervised Continual Learning
+
+### [Representational Continuity for Unsupervised Continual Learning](https://openreview.net/forum?id=9Hrka5PA7LW)
+
+
 - 会议：ICLR 2022 (Oral)
 - 作者：
     - [Divyam Madaan*](https://dmadaan.com) - 纽约大学，博士生
@@ -21,9 +22,9 @@ comments: true
     - [李元春](https://yuanchun-li.github.io/) - [清华大学智能产业研究院](https://air.tsinghua.edu.cn)
     - [刘云新](https://yunxinliu.github.io/) - [清华大学智能产业研究院](https://air.tsinghua.edu.cn)
     - [Sung Ju Hwang](http://www.sungjuhwang.com) - 韩科院，前两人的导师
+- 内容：这是一篇将持续学习用在无监督场景的论文，做的实验、内容还是比较综合的：里面既涉及到比较火的无监督学习模型，也把持续学习的三大类方法中比较新提出的推广到无监督场景中。目前看挺适合入门一下无监督的持续学习。无监督学习是一般是学习表示，让无监督学习持续起来，也就是题目所述的“Representational Continuity”。
 
 
-这是一篇将持续学习用在无监督场景的论文，做的实验、内容还是比较综合的：里面既涉及到比较火的无监督学习模型，也把持续学习的三大类方法中比较新提出的推广到无监督场景中。目前看挺适合入门一下无监督的持续学习。无监督学习是一般是学习表示，让无监督学习持续起来，也就是题目所述的“Representational Continuity”。
 
 --------------
 
