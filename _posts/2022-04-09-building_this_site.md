@@ -1,8 +1,8 @@
 ---
 title: 建站的一路坎坷
 author: Shawn Wang
-date: 2022-04-09 12:00:00 +0800
-categories: [其他]
+date: 2022-04-09
+categories: [生活]
 tags: [技术]
 comments: true
 ---

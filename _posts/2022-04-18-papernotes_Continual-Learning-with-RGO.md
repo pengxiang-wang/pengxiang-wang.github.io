@@ -1,9 +1,9 @@
 ---
 title: 论文笔记：Continual Learning with Recursive Gradient Optimization
 author: Shawn Wang
-date: 2022-04-18 16:20:00 +0800
-categories: [科研, 持续学习]
-tags: [论文笔记]
+date: 2022-04-18
+categories: [科研]
+tags: [论文笔记, 持续学习]
 math: true
 ---
 
@@ -153,6 +153,8 @@ $$ \frac{\partial^{2} L_{j}}{\partial h_{l} \partial h_{l}}=\left(\frac{\partial
 $$ \bar{H}_{l}=\sum_{j=1}^{k-1}  \sum_{i=1}^{n_j}\left(\frac{\partial h_{L}}{\partial h_{l}}\right)^{T} l^{\prime \prime}(f(\theta ; x_{i}) , y_{i}) \frac{\partial h_{L}}{\partial h_{l}}+\alpha I_{l}  $$
 
 最后多加了 $$\alpha I_{l}$$ 为了保持矩阵的正定性（因为涉及它的逆）。鉴于此形式，完全可以存下任务 $$k$$ 计算的 $$\bar{H}_{l}$$，在下一次任务 $$k+1$$ 需要 $$\bar{H}_{l}$$ 时，累加一个 $$\sum_{i=1}^{n_{k}}l^{\prime \prime}(f(\theta ; x_i) , y_i)$$ 即可。
+
+我们需要的 $$\bar{H}_l$$ 包含了之前所有任务知识的精华，正是由于它的**可累加性**，所以可以每次新来任务时，只使用现在来的数据即可轻松地计算。这也是本文的思想精髓。
 
 
 

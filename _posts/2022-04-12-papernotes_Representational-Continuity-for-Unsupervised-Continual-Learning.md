@@ -1,9 +1,9 @@
 ---
 title: 论文笔记：Representational Continuity for Unsupervised Continual Learning
 author: Shawn Wang
-date: 2022-04-11 13:00:00 +0800
-categories: [科研, 持续学习]
-tags: [论文笔记]
+date: 2022-04-12
+categories: [科研]
+tags: [论文笔记, 持续学习, 无监督学习]
 math: true
 ---
 
