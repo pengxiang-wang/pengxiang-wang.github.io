@@ -1,16 +1,13 @@
 ---
 title: 组会论文列表
 author: Shawn Wang
-date: 2022-04-11 13:00:00 +0800
+date: 2022-04-27
 categories: [科研, 持续学习]
 tags: [论文笔记]
 math: true
-comments: true
 ---
 
-
-# 2021-2022 上学年
-
+> 说明：这是我所在研究组组会上讲的论文列表，按照时间倒序排序。主讲人均为本组博士生。
 
 
 
@@ -18,26 +15,63 @@ comments: true
 
 # 2021-2022 下学年
 
-## 2022-03-02
+
+
+## 2022-04-27
+
+### [Modeling Label Space Interactions in Multi-label Classification using Box Embeddings](https://openreview.net/forum?id=tyTH9kOxcvh)
+
+
+- 会议：ICLR 2022 (Poster)
+- 作者：
+    - Dhruvesh Patel, Pavitra Dangati, Jay-Yoon Lee, Michael Boratko, Andrew McCallum
+- 主讲人：LZC
+- 内容：
 
 
 
-## 2022-03-09
 
-## 2022-03-16
-
-
-## 2022-03-23
+### [Model Behavior Preserving for Class-Incremental Learning](https://ieeexplore.ieee.org/document/9705128)
 
 
-## 2022-03-30
+- 会议：IEEE TNNLS 2022
+- 作者：
+    - 
+- 主讲人：HYT
+- 内容：
+
+
+## 2022-04-20
+
+### 数据增强论文整理
+
+- 主讲人：LZC
+- 内容：
+
+
+### [Continual Learning with Recursive Gradient Optimization](https://openreview.net/forum?id=7YDLgf9_zgm)
+
+
+- 会议：ICLR 2022 (Spotlight)
+- 作者：
+    - Hao Liu - 清华大学计算机系（可能是后者的学生）
+    - [刘华平](https://www.cs.tsinghua.edu.cn/info/1122/3566.htm) - 清华大学计算机系
+- 主讲人：WPX
+- 内容：本文可以看成是加正则项的持续学习方法。
 
 
 
-## 2022-04-06
+### [Leanring a Unified Calssifier Incrementally via Rebalancing]
 
-
-
+- 会议：CVPR 2019
+- 作者：
+    - [侯赛辉](https://hshustc.github.io) - 中科大，博士生
+    - [Xinyu Pan](https://hk.linkedin.com/in/xinyu-pan) - 香港中文大学，博士生
+    - [吕健勤](https://www.mmlab-ntu.com/person/ccloy/) - 南洋理工大学[MMLab](https://www.mmlab-ntu.com)，副教授
+    - [王子磊](http://staff.ustc.edu.cn/~zlwang) - 中科大[VIM研究组](http://vim.ustc.edu.cn)，助理教授
+    - [林达华](http://dahua.site) - 香港中文大学，助理教授
+- 主讲人：ZGZ
+- 内容：
 
 
  
@@ -86,37 +120,41 @@ comments: true
 - 主讲人：WPX
 - 内容：这是一篇将持续学习用在无监督场景的论文，做的实验、内容还是比较综合的：里面既涉及到比较火的无监督学习模型，也把持续学习的三大类方法中比较新提出的推广到无监督场景中。目前看挺适合入门一下无监督的持续学习。无监督学习是一般是学习表示，让无监督学习持续起来，也就是题目所述的“Representational Continuity”。
 
-## 2022-04-20
-
-### 数据增强论文整理
-
-- 主讲人：LZC
-- 内容：
 
 
-### [Continual Learning with Recursive Gradient Optimization](https://openreview.net/forum?id=7YDLgf9_zgm)
+## 2022-04-06
 
 
-- 会议：ICLR 2022 (Spotlight)
-- 作者：
-    - Hao Liu - 清华大学计算机系（可能是后者的学生）
-    - [刘华平](https://www.cs.tsinghua.edu.cn/info/1122/3566.htm) - 清华大学计算机系
-- 主讲人：WPX
-- 内容：本文可以看成是加正则项的持续学习方法。
+## 2022-03-30
+
+## 2022-03-23
+
+
+## 2022-03-16
+
+## 2022-03-09
 
 
 
-### [Leanring a Unified Calssifier Incrementally via Rebalancing]
 
-- 会议：CVPR 2019
-- 作者：
-    - [侯赛辉](https://hshustc.github.io) - 中科大，博士生
-    - [Xinyu Pan](https://hk.linkedin.com/in/xinyu-pan) - 香港中文大学，博士生
-    - [吕健勤](https://www.mmlab-ntu.com/person/ccloy/) - 南洋理工大学[MMLab](https://www.mmlab-ntu.com)，副教授
-    - [王子磊](http://staff.ustc.edu.cn/~zlwang) - 中科大[VIM研究组](http://vim.ustc.edu.cn)，助理教授
-    - [林达华](http://dahua.site) - 香港中文大学，助理教授
-- 主讲人：ZGZ
-- 内容：
+## 2022-03-02
+
+
+
+# 2021-2022 上学年
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
