@@ -69,14 +69,14 @@ B站存在精苏文化，上面苏联歌曲资源非常丰富，也有很多手�
 
 
 曲目：
-- 喀秋莎（катюша)：[考级版本](https://www.bilibili.com/video/BV13W411Y7BD)，[小王版本](https://www.bilibili.com/video/BV1z54y1D79d)（技巧较多），[本人版本](https://www.bilibili.com/video/BV11Z4y1S7VD)（扒谱[
+- 喀秋莎（Катюша)：[考级版本](https://www.bilibili.com/video/BV13W411Y7BD)，[小王版本](https://www.bilibili.com/video/BV1z54y1D79d)（技巧较多），[本人版本](https://www.bilibili.com/video/BV11Z4y1S7VD)（扒谱[
 amarcordeon 版本](https://www.youtube.com/watch?v=qX6VcPWVQhU)）
-- 斯拉夫女人的告别（Прощание славянки）：[广为流传的版本（刘宽老师演奏）](https://www.bilibili.com/video/BV1fk4y1r7S3)
+- 斯拉夫女人的告别（Прощание Славянки）：[广为流传的版本（刘宽老师演奏）](https://www.bilibili.com/video/BV1fk4y1r7S3)
 - 莫斯科郊外的晚上（Подмосковные Вечера）：[朴震老师版本](https://www.bilibili.com/video/BV1354y1x7HU)，[Вячеслав Абросимов 歌唱版本（手风琴伴奏）](https://www.youtube.com/watch?v=N0irx1jpmW8)
 - 乌拉尔的花楸树（Уральская рябинушка）：[苏联电视台版本（手风琴伴奏）](https://www.youtube.com/watch?v=4HVLjIEZJoM)
 - 黑皮肤姑娘（Смуглянка）：[电影原版（伴奏有手风琴）](https://www.youtube.com/watch?v=rtZFtzXA0fQ)
-- 在满洲里的山岗上（На сопках Маньчжурии）：[本人版本]()（扒谱[Sergus 版本](https://www.youtube.com/watch?v=ra358gZiwMU)）
-- 红军最强大（красная армия всех сильней）：[毛茸茸版本（基于红旗歌舞团合唱版）](https://www.bilibili.com/video/BV1Tu41197x6)
+- 在满洲里的山岗上（На Сопках Маньчжурии）：[本人版本]()（扒谱[Sergus 版本](https://www.youtube.com/watch?v=ra358gZiwMU)）
+- 红军最强大（Красная Армия Всех Сильней）：[毛茸茸版本（基于红旗歌舞团合唱版）](https://www.bilibili.com/video/BV1Tu41197x6)
 - 为了你，祖国母亲（За тебя, Родита-мать）：这首歌是现在俄罗斯的柳拜乐队新创作的，是苏联风格。[仲凯老师版本](https://www.bilibili.com/video/BV1BL4y1J7qF)
 
 
@@ -141,7 +141,7 @@ amarcordeon 版本](https://www.youtube.com/watch?v=_LpKT7i1nng)
 
 曲目：
 - 伊迪丝·琵雅芙 - 人群（La Foule）：[原版歌曲（伴奏有手风琴）](https://www.youtube.com/watch?v=Fgn8gZHJZzA)，[手风琴独奏版本](https://www.youtube.com/watch?v=q2UabQ-WawM)
-- 电影《天使爱美丽》插曲 - La Valse d'Amelie：[原版手风琴独奏](https://www.youtube.com/watch?v=07xTvC5a9YQ)
+- La Valse d'Amelie（电影《天使爱美丽》插曲） ：[原版手风琴独奏](https://www.youtube.com/watch?v=07xTvC5a9YQ)
 - 伊迪丝·琵雅芙 - 玫瑰人生（La Vie en Rose）：[手风琴独奏版本](https://www.youtube.com/watch?v=BLPmsmelxaU)，[有其他伴奏的手风琴曲](https://www.youtube.com/watch?v=4I4CgKW5JvQ)，[演唱版（手风琴、吉他等伴奏）](https://www.youtube.com/watch?v=KhWvG7pBUwg)
 - 暴风雨（Bourrasque）：[amarcordeon 版本](https://www.youtube.com/watch?v=IRwPnzn5G9A)
 - 巴黎的快乐时光（Happy Days in Paris）：[French Café 版本](https://www.youtube.com/watch?v=wgNPCKuX9ds)
@@ -149,7 +149,7 @@ amarcordeon 版本](https://www.youtube.com/watch?v=_LpKT7i1nng)
 
 
 
-## 爱尔兰：吉格舞、里尔舞等
+## 爱尔兰传统音乐
 
 近年来爱尔兰的文化复兴，使得其音乐越来越被世人知晓，例如 U2、小红莓乐队、恩雅等流行音乐家，以及游戏中使用的越来越多的凯尔特音乐。本节讨论的是其传统音乐。
 
