@@ -1,5 +1,5 @@
 ---
-title: 组会论文列表
+title: 组会论文列表（长期更新）
 author: Shawn Wang
 date: 2022-04-27
 categories: [科研, 持续学习]
@@ -131,6 +131,24 @@ math: true
 
 
 ## 2022-03-16
+
+
+
+
+### [(CoPE) Continual Prototype Evolution: Learning Online from Non-Stationary Data Streams](https://openreview.net/forum?id=Tt1s9Oi1kCS)
+
+
+- 会议：???
+- 作者：
+    - Matthias De Lange
+    - Tinne Tuytelaars
+- 主讲人：WPX
+- 内容：
+
+
+
+
+
 
 ## 2022-03-09
 
