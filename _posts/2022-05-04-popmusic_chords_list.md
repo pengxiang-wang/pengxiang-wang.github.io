@@ -6,12 +6,13 @@ categories: [音乐]
 tags: [乐谱, 手风琴]
 ---
 
-本文按歌手汇总了流行歌曲的乐谱。我所谓的极简指的是只标注和弦进行和曲式（歌曲的结构），必要时标注吉他或手风琴伴奏的节奏型。这些都是我熟悉的歌，旋律和歌词默认知道。
+本文按歌手汇总了流行歌曲的乐谱。我所谓的极简指的是只标注**和弦进行**和曲式（歌曲的结构）。这些都是我熟悉的歌，旋律默认知道。
 
-和弦进行一律统一到 C 调，其他调自行推演（手风琴较方便，变调后和弦相对位置不变）。
+本文就是为了在**玩**吉他（现在还有手风琴）时，不去现场找谱子！而且网上的谱子不够简略，其实很多歌就是几个和弦在重复，吉他谱非要把整个歌都展开来！只要看这一份，就可以来个歌曲串烧啦！
 
+若我感兴趣 + 有时间，我会挑一些比较适合的歌曲编配成手风琴独奏曲。敬请期待！
 
-
+注：以下和弦进行一律统一到 C 调，其他调自行推演（手风琴较方便，变调后和弦相对位置不变）。
 
 
 
@@ -25,10 +26,6 @@ tags: [乐谱, 手风琴]
     - intro - verse1 - verse2 - chorus...
 - 和弦进行
     - 全部： `Fmaj7 - Em - Dm7 - C`
-- 节奏型（吉他）
-    - 
-- 节奏型（手风琴）
-    - 
 
 
 
@@ -42,11 +39,7 @@ tags: [乐谱, 手风琴]
     - verse2 - chorus - chorus - outro
 - 和弦进行
     - 除 solo： `C - Em - Dm - Fdim - G7`
-    - solo：
-- 节奏型（吉他）
-    - 
-- 节奏型（手风琴）
-    - 三角 - drone... - 三角
+    - solo：?
     
 
 
@@ -62,10 +55,6 @@ tags: [乐谱, 手风琴]
     - verse2：`Fmaj7 - Cmaj7 - Fm - G - C - C7 `
     - chorus：`C - G - Am - F - Fm - G, E - Am - Dm - G`
     - verse2 尾部特殊处理：`Ab - Bb - G`
-- 节奏型（吉他）
-    - 
-- 节奏型（手风琴）
-    - 
 
 
 ### 憨人
@@ -78,13 +67,9 @@ tags: [乐谱, 手风琴]
 - 和弦进行
     - intro1：`C - F, C - F`
     - intro2：`C - Am7 - F - G`
-    - verse1, chorus：`C - G - Am7 - Em， F - C - Dm - G （- C）`
+    - verse1, chorus：`C - G - Am7 - Em, F - C - Dm - G （- C）`
     - verse2：`Am - Em - F - C - F - Dm7 - G`
-    - bridge：
-- 节奏型（吉他）
-    - 
-- 节奏型（手风琴）
-    - 
+    - bridge：?
 
 
 
@@ -99,10 +84,6 @@ tags: [乐谱, 手风琴]
     - 主要：`C - Am7 - F - G`
     - verse 后部：`Em - A7 - Am， F - G - C `
     - chorus 后部：`F - G`
-- 节奏型（吉他）
-    - 
-- 节奏型（手风琴）
-    - 
 
 
 
@@ -114,10 +95,6 @@ tags: [乐谱, 手风琴]
 - 曲式：intro1 - verse1 - chorus - intro2 - verse2 - chorus - chorus
 - 和弦进行
     - 全部：`C - G/B - Am - Em - Dm7（F）- G - C`
-- 节奏型（吉他）
-    - 
-- 节奏型（手风琴）
-    - 
 
 
 ### 七里香
@@ -129,11 +106,7 @@ tags: [乐谱, 手风琴]
     - verse1 - verse2 - chorus - outro
 - 和弦进行
     - 主要：`Am7 - F - G - C`，以 `Dm7 - G - C` 结尾
-    - bridge：
-- 节奏型（吉他）
-    - 
-- 节奏型（手风琴）
-    - 
+    - bridge：?
 
 
 
@@ -143,11 +116,6 @@ tags: [乐谱, 手风琴]
 - 曲式：intro - verse - chorus - intro - verse - chorus - verse
 - 和弦进行
     - 主要：`Am - G - F - Em - Dm7 - E7 - Am`
-- 节奏型（吉他）
-    - 
-- 节奏型（手风琴）
-    - 
-
 
 
 
@@ -157,10 +125,6 @@ tags: [乐谱, 手风琴]
 - 曲式：intro - verse - chorus - intro - verse - chorus - verse
 - 和弦进行
     - 主要：`Am - Em - F - G - C`
-- 节奏型（吉他）
-    - 
-- 节奏型（手风琴）
-
 
 
 ## 李健
@@ -173,9 +137,6 @@ tags: [乐谱, 手风琴]
     - intro: `F - G, F - G, E7 - Am, Dm - Em - Am`
     - verse: `Am - G - C, F - G - C, F - G - Em - Am, Dm - Em - Am`
     - chorus: `F - G - Em - Am，F - G - C, F - G - E7- Am， Dm - Em - Am`
-- 节奏型（吉他）
-    - 
-- 节奏型（手风琴）
 
 
 
@@ -195,10 +156,6 @@ tags: [乐谱, 手风琴]
     - intro,bridge：`F - G - Em (E/B) - Am, Dm - G - C - C7`
     - verse1: `C - G - F - G - C - Em/B , Am - Em - F - G .`
     - chorus: `C - G - Am - Em - F - G - Em - Am - Dm - G - C`
-- 节奏型（吉他）
-    - 
-- 节奏型（手风琴）
-    - 
 
 
 ## 其他
@@ -217,11 +174,7 @@ chorus（升） - outro
     - verse1：`C - G/B - Am7 - C, Fmaj7 - G - C`
     - verse2：`F - G - Am / C`
     - chorus：`C - G - Am - Em, F - C - D7 - G`
-    
-- 节奏型（吉他）
-    - 
-- 节奏型（手风琴）
-    - 
+
 
 ### 白桦林
 - 歌手：朴树
@@ -240,17 +193,9 @@ chorus（升） - outro
     - intro = chorus2：`F - C, F - G, C - D - G - C`
     - verse1：`C - C, C - Em， F - Am, Dm - G （- C）`
     - chorus：`F - C , Dm - G - C,  F - A7, D7 - G, C - C, A7 - Dm, Dm - G - C`
-- 节奏型（吉他）
-    - 
-- 节奏型（手风琴）
-    - 
 
 
-### 卡林卡
-- 原调：
-- 和弦进行
-    - E7 - Am
-    - 
+
 
 ### 权利的游戏
 - 原调：Eb
