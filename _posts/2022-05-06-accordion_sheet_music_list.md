@@ -1,13 +1,13 @@
 ---
 title: 乐谱汇总：我拉过的手风琴曲（长期更新）
 author: Shawn Wang
-date: 2022-05-02
+date: 2022-05-06
 categories: [音乐]
-tags: [乐谱, 手风琴]
+tags: [手风琴, 乐谱, 长期更新]
 ---
 
 
-本文列举了我拉过的手风琴曲。我将将按照我的这篇文章[乐曲风格](https://pengxiang-wang.github.io/posts/accordion_style)的类别整理。有一些乐谱来源未知，但我尽可能附上乐谱来源。如无说明，均为手风琴独奏。
+本文列举了我拉过的手风琴曲，方便个人翻阅。我将将按照我的这篇文章[乐曲风格](https://pengxiang-wang.github.io/posts/accordion_style)的类别整理。有一些乐谱来源未知，但我尽可能附上乐谱来源。如无说明，均为手风琴独奏。
 
 所有乐谱均可在我的 GitHub 仓库 [pengxiang-wang/accordion-sheet-music](https://github.com/pengxiang-wang/accordion-sheet-music) 下载。
 
@@ -90,6 +90,7 @@ tags: [乐谱, 手风琴]
 
 正在练：
 - 一步之遥（Por una Cabeza，电影《闻香识女人》插曲）：四重奏四声部（社团重奏）
+- 一步之遥（Por una Cabeza，电影《闻香识女人》插曲）：[仲凯老师版本](https://www.bilibili.com/video/BV1zW411Y75C)
 
 
 

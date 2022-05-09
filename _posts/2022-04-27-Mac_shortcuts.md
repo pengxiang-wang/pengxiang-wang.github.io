@@ -3,7 +3,7 @@ title: MacOS 快捷键整理
 author: Shawn Wang
 date: 2022-04-27
 categories: [其他]
-tags: [生活经验]
+tags: [技术]
 math: true
 ---
 

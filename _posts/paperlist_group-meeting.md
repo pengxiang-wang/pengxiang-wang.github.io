@@ -2,8 +2,8 @@
 title: 组会论文列表（长期更新）
 author: Shawn Wang
 date: 2022-04-27
-categories: [科研, 持续学习]
-tags: [论文笔记]
+categories: [科研]
+tags: [长期更新]
 math: true
 ---
 

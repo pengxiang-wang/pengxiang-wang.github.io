@@ -2,7 +2,7 @@
 title: 配置 Python 环境备忘
 author: Shawn Wang
 date: 2022-04-11 13:00:00 +0800
-categories: [其他]
+categories: [科研]
 tags: [技术]
 math: true
 ---

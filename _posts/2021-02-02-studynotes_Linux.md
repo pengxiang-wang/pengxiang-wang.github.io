@@ -3,7 +3,7 @@ title: Linux 学习笔记：从科研使用需求出发
 author: Shawn Wang
 date: 2021-02-02
 categories: [科研]
-tags: [技术]
+tags: [学习笔记, 技术]
 math: true
 ---
 

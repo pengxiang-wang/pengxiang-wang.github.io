@@ -3,7 +3,7 @@ title: Conda 学习笔记
 author: Shawn Wang
 date: 2020-04-12
 categories: [科研]
-tags: [技术]
+tags: [学习笔记, 技术]
 math: true
 ---
 

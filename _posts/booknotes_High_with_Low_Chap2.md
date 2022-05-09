@@ -2,7 +2,7 @@
 title: 读书笔记：《低维模型下的高维数据分析》第2、3章：稀疏信号恢复
 author: Shawn Wang
 date: 2022-03-08
-categories: [学习]
+categories: [科研]
 tags: [读书笔记, 《低维模型下的高维数据分析》]
 math: true
 ---
