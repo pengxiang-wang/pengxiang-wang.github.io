@@ -1,5 +1,5 @@
 ---
-title: 读书笔记：《终身机器学习》
+title: 读书笔记：《终身机器学习》第 1 章：终身学习简介
 author: Shawn Wang
 date: 2022-05-09
 categories: [科研]
