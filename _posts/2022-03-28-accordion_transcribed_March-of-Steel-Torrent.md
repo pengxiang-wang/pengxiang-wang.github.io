@@ -6,7 +6,7 @@ categories: [音乐]
 tags: [手风琴, 乐谱, 音乐编配]
 ---
 
-**乐谱已上传至 [MuseScore](https://musescore.com/user/33553780/scores/7894883) 和 [B站]()，有实时的声音与乐谱对照。**
+**乐谱已上传至 [MuseScore](https://musescore.com/user/33553780/scores/7894883) 和 [B站](https://www.bilibili.com/video/BV11r4y1t7ue)，有实时的声音与乐谱对照。**
 
 我的编配版本忠于中国人民解放军军乐团《钢铁洪流进行曲》[官方原版](https://www.bilibili.com/video/BV1ZE411D7od)。
 

@@ -6,7 +6,7 @@ categories: [音乐]
 tags: [手风琴, 乐谱, 音乐编配]
 ---
 
-**乐谱已上传至 [MuseScore](https://musescore.com/user/33553780/scores/7915961) 和 [B站]()，有实时的声音与乐谱对照。**
+**乐谱已上传至 [MuseScore](https://musescore.com/user/33553780/scores/7915961) 和 [B站](https://www.bilibili.com/video/BV1jA4y1S7jd)，有实时的声音与乐谱对照。**
 
 我的编配版本忠于李健《依然》专辑录音原版，力求还原原版的细节与感觉，兼顾曲谱的难易程度。
 
