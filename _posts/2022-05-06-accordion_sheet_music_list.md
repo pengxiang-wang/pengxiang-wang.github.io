@@ -1,9 +1,9 @@
 ---
 title: 乐谱汇总：我拉过的手风琴曲（长期更新）
-author: Shawn Wang
 date: 2022-05-06
 categories: [音乐]
 tags: [手风琴, 乐谱, 长期更新]
+img_path: /assets/img/
 ---
 
 
@@ -23,7 +23,7 @@ tags: [手风琴, 乐谱, 长期更新]
 
 
 正在练：
-- 李健 - 贝加尔湖畔：自己编配的，见[这篇文章]()
+- 李健 - 贝加尔湖畔：自己编配的，见[这篇文章](https://pengxiang-wang.github.io/posts/accordion_transcribed_Baikal-Lake)
 
 
 ## 古典音乐
@@ -45,7 +45,7 @@ tags: [手风琴, 乐谱, 长期更新]
 
 
 已练熟：
-- 喀秋莎（Катюша)：扒谱 [amarcordeon] ，[演奏视频]()，[我的演奏视频]()
+- 喀秋莎（Катюша)：扒谱 [amarcordeon] ，[演奏视频](https://www.youtube.com/watch?v=qX6VcPWVQhU)，[我的演奏视频](https://www.bilibili.com/video/BV11Z4y1S7VD)
 - 斯拉夫女人的告别（Прощание Славянки）：国内广为流传的版本
 - 胜利日（Лень Победы）：来自苏联的手风琴书籍[《Этих дней не смолкнет слава》](http://aperock.ucoz.ru/load/22-1-0-1076)
 - 灯光（Огонёк）：来自苏联的手风琴书籍[《Песни огненных лет》](http://aperock.ucoz.ru/load/22-1-0-2398)
@@ -55,7 +55,7 @@ tags: [手风琴, 乐谱, 长期更新]
 正在练：
 - 黑皮肤姑娘（Смуглянка）：来自苏联的手风琴书籍[《Этих дней не смолкнет слава》](http://aperock.ucoz.ru/load/22-1-0-1076)
 - 乌拉尔的花楸树（Уральская рябинушка）
-- 在满洲里的山岗上（На сопках Маньчжурии）：自己编配的，见[这篇文章]()
+- 在满洲里的山岗上（На сопках Маньчжурии）：自己编配的，见[这篇文章](https://pengxiang-wang.github.io/posts/accordion_transcribed_The-Hills-of-Manchuria)
 - 茶炊-火绳枪（Самовары-Самопалы）：来自苏联的手风琴书籍[《Песни огненных лет》](http://aperock.ucoz.ru/load/22-1-0-2398)
 - 神圣的战争（Сващенная Война）：来自苏联的手风琴书籍[《Песни огненных лет》](http://aperock.ucoz.ru/load/22-1-0-2398)
 

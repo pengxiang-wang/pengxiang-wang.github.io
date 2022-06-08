@@ -1,9 +1,9 @@
 ---
 title: 论文笔记：Continual Learning with Recursive Gradient Optimization
-author: Shawn Wang
 date: 2022-04-18
 categories: [科研]
 tags: [论文笔记, 持续学习]
+img_path: /assets/img/
 math: true
 ---
 
@@ -93,7 +93,7 @@ $$ F_{k}^{R L L}\left(\theta_{k}^{*}\right) \leq \frac{1}{2} n_{k} \eta_{m} \hat
 
 这个一致性是对不同任务的一致性，收敛速度由学习率调节的。文章中的定理1说：
 
-![T1](/assets/img/2022-04-18_2.png)
+![T1](RGO_theorem1.png)
 
 没有看懂，总之意思是如果 $$P$$ 是 $$\text{trace}(P) = \text{dim}(P)$$ 这样的矩阵话，一般来说所有任务收敛速率是一致的，只需给一个学习率即可。
 
@@ -168,7 +168,7 @@ $$ \bar{H}_{l}=\sum_{j=1}^{k-1}  \sum_{i=1}^{n_j}\left(\frac{\partial h_{L}}{\pa
 作者使用了递归最小二乘（RLS, Recursive Least Square) 算法解决矩阵求逆的问题，文章没有细说，我愣是没有搞明白。以下是最终的算法框架：
 
 
-![算法](/assets/img/2022-04-18_1.png) 
+![算法](RGO_algorithm.png) 
 
 可见没有涉及计算 $$\bar{H}_l$$，求其逆的过程被中间涉及 $$k_l$$ 的几步巧妙地转化了。
 

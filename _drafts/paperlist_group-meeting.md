@@ -1,9 +1,9 @@
 ---
 title: 组会论文列表（长期更新）
-author: Shawn Wang
 date: 2022-04-27
 categories: [科研]
 tags: [长期更新]
+img_path: /assets/img/
 math: true
 ---
 

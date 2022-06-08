@@ -1,9 +1,9 @@
 ---
 title: 论文笔记：Representational Continuity for Unsupervised Continual Learning
-author: Shawn Wang
 date: 2022-04-12
 categories: [科研]
 tags: [论文笔记, 持续学习, 无监督学习]
+img_path: /assets/img/
 math: true
 ---
 
@@ -59,7 +59,7 @@ $$ \mathcal{L}  = \mathcal{L}^{\text{FINETUNE}} + \mathcal{L}^{\text{REVIEW}} $$
 
 **孪生网络**（Siamese Network）是要求两个输入的网络，通过网络后分别得到这两个输入的表示。它可以看成一个网络，也可以看成两个共享权重的网络（所以叫孪生网络）。得到的两个表示一般要算一下相似度（最简单的是余弦相似度，即两个向量的夹角），这个相似度用来构造损失，具体什么样的损失由网络要完成的任务来定。任务只有一个要求——*两个输入*，比如判断两个图片是否是同一类，等等。
 
-![Siamese](/assets/img/2022-04-11_1.png){: w="500"}
+![Siamese](siamese_network.png){: w="500"}
 
 
 孪生网络如何用在无监督学习中呢？自然，对于一个输入 $\mathbf{x}$，无监督学习要学的表示函数就是这个孪生网络。但是它要求两个输入怎么办呢，接下来就是主要思想：这两个输入是原始输入的两个Augmentation  $\mathbf{x}^1,\mathbf{x}^2$，如果这个表示认为由同一个输入 $\mathbf{x}$ 变换出来的 $\mathbf{x}^1,\mathbf{x}^2$ 是相似的，那它就是一个好的表示。因此优化目标是尽量让得到的两个表示接近，构造的损失函数也就用到了上文提到的相似度，一般来说是迫使相似度尽量大，例如
@@ -70,7 +70,7 @@ $$\mathcal{L} = - D(z_1, z_2)$$
 
 ### SimSiam
 
-![Siamese](/assets/img/2022-04-11_2.png){: w="400"}
+![Siamese](SimSiam.png){: w="400"}
 
 对于无监督的表示学习，Facebook何恺明、陈鑫磊等人提出了一个简单的孪生网络[SimSiam](https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Exploring_Simple_Siamese_Representation_Learning_CVPR_2021_paper.pdf)，但是比上面最简单的还是多了一些东西的：它在表示网络后接了一个预测头 $h$（也是一个网络），这样两个输入就有了四个表示：$z_1 \triangleq f(\mathbf{x}_1), z_1 \triangleq f(\mathbf{x}_1), p_1 \triangleq h(f(\mathbf{x}_1)), p_2 \triangleq h(f(\mathbf{x}_2))$。最终交叉混淆处理相似度：
 
@@ -123,7 +123,7 @@ $$\mathcal{L}_{\mathrm{SCL}}^{\mathrm{EWC}}=\mathcal{L}_{\mathrm{SCL}}^{\mathrm{
 这个方法是对网络结构本身动手脚，在不同的任务阶段，网络结构是不同的，持续并不是通过添加正则项 $$\mathcal{L}^{\text{REVIEW}}$$、而是通过训练新的网络参数实现的。在这个[PNN](https://arxiv.org/abs/1606.04671)（Progressive Neural Network）中，每次新任务都会在图中右边多出一列网络出来，冻结原有的权重（虚线），只训练新的权重（实线）。
 
 
-![PNN](/assets/img/2022-04-11_5.png){:w='400'}
+![PNN](PNN.png){:w='400'}
 
 
 
@@ -154,7 +154,7 @@ $$ \tilde{x}_{i, \tau}=\lambda x_{i, \tau}+(1-\lambda) x_{j, \mathcal{M}}$$
 总结一下上面提到的无监督持续学习方法，按照 $$\mathcal{L}_{\text{UCL}}^{\text{FINETUNE}}$$ 分有SimSiam、Barlow Twins共2类，按照 $$\mathcal{L}_{\text{UCL}}^{\text{REVIEW}}$$ 分有改造成无监督场景的SI、PNN、DER、外加作者针对DER的改进LUMP共4类，所以一共有 $$2\times 4 =8$$ 个无监督持续模型。本文的实验是连同有监督的持续学习一起，对这些方法做一个对比。和其他持续学习一样，评价指标有各任务平均准确率 $$A = \frac1T \sum_{\tau=1}^T acc_\tau$$ 和 各任务平均遗忘程度 $$F = \frac1{T-1}\sum_{\tau=1}^{T-1} \max_{1\leq t \leq \tau}(acc_t - acc_\tau)$$ 。
 
 
-![Exp](/assets/img/2022-04-11_3.png) 
+![Exp](experiment_Representational-Continuity-for-Unsupervised-Continual-Learning.png) 
 
 
 

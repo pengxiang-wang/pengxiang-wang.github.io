@@ -1,17 +1,16 @@
 ---
 title: 配置 Python 环境备忘
-author: Shawn Wang
 date: 2022-04-11 13:00:00 +0800
 categories: [科研]
 tags: [技术]
-math: true
+img_path: /assets/img/
 ---
 
 
 
 众所周知，Python 环境配置是一个大坑，很多人就莫名其妙地在电脑里装了大大小小十几个 Python 环境也不知道。看看这张梗图就明白了。
 
-![python-meme](/assets/img/2022-03-02_1.png)
+![python-meme](Python_meme.png)
 
 
 我也经历过这样的事情。本文就简要记录一下自己的配置历史，并留一份当前的环境状态作为备忘。
@@ -26,12 +25,18 @@ math: true
 过了段时间突然一看，发现系统自带的 Python 2.7 找不到了，吓我一跳，查了下发现是 Mac 系统更新到 Monterey 12.3 版本将自带的 Python 2 删除了。那么是更新成 Python 3 了，还是直接就删除了呢？网上各有各的说法。反正我的电脑上出现了一个让我疑惑的 Python 3.8.9，在 `/usr/bin/python3/`，它特别神奇，在系统里都找不到 Python.framework 框架，它还能正常运行，而且卸载也卸载不掉。看了[这篇博客](https://medium.com/@kailichou.edu/updated-remove-usr-bin-python3-or-not-69c63e8e62c0)，我吓尿了，还是留着吧，放在那里不用就好。
 
 
-当前此电脑的环境备忘：
+在我自己的电脑上，我还对一些扩展功能有刚需，如 Jupyter Notebook，IPython 等。它们本质上是 Python 的包，不需要单独安装，只要 pip intsall 就可以用了。
 
-- 一个疑似系统自带的 Python 3.8.9，位于 `/usr/bin/`，勿使用，当祖宗供着
-- Miniconda3，位于 `~/Miniconda3/`，使用
-- 环境变量中 python3 包括 Miniconda 中的 Python 3 与那个 Python 3.8.9（前者优先），python 是 Miniconda 中的 Python 2。无论敲 python3 还是 python，进入的都是 Miniconda 里的 Python 环境
-- 环境变量中的 pip, pip3 也是一样。无论敲 pip3 还是 pip，进入的都是 Miniconda 里的 Pip 环境
+## Python 环境备忘
+
+- 一个疑似系统自带的 Python 3.8.9，位于 `/usr/bin/`，勿使用，当祖宗供着；
+- Miniconda3，位于 `~/Miniconda3/`，供平时使用；
+- 环境变量中 python3 包括 Miniconda 中的 Python 3 与那个 Python 3.8.9（前者优先），python 是 Miniconda 中的 Python 2。无论敲 python3 还是 python，进入的都是 Miniconda 里的 Python 环境；
+- 环境变量中的 pip, pip3 也是一样。无论敲 pip3 还是 pip，进入的都是 Miniconda 里的 Pip 环境。
+
+## Conda 环境备忘
+- base：当作基本环境，只作临时使用，只在此环境中安装必要的通用的包，如 Jupyter Notebook，IPython，在创建新环境时都统一复制一份此环境；
+- dl_study：学习、测试深度学习代码用，在 base 的基础上安装深度学习的包；
 
 
 

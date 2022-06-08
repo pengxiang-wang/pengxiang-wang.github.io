@@ -1,9 +1,9 @@
 ---
 title: 编配：《贝加尔湖畔》手风琴独奏
-author: Shawn Wang
 date: 2022-04-17
 categories: [音乐]
 tags: [手风琴, 乐谱, 音乐编配]
+img_path: /assets/img/
 ---
 
 **乐谱已上传至 [MuseScore](https://musescore.com/user/33553780/scores/7915961) 和 [B站](https://www.bilibili.com/video/BV1jA4y1S7jd)，有实时的声音与乐谱对照。**
@@ -19,8 +19,8 @@ tags: [手风琴, 乐谱, 音乐编配]
 
 
 
-![Baikal Lake](/assets/file/贝加尔湖畔 (手风琴独奏, 中文)1.pdf)
-![Baikal Lake](/assets/file/贝加尔湖畔 (手风琴独奏, 中文)2.pdf)
-![Baikal Lake](/assets/file/贝加尔湖畔 (手风琴独奏, 中文)3.pdf)
-![Baikal Lake](/assets/file/贝加尔湖畔 (手风琴独奏, 中文)4.pdf)
-![Baikal Lake](/assets/file/贝加尔湖畔 (手风琴独奏, 中文)5.pdf)
+![Baikal Lake](贝加尔湖畔 (手风琴独奏, 中文)1.pdf)
+![Baikal Lake](贝加尔湖畔 (手风琴独奏, 中文)2.pdf)
+![Baikal Lake](贝加尔湖畔 (手风琴独奏, 中文)3.pdf)
+![Baikal Lake](贝加尔湖畔 (手风琴独奏, 中文)4.pdf)
+![Baikal Lake]( 贝加尔湖畔 (手风琴独奏, 中文)5.pdf)

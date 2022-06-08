@@ -1,9 +1,9 @@
 ---
 title: 论文笔记：IIRC (Incremental Implicitly-Refined Classification)
-author: Shawn Wang
 date: 2022-04-22
 categories: [科研]
 tags: [论文笔记, 持续学习]
+img_path: /assets/img/
 math: true
 ---
 
@@ -68,7 +68,7 @@ IIRC则从二维表格中不重复地选，但必须先把超类选掉，才能�
 - 但是要求此模型能准确预测出这些类以及（如果这个类是子类的话）各自的超类，因此测试阶段的测试数据标签是同时包含这些类以及（如果这个类是子类的话）各自的超类的。
 
 
-![example](/assets/img/2022-04-09_1.png)
+![example](IIRC_example.png)
 
 上图是一个例子，展示了 $$N=3$$ 个任务，每个框框表示此任务要学习的一个类。右上角表示该类（可见有超类也有子类），也是训练数据只能看到的标签；下方的 Target 表示模型预测的目标（可见已包含子类的超类）。评价模型时，需要计算每个任务的评价指标，每个任务右下角“Evaluate On”展示了这一信息，可见对于子类来说，既要评价是否正确分到子类上，还要评价是否正确分到超类上。
 

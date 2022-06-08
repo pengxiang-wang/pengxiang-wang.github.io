@@ -23,7 +23,7 @@ timezone: Asia/Shanghai
 
 title: Shawn Wang                          # the main title
 
-tagline: WPX的个人主页   # it will display as the sub-title
+tagline: WPX 的个人主页   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   (Descriptions. )
@@ -111,6 +111,7 @@ assets:
     # specify the Jekyll environment, empty means both
     # only works if `assets.self_host.enabled` is 'true'
     env:          # [development|production]
+
 
 paginate: 10
 

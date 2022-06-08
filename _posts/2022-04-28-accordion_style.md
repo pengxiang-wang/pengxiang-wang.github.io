@@ -1,9 +1,9 @@
 ---
 title: 浅谈手风琴的各种风格（附个人推荐资源）
-author: Shawn Wang
 date: 2022-04-28
 categories: [音乐]
 tags: [手风琴]
+img_path: /assets/img/
 ---
 
 手风琴一直被加上了很多刻板印象，例如气突苏、土掉牙的乐器、大爷大妈喜欢等等。国内大部分人对手风琴可能的认知是：老一辈人还是毛主席时代部队里文娱活动的印象；中年家长认其为小孩学乐器考级的一个选择；年轻人可能压根没咋听说过，觉得是洋东西、太小众（我就曾是这个年轻人）。
@@ -23,12 +23,13 @@ tags: [手风琴]
 这里指的流行音乐包括但不限于各种流行歌、电影主题曲、游戏或动漫主题曲。这些歌曲耳熟能详，易被接受。有的歌曲适合手风琴的音色，而很多歌曲不属于手风琴但是经过手风琴的编配依然好听。
 
 
-![央视春晚李健与手风琴家吴琼演绎《贝加尔湖畔》](/assets/img/2022-04-28_1.jpg "央视春晚李健与手风琴家吴琼演绎《贝加尔湖畔》"){: w="500"}
+![央视春晚李健与手风琴家吴琼演绎《贝加尔湖畔》](LiJian_and_WoQiong.jpg){: w="500"}
+_央视春晚李健与手风琴家吴琼演绎《贝加尔湖畔》_
 
 手风琴最快速的圈粉方式就是拉流行音乐了（此规律也适用于多数乐器），在视频网站上它们的播放量也是最高的。B站大部分有名的手风琴 up 主喜欢编配流行音乐的手风琴演奏，即使他们是专业的或者有相当厉害的技术，例如：[风流先森](https://space.bilibili.com/2874364)、[仲凯手风琴](https://space.bilibili.com/21263434)、[小王的手风琴](https://space.bilibili.com/168610518)、[修仙大神李小肠](https://space.bilibili.com/432692126)、[刘宽音乐工厂](https://space.bilibili.com/17353875)。
 
 曲目：
-- 贝加尔湖畔：[仲凯老师版本](https://www.bilibili.com/video/BV1bK4y1Z7Y1)，[我的编配版本]()
+- 贝加尔湖畔：[仲凯老师版本](https://www.bilibili.com/video/BV1bK4y1Z7Y1)，[我的编配版本](https://pengxiang-wang.github.io/posts/accordion_transcribed_Baikal-Lake)
 - 漠河舞厅：[仲凯老师版本](https://www.bilibili.com/video/BV1dT4y197af)，[乐队版本（伴奏有手风琴](https://www.bilibili.com/video/BV1HL4y1i7Qh)
 - 美剧《权力的游戏》主题曲：[仲凯老师版本](https://www.bilibili.com/video/BV1aW411K7JC)，[北大手协合奏版本](https://www.bilibili.com/video/BV1y54y1G7Rd)
 - 电影《加勒比海盗》主题曲：[风流先森版本](https://www.bilibili.com/video/BV1cb411N7sM)
@@ -37,7 +38,8 @@ tags: [手风琴]
 
 ## 古典音乐
 
-![London Accordion Orchestra](/assets/img/2022-04-28_2.jpg "伦敦手风琴交响乐团（London Accordion Orchestra"){: w="700"}
+![London Accordion Orchestra](London_Accordion_Orchestra.jpg){: w="700"}
+_伦敦手风琴交响乐团（London Accordion Orchestra）_
 
 手风琴由于诞生时间较晚（已是古典乐的浪漫主义晚期），以及音色尖锐、某些特殊的社会属性的关系（这里不再展开讲了），一直没有入流严肃的古典音乐，即没有多少古典曲目诞生时就为手风琴设计，在交响乐等乐团中也很少见到手风琴的存在。
 
@@ -63,7 +65,8 @@ tags: [手风琴]
 
 我认为苏联歌曲好听之处就在于完美地诠释了旋律配和弦的道理，且大调和小调色彩转换处理得到位，什么时候明亮、什么时候抒情都恰到好处。中国同时期的歌曲经常是：红歌大调到底，民歌就五声音阶、小调到底，给人疲乏单调的感觉。不过，中国一些歌曲也受苏联这种风格影响很深，如贝加尔湖畔、白桦林等。个人观点，欢迎批评。
 
-![红旗歌舞团](/assets/img/2022-04-28_3.png){: w="600"}
+![红旗歌舞团](Alexandrov_Ensemble.png){: w="600"}
+_亚历山大红旗歌舞团_
 
 B站存在精苏文化，上面苏联歌曲资源非常丰富，也有很多手风琴演奏。另外，推荐苏联的国家级官方乐团——亚历山大红旗歌舞团（如图），在配器上常使用手风琴。你可以在欣赏歌曲同时，感受手风琴音色在苏联歌曲中的魅力。
 
@@ -75,7 +78,7 @@ amarcordeon 版本](https://www.youtube.com/watch?v=qX6VcPWVQhU)）
 - 莫斯科郊外的晚上（Подмосковные Вечера）：[朴震老师版本](https://www.bilibili.com/video/BV1354y1x7HU)，[Вячеслав Абросимов 歌唱版本（手风琴伴奏）](https://www.youtube.com/watch?v=N0irx1jpmW8)
 - 乌拉尔的花楸树（Уральская рябинушка）：[苏联电视台版本（手风琴伴奏）](https://www.youtube.com/watch?v=4HVLjIEZJoM)
 - 黑皮肤姑娘（Смуглянка）：[电影原版（伴奏有手风琴）](https://www.youtube.com/watch?v=rtZFtzXA0fQ)
-- 在满洲里的山岗上（На Сопках Маньчжурии）：[本人版本]()（扒谱[Sergus 版本](https://www.youtube.com/watch?v=ra358gZiwMU)）
+- 在满洲里的山岗上（На Сопках Маньчжурии）：[本人版本](https://pengxiang-wang.github.io/posts/accordion_transcribed_The-Hills-of-Manchuria)（扒谱[Sergus 版本](https://www.youtube.com/watch?v=ra358gZiwMU)）
 - 红军最强大（Красная Армия Всех Сильней）：[毛茸茸版本（基于红旗歌舞团合唱版）](https://www.bilibili.com/video/BV1Tu41197x6)
 - 为了你，祖国母亲（За тебя, Родита-мать）：这首歌是现在俄罗斯的柳拜乐队新创作的，是苏联风格。[仲凯老师版本](https://www.bilibili.com/video/BV1BL4y1J7qF)
 
@@ -87,7 +90,7 @@ amarcordeon 版本](https://www.youtube.com/watch?v=qX6VcPWVQhU)）
 
 > 受语言限制，我了解程度不够，无法作系统的介绍。待俄语有所长进后更新。
 
-![斯拉夫](/assets/img/2022-04-28_4.jpg){: w="600"}
+![斯拉夫](Slavic_folk_band.jpg){: w="600"}
 
 
 此节将斯拉夫国家的民歌与舞蹈单独介绍，它是苏联风格的根基。斯拉夫国家民族众多，仅俄罗斯就有几百个民族。他们的民歌有共同特征，也在很多方面有巨大差异。
@@ -112,7 +115,7 @@ amarcordeon 版本](https://www.youtube.com/watch?v=qX6VcPWVQhU)）
 
 ## 南美：探戈
 
-![探戈](/assets/img/2022-04-28_5.webp){: w="600"}
+![探戈](tango_dance.webp){: w="600"}
 
 
 
@@ -135,7 +138,8 @@ amarcordeon 版本](https://www.youtube.com/watch?v=_LpKT7i1nng)
 
 
 
-![Chanson](/assets/img/2022-04-28_7.webp){: w="600"}
+![Chanson](Edith_Piaf.webp){: w="600"}
+_Édith Piaf 和她的手风琴家_
 
 **谬塞特**（musette，又称 bal-musette），于1880年代在巴黎流行，最开始是用风笛等乐器演奏的舞曲，后来演变为手风琴伴奏，逐渐成为法国流行文化的一个代表。二战前后，歌手伊迪丝·琵雅芙（Édith Piaf，如图）演唱谬塞特歌曲一举成名，直至现在她可能仍是法国最令人熟知的国宝级歌手（你可能不知道这个名字，但一定知道《玫瑰人生》这首歌！）。
 
@@ -153,7 +157,8 @@ amarcordeon 版本](https://www.youtube.com/watch?v=_LpKT7i1nng)
 
 近年来爱尔兰的文化复兴，使得其音乐越来越被世人知晓，例如 U2、小红莓乐队、恩雅等流行音乐家，以及游戏中使用的越来越多的凯尔特音乐。本节讨论的是其传统音乐。
 
-![圣帕特里克](/assets/img/2022-04-28_6.jpg "爱尔兰圣帕特里克节上的手风琴"){: w="500"}
+![圣帕特里克](St_Partrick.jpg){: w="500"}
+_爱尔兰圣帕特里克节上的手风琴_
 
 
 在传统音乐中，除了小提琴外，最常用到的就是手风琴了。它们也多数是舞曲：**吉格舞**（Jig）是 6/8 拍的，速度非常快；**里尔舞**（Reel）是 4/4 拍的，也比较欢快；还有很多其他欧洲舞融入到爱尔兰风格中的。
@@ -180,11 +185,11 @@ amarcordeon 版本](https://www.youtube.com/watch?v=_LpKT7i1nng)
 
 **蓝调**（Blues）在我们印象里一般用的是吉他、电吉他、口琴这类的乐器，实际上手风琴也可以演奏蓝调，甚至在历史上是演奏蓝调的主要乐器之一（参考[这篇文章](https://accordionamericana.com/2013/09/02/a-history-of-blues-accordion)）。用手风琴演奏蓝调类似钢琴上的 Boogie-Woogie。
 
-**乡村音乐**（Country）中也有手风琴的身影，虽然其常用乐器是吉他、小提琴。在上世纪五六十年代美国的电视节目中可以见到手风琴伴奏的乡村音乐（下图是乡村音乐的代表组合 Carter Family 中出现的手风琴）。由于乡村音乐旋律和和弦偏简单，用手风琴拉起来也简单，所以一般很少独奏，都是与乐队进行配合。具体了解乡村音乐可参考我的[这篇文章]()。
+**乡村音乐**（Country）中也有手风琴的身影，虽然其常用乐器是吉他、小提琴。在上世纪五六十年代美国的电视节目中可以见到手风琴伴奏的乡村音乐（见下图）。由于乡村音乐旋律和和弦偏简单，用手风琴拉起来也简单，所以一般很少独奏，都是与乐队进行配合。具体了解乡村音乐可参考我的[这篇文章]()。
 
 
-![Country](/assets/img/2022-04-28_8.jpg){: w="600"}
-
+![Country](The_Carter_Family.jpg){: w="600"}
+_乡村音乐的经典组合 Carter Family 中出现的手风琴_
 
 曲目：
 - 单簧管波尔卡（Clarinet Polka）：[Walter Ostanek （加拿大波尔卡之王）版本](https://www.youtube.com/watch?v=KSjlvm8AOuo)

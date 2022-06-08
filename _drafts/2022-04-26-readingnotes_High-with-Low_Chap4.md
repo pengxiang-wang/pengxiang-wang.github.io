@@ -1,9 +1,9 @@
 ---
 title: 读书笔记：《低维模型下的高维数据分析》第4章：低秩矩阵恢复
-author: Shawn Wang
 date: 2022-04-26
 categories: [科研]
 tags: [读书笔记, 《低维模型下的高维数据分析》]
+img_path: /assets/img/
 math: true
 ---
 
@@ -78,7 +78,7 @@ $$ \mathcal{P}_{\Omega}[\boldsymbol{X}](i, j)= \begin{cases}X_{i j} & (i, j) \in
 
 
 
-![CF](/assets/img/2022-04-26_1.png)
+![CF](collaborative_filtering.png)
 
 
 推荐系统的任务就是根据有相似行为的用户推荐相似的内容，这个技术叫协同过滤（Collaborative Filtering），它的原理就是在解矩阵补全问题。

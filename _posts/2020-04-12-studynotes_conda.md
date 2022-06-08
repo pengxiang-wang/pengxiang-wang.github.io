@@ -1,10 +1,9 @@
 ---
 title: Conda 学习笔记
-author: Shawn Wang
 date: 2020-04-12
 categories: [科研]
-tags: [学习笔记, 技术]
-math: true
+tags: [学习笔记, 技术, Python]
+img_path: /assets/img/
 ---
 
 
@@ -12,12 +11,14 @@ math: true
 Conda 几乎是深度学习领域必备的工具，以后做科研一定会用到。今天就系统学习一下。
 
 
-[Conda 官方文档在这里！](https://docs.conda.io)
+Conda 官方文档：<https://docs.conda.io>
 
 
 ## 一、Conda相关概念
 
-我觉得很多初学者分不清 Conda、Anaconda 的区别，这里就先把概念整理明白吧。
+我觉得很多初学者分不清 Conda、Anaconda 等之间的区别，这里就先把概念整理明白吧。
+
+![conda](Conda_vs_Miniconda_vs_Anaconda.png){:w='500'}
 
 Conda 是一个包管理工具，最主要的功能是方便管理一个计算机里安装的不同环境。使用的场景举例：
 - 写某代码需要尝试不同版本的 Python 或库；
@@ -29,7 +30,7 @@ Conda 是一个包管理工具，最主要的功能是方便管理一个计算�
 
 Anaconda 和 Miniconda 简言之是安装 Python + Conda 环境的两种方式，即只要装了它，就相当于把 Python 和 Conda 都装好了。Miniconda 是最精简版本，几乎只有 Conda；Anaconda 更像懒人包，把大量常用的库预装好了（类似于《上古卷轴5》一些贴吧大神做的 Mod 整合包），包管理还有图形界面，运作更加商业化。一般来说，就装 Miniconda 即可，更不容易被花里胡哨的东西迷惑双眼。需要用到什么包自己手动安装，而不是用 Anaconda 懒人包里的东西，这样对代码的理解可能更深。
 
-在 Linux/Mac 系统里，Python 和 Conda 都是在终端运行的应用程序，即可以在终端敲 `Python` `Conda`，后面跟一系列子命令运行的。
+在 Linux/Mac 系统里，Python 和 Conda 都是在终端运行的应用程序，即可以在终端敲 `python` `conda`，后面跟一系列子命令运行的。
 
 
 ## 二、安装后
@@ -45,8 +46,8 @@ Anaconda 和 Miniconda 简言之是安装 Python + Conda 环境的两种方式�
 - 在终端中，激活此环境（让左边的括号变成此环境，见下文），运行 py 文件；
 - 在 IDE 如 VSCode 中，找一找，图形界面里总有地方可以选择（指定了环境的）解释器的，选择后运行即可。
 
-（请注意，Conda 中多个环境可共用一个 Python 解释器，因此运行 Python 代码需要指定环境而不是解释器。）
-
+> 请注意，Conda 中多个环境可共用一个 Python 解释器，因此运行 Python 代码需要指定环境而不是解释器。
+{: .prompt-warning }
 
 ## 三、Conda 必备操作
 
@@ -67,4 +68,4 @@ Conda 作为一个包管理工具，最主要的逻辑就是一个两层的关�
 
 ## 四、Conda 进阶操作
 
-这些操作是非必需的，但能在效率上锦上添花。待更新。
+这些操作可能是非必需的，但能在效率上锦上添花。尚未更新。
