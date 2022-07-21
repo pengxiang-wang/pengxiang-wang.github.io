@@ -71,6 +71,9 @@ Conda 作为一个包管理工具，最主要的逻辑就是一个两层的关�
 这些操作可能是非必需的，但能在效率上锦上添花。
 
 - 对环境的操作
-  - 复制：在 `conda create` 命令加选项 `--clone NAME`ß
+  - 复制：在 `conda create` 命令加选项 `--clone NAME`
+- 其他全局操作
+  - 增加下载源：`conda config --add channels` 加 URL。在默认的境外下载源抽风时使用，推荐国内清华大学 TUNA 开源镜像。
+
 
 其他待更新。

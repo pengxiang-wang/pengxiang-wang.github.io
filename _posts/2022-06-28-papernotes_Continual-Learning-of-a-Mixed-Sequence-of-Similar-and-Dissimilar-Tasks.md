@@ -91,12 +91,12 @@ $$a^{\left(i_{s i m}\right)}=\operatorname{softmax}\left(\frac{\left(e_{K T A}^{
 
 **测试过程**：新来一个测试数据 $$x$$ 及其任务ID $$t$$：
 
-- 如果有前面的任务与之相似（$$\tau_{sim}\neq \varnothing$$），则 $$x$$ 通过 KB 在 $$\tau_{sim}$$ 任务上的 mask 得到一系列特征 $$h_{mask}^{i_{sim}}$$，让它们过 KTA 和后面的分类头，得到分类结果；
+- 如果有前面的任务与之相似（$$\tau_{sim}\neq \varnothing$$），则 $$x$$ 通过 KB 在 $$\tau_{sim}$$ 任务上的 mask 得到一系列特征 $$h_{mask}^{(i_{sim})}$$，让它们过 KTA 和后面的分类头，得到分类结果；
 - 如果没有一个相似，则 $$x$$ 通过 $$e^{(t)}$$ 生成的该任务的 mask，得到最后一层特征 $$h_{mask}^{(t)}$$，再通过 KB 后面的分类头，得到分类结果。
 
 # 四、训练过程
 
-![CAT](CAT_TM.png){: w='500' }
+![CAT](CAT_TM.png){: w='450' }
 
 **任务 0**：直接训练 $$f_{mask}$$，即 KB + TM + 后面的分类头：
 

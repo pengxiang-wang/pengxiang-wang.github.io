@@ -2,7 +2,7 @@
 title: 我的文件管理方案
 date: 2022-07-05
 categories: [生活]
-tags: [做饭]
+tags: []
 img_path: /assets/img/
 ---
 
