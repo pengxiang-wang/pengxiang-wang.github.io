@@ -1,5 +1,5 @@
 ---
-title: 读书笔记：《动手学深度学习》Part1：预备知识，简单网络的实现
+title: 读书笔记：《动手学深度学习》Part 1：预备知识，简单网络的实现
 date: 2022-01-22
 categories: [科研]
 tags: [读书笔记, 《动手学深度学习》, 技术]
@@ -11,7 +11,7 @@ math: true
 
 此笔记内容遵从书的编排方式，但内容不局限于书中内容，着重强调代码原理的理解，具体的代码手册我放在另一篇笔记：[Python 代码速查手册]()上。
 
-此系列笔记可以作为 PyTorch 的学习笔记使用。
+本书使用的深度学习框架是 PyTorch。深度学习框架大同小异，只学习一种的原理，其他的都可以快速上手。此系列笔记可以作为 PyTorch 的学习笔记使用。
 
 - PyTorch 官方文档：<https://pytorch.org/docs/stable/index.html>
 - PyTorch 中文文档：<https://pytorch-cn.readthedocs.io/zh/latest/>
@@ -20,7 +20,7 @@ math: true
 
 ### [Dive into Deep Learning (PyTorch 版)](https://d2l.ai)
 - 作者：亚马逊团队
-- 本 Part 内容：第 1 章前言部分又把机器学习、深度学习的基础知识讲了一遍，直接跳过。第 2 章介绍 PyTorch 的预备知识，包括张量的基本操作、自动微分等，第 3、4 章开始搭建简单网络。
+- 本 Part 内容：第 1 章前言部分又把机器学习、深度学习的基础知识讲了一遍，直接跳过。第 2 章介绍 PyTorch 的预备知识，包括张量的基本操作、自动微分等，第 3、4 章开始搭建简单网络：线性回归、Softmax 多分类在第三章，MLP 在第四章前半部分。
 
 
 ------------------------------
@@ -43,25 +43,26 @@ PyTorch 是深度学习框架，预备知识一定是基本的数据结构、数
 
 在书中 2.5 节，是放在张量这里介绍的，正如上述，张量中有个属性（`grad_fn`)是用来存函数（计算图）的。计算图、链式法则是自动微分基于的原理，但也不需要搞明白其底层实现方式，只要会用即可。
 
-假设要求 $$\left. \frac{\operatorname{d} y}{\operatorname{d} \mathbf{x}}\right|_{\mathbf{x}=\mathbf{x}_{0}}
+假设要求 $$ \frac{\operatorname{d} y}{\operatorname{d} \mathbf{x}}_{\mathbf{x}=\mathbf{x}_{0}}
 $$，以求 $$y  = 2\mathbf{x}^T \mathbf{x}$$ 在 $$x_0 = (0,1,2,3)^T$$ 点的梯度为例，完整的自动微分过程如下：
 
 1. 定义 $$x_0$$：将 $$x_0$$ 点的值以 tensor 的形式赋给变量 `x`
-```
+```python
     x = torch.arange(4.0)
 ```
 2. 开启求导模式：把 tensor `x` 的 `requires_grad_` 属性设为 True
-```   
+```python
     x.requires_grad_(True)
 ```  
 3. 定义被求导函数 $$y$$：将含 `x` 的 torch 表达式赋给变量 `y` （此时 tensor `y` 存放了计算图）
-```
+```python
     y = 2 * torch.dot(x, x)
 ```
 4. 求导：调用 `y` 的 `backward` 方法，导数值存放在 `x` 的 `grad` 属性中（与 `x` 维数相同）
-```
+```python
     y.backward()
 ```
+
 > 求导模式可以在 Tensor 构造时即刻开启，只需在构造的函数传入参数 `requires_grad=True`。例如上面 1,2 两步可合为 `x = torch.arange(4.0, requires_grad=True)`。
 {: .prompt-tip }
 
@@ -70,14 +71,15 @@ $$，以求 $$y  = 2\mathbf{x}^T \mathbf{x}$$ 在 $$x_0 = (0,1,2,3)^T$$ 点的�
 - 被求导函数可以额外打包成一个 Python 函数赋给 `y`，只要函数里面用的都是 torch 的表达式；
 - 构建计算图极容易粗心，一定注意好求导模式的开关，不在不该的地方引入计算图。除了修改 `requires_grad_` 属性，还可以：
     - 全局地关闭求导模式，用以下代码包裹：
-    ```
+    ```python
         with torch.no_grad():
     ```
     - 分离变量：即去掉 `grad_fn` 存放的计算图，只保留 tensor 值。以下代码将 `y` 分离成 `u`：
-    ```
+    ```python
         u = y.detach()
     ```
 - 上面求导要求 y 必须是标量，而 x 可以是向量。事实上 y 也可以是向量，需要在 backward 函数中加参数，见下例。
+
 > 使用自动微分工具可以画一个函数导数的图像，参考第 4 章画各种激活函数及其导数。例，Sigmoid 函数：
 > ```python
 > import matplotlib.pyplot as plt
@@ -102,7 +104,7 @@ $$，以求 $$y  = 2\mathbf{x}^T \mathbf{x}$$ 在 $$x_0 = (0,1,2,3)^T$$ 点的�
 4. 测试模型。
 以下各节具体讲解细节。
 
-## 线性回归
+## 一、线性回归
 
 本节欲训练线性回归模型：$$ \mathbf{y} = \mathbf{X}\mathbf{w} + b + \epsilon $$。
 
@@ -198,7 +200,7 @@ print(f'{net[0].weight.data:f} {net[0].bias.data:f}')
 import torch
 trainer = torch.optim.SGD(net.parameters(), lr=0.01)
 ```
-注意这里 `net.parameters()`，模型参数从一开始就与优化器绑定到一起了。（注意这个事情，有助于理解下面 `trainer` 不需要传模型参数。）
+即实例化一个 `Optimizer` 优化器类，优化器可从 `torch.optim` 里挑选，有 SGD, Adam 等。注意这里 `net.parameters()`，模型参数从一开始就与优化器绑定到一起了。（注意这个事情，有助于理解下面 `trainer` 不需要传模型参数。）
 
 训练过程的代码变成了这样。
 ```python
@@ -220,7 +222,7 @@ for epoch in range(num_epochs):
 所以我们的态度是，只需看懂表面的逻辑即可，暂时不需要了解这些 API 背后在做什么。（这也是深度学习代码通常要从网上复制的原因吧，包装了太多。）
 
 
-## Softmax 多分类
+## 二、Softmax 多分类
 
 此部分做的是图像分类问题，用的是 Fashion-MNIST 图像数据集，做 10 分类。Softmax 多分类模型：$$\mathbf{O} = \mathbf{X} \mathbf{W} + \mathbf{b}, \mathbf{y} = Softmax(\mathbf{O})$$。
 
@@ -287,7 +289,7 @@ with torch.no_grad():
     # 打印统计后的 loss 和 accuracy
 ```
 
-
+从此模型开始，作者自己写了一个 `Animator` 类用于展示每个 epoch 训练情况，可实时画出训练 loss，测试准确率等。这个东西实在没必要自己写，有现成的工具 Tensorboard 很好用，参考我的 [Tensorboard 学习笔记]()。
 
 ### 简洁实现
 
@@ -302,7 +304,7 @@ loss = nn.CrossEntropyLoss()
 ```
 等等！Softmax 函数哪儿去了？这是一个重要的问题。Softmax 函数放到了 `CrossEntropyLoss` 里面了，也就是说 `net(X)` 输出的是未经 Softmax 规范化的预测。PyTorch 这样设计的原因涉及背后的计算机理，是为效率服务的，详见书 3.7.2 节。
 
-这里的初始化很有意思：
+这里的初始化用了另一套 API：
 ```python
 def init_weights(m):
     if type(m) == nn.Linear:
@@ -310,19 +312,19 @@ def init_weights(m):
 
 net.apply(init_weights)
 ```
-对于 `torch.nn.modules` 模块，它的 apply 方法可以将传入的函数递归地作用到它包含的所有模块上。本例即将 `init_weights` 作用在 `net`（`nn.Sequential`），`net[0]`（`nn.Flatten`），`net[1]`（`nn.Linear`）。由于 `init_weights` 里的 if 语句，只对 `net[1]` 应用 `nn.init.normal_`。`nn.init.normal_()` 函数是更简单的 API，可以直接对一个模块的参数初始化，就不用像上面那样取出 weight 和 bias 分别初始化了。
+对于 `torch.nn.modules` 模块，它的 `apply` 方法可以将传入的函数递归地作用到它包含的所有模块上。本例即将 `init_weights` 作用在 `net`（`nn.Sequential`），`net[0]`（`nn.Flatten`），`net[1]`（`nn.Linear`）。由于 `init_weights` 里的 if 语句，只对 `net[1]` 应用 `nn.init.normal_`。`nn.init` 的用法详见 [Part3 笔记]()。
 
 
 另外，PyTorch 里没有准确率的 API，因为实在是没必要，自己用两个小函数就解决了。测试过程同上从头开始实现。
 
 
-## 多层感知机（MLP）
+## 三、多层感知机（MLP）
 
 本节问题仍为图像多分类问题。MLP 模型与上面 Softmax 多分类相比，无非是网络层数由一层变为多层，层间引入了激活函数。
 
 ### 从头开始实现
 
-模型定义和初始化大同小异。这里参数打包成 `nn.Parameter` 实例。前面见过简洁实现中模型的参数 `net.parameters()` 就是 `nn.Parameter` 类型的，它是进一步封装的类。而这里即使没有用到简洁实现的 `nn.modules`，也能当作一般的 Tensor 正常使用，还是很灵活的。另外，下面的 `@` 运算符是 PyTorch 重载的，等价于矩阵乘法 `torch.matmul()`。
+模型定义和初始化大同小异。这里参数打包成 `nn.Parameter` 实例。前面见过简洁实现中模型的参数 `net.parameters()` 就是 `nn.Parameter` 类型的，它是进一步封装的类。而这里即使没有用到简洁实现的 `nn.modules`，也能当作一般的 Tensor 正常使用，还是很灵活的（原因：`nn.Parameter` 源代码定义了 `__new__()` 方法，它返回 Tensor 类型）。另外，下面的 `@` 运算符是 PyTorch 重载的，等价于矩阵乘法 `torch.matmul()`。
 ```python
 W1 = nn.Parameter(torch.randn(784, 256, requires_grad=True) * 0.01)
 b1 = nn.Parameter(torch.zeros(256, requires_grad=True))
