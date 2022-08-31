@@ -1,6 +1,6 @@
 ---
 title: 学习笔记：持续学习知识汇总
-date: 
+date: 2022-04-11
 categories: [科研]
 tags: [学习笔记, 持续学习]
 img_path: /assets/img/

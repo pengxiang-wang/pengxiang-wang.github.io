@@ -37,7 +37,18 @@ img_path: /assets/img/
 
 # 一、杂七杂八的事情
 
-## 解释器的类型
+## 运行 Python 程序
+
+Python 程序就是一个扩展名为 py 的文本文件，里面存放的是编程人员写的遵守 Python 语法的代码。不同的 IDE 都有一些图形界面可以运行 Python 程序，例如通常有一个“运行”按钮。无论是什么形式，所有运行 Python 程序的方式本质上都是执行了命令行中的如下命令（关于 Linux 命令的知识见我的 [Linux 学习笔记](https://pengxiang-wang.github.io/posts/studynotes_Linux/)）：
+
+```shell
+??/??/python ??/??/test.py
+```
+
+前者指定了 Python 解释器，后者即要运行的 Python 程序。解释器本身就是一个程序，它可以作为命令直接执行，而要运行的 Python 程序相当于这个命令的参数。
+
+
+### 解释器的类型
 
 解释器除了安装 Python 时自带的（称为 **CPython**，因为是用 C 语言开发的），还有很多其他功能更高级的，如 IPython、Python、PyPy、IronPython 等。
 
@@ -53,6 +64,17 @@ IPython 特色功能是 Tab 自动补全命令、历史记录等，还额外扩�
   - `%time`：测试一句代码（跟在它后面）运行时间；
   - `%matplotlib inline`：要求 Matplotlib 绘图模式是内嵌（inline）模式，即将绘图直接显示在当前命令行中而不是单独的窗口。
 
+### 在命令行传参
+
+Python 可以在解释器的执行命令中向程序里传参，在一些场景下非常方便。允许可以传入无限个参数，以空格隔开：
+
+```shell
+??/??/python ??/??/test.py arg1 arg2 ...
+```
+在程序内这些参数通过 `sys.argv` 来接收（需要 import sys 模块）。它是一个字符串列表，存放了解释器的执行命令的所有参数。以上为例，`sys.argv` 的内容为 `[`??/??/test.py','arg1','arg2',...]`。
+
+> Python 内置的 argparse 模块提供了更高级的功能，请参考 [argparse 模块的文档](https://docs.python.org/zh-cn/3/library/argparse.html)。
+{: .prompt-info }
 
 ## 变量命名规范
 
@@ -795,13 +817,13 @@ Python 标准库与内置函数在上面各章节都有所涉及。其余的暂�
 
 官方文档：<https://docspython.org/3/library/>
 
-- sys 模块：可以查看当前系统或解释器级别的信息；
-  - sys.argv：在终端运行 py 文件 `python` 命令后面跟的参数，可以实现运行程序的不同选项而不用改代码，比较常用；
+- sys 模块：可以查看当前系统或解释器级别的信息，例如上面见到了 `sys.argv`；
 - os 模块：让 Python 能类似于 Shell 命令那样处理文件和目录；
 - time, date, datetime 模块：处理时间信息，有专门的时间类表示，也可以整数表示（1970.01.01 后度过的秒数）；
-  - time.sleep(secs)：可以让程序暂停 secs 秒，比较常用；
+  - `time.sleep(secs)`：可以让程序暂停 secs 秒，比较常用；
 - math 模块：提供常用数学函数，处理数学计算。cmath 模块用以处理复数；
-- re 模块：使用正则表达式处理文本匹配等问题。
+- re 模块：使用正则表达式处理文本匹配等问题；
+- argparse 模块：为命令行向解释器传参提供了更高级的功能。
 
 
 

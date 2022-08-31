@@ -1,6 +1,6 @@
 ---
 title: 配置 Python 环境备忘
-date: 2022-04-11 13:00:00 +0800
+date: 2021-04-19
 categories: [科研]
 tags: [技术]
 img_path: /assets/img/
@@ -16,7 +16,9 @@ img_path: /assets/img/
 我也经历过这样的事情。本文就简要记录一下自己的配置历史，并留一份当前的环境状态作为备忘。
 
 
-一、个人电脑（Mac系统）
+# 一、个人电脑（Mac 系统）
+
+## 吐槽
 
 刚买回手里的这台 MacBook 后就迫不及待去官网把 Python 装了，用 pip 装了几个包一跑程序没问题，感觉美滋滋，就不再管了。
 
@@ -35,9 +37,29 @@ img_path: /assets/img/
 - 环境变量中的 pip, pip3 也是一样。无论敲 pip3 还是 pip，进入的都是 Miniconda 里的 Pip 环境。
 
 ## Conda 环境备忘
+
+Mac 的定位是只做学习机或者跑一些简单的程序，不跑大型项目（例如 Mac 没有 Nvidia 显卡，装不了 CUDA，无法跑大型深度学习项目）。
+
 - base：当作基本环境，只作临时使用，只在此环境中安装必要的通用的包，如 Jupyter Notebook，IPython，在创建新环境时都统一复制一份此环境；
 - dl_study：学习、测试深度学习代码用，在 base 的基础上安装深度学习的包；
+- spyder：爬虫程序的环境，在 base 的基础上安装爬虫相关包，如 requests, BeautifulSoup；
 
+# 二、个人电脑（Windows 系统）
 
+我的 Windows 游戏本是备用机，装有 GTX 960 显卡，可以跑深度学习项目。但我不把此当作主力机器，它只是偶尔测试一下代码用，主要还是用 Mac 远程连接服务器。
 
-二、服务器（Linux系统）
+## Conda 环境备忘
+
+本电脑只装一个 Miniconda 即可。同样地，base 环境中安装必要的通用的包，如 Jupyter Notebook，IPython，在创建新环境时都统一复制一份此环境。**base 以外的其他环境针对项目作临时用，不长期使用。**
+
+# 三、服务器（Linux 系统）
+
+服务器只跑大型项目，和 Windows 游戏本一样。
+
+Conda 需要自行安装，无法共用其他账户的。一般用 Linux 命令行的命令来安装。
+
+## Conda 环境备忘
+
+只装一个 Miniconda 即可。同样地，base 环境中安装必要的通用的包，如 IPython，在创建新环境时都统一复制一份此环境（Jupyter Notebook 没必要装）。**base 以外的其他环境针对项目。**
+
+目前我有两台服务器可用（组内、学院），都把 base 环境配置好，再根据项目需要安装项目环境。

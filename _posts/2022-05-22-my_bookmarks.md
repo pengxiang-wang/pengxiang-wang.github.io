@@ -1,15 +1,27 @@
 ---
-title: 我收藏的资源网站
+title: 我使用的资源网站、软件推荐
 date: 2022-05-22
-categories: [其他]
+categories: [生活]
 tags: [长期更新]
 img_path: /assets/img/
 ---
 
 看了其他博主的博客，发现很多写过博文分享过自己平时使用的软件、网站，那我也来写一个吧。我只想分享一些自己体验过的、感觉好的，可能不被人熟知的，就不列那些软文里凑数的了。
 
-> 注意：有些网站需要科学上网。
-{: .prompt-tip }
+
+## 软件
+
+### Sysinternals Suite
+
+### Foolbar 2000
+
+### PotPlayer
+
+### 7Zip
+
+
+
+## 网站
 
 ### 搜书网站：Library Genesis，Z-library
 

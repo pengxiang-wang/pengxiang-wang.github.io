@@ -12,7 +12,11 @@ math: true
 
 ### [Dive into Deep Learning (PyTorch 版)](https://d2l.ai)
 - 作者：亚马逊团队
+- 配套课程：[李沐](https://space.bilibili.com/1567748478/) 主讲，视频上传于 B 站。链接：<https://c.d2l.ai/zh-v2/>
 - 本 Part 内容：
 
 
 ------------------------------
+
+
+min-char-rnn.py 例子

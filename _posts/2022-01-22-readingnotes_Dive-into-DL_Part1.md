@@ -20,12 +20,15 @@ math: true
 
 ### [Dive into Deep Learning (PyTorch 版)](https://d2l.ai)
 - 作者：亚马逊团队
+- - 配套课程：[李沐](https://space.bilibili.com/1567748478/) 主讲，视频上传于 B 站。链接：<https://c.d2l.ai/zh-v2/>
 - 本 Part 内容：第 1 章前言部分又把机器学习、深度学习的基础知识讲了一遍，直接跳过。第 2 章介绍 PyTorch 的预备知识，包括张量的基本操作、自动微分等，第 3、4 章开始搭建简单网络：线性回归、Softmax 多分类在第三章，MLP 在第四章前半部分。
 
 
 ------------------------------
 
-在开始前还是提示一下如何安装 PyTorch。去[官网](https://pytorch.org)翻到 Install PyTorch，根据自己机器的系统等信息选择后，用下面生成的指令安装。如果报错，尝试使用国内镜像，参见 [Conda 学习笔记](https://pengxiang-wang.github.io/posts/studynotes_conda/)。
+在开始前还是提示一下如何安装 PyTorch。去[官网](https://pytorch.org)翻到 Install PyTorch，根据自己机器的系统等信息选择后，用下面生成的指令安装。如果不想用或没有 GPU，选择 CPU 版本即可；如果想用，请参考[Part4 笔记]() “使用 GPU” 部分，了解 CUDA 的意思后选择合适的 CUDA 版本安装。
+![选择](PyTorch_installation.png)
+安装过程如果报错，尝试使用国内镜像，参见 [Conda 学习笔记](https://pengxiang-wang.github.io/posts/studynotes_conda/)。
 
 
 # 基本数据结构：Tensor

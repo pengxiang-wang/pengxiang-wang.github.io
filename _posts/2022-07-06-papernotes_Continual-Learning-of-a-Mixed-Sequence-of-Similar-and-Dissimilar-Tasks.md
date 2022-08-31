@@ -110,7 +110,7 @@ $$a^{\left(i_{s i m}\right)}=\operatorname{softmax}\left(\frac{\left(e_{K T A}^{
 先训练**参考模型**（Reference Model） $$f_{\varnothing}$$，即对任务 1 从头开始训练的 KB + 后面的分类头：
 
 - 数据：$$D_{train}^{(1)}$$
-- 损失函数：$$\frac{1}{N_{0}} \sum_{i=1}^{N_{0}} \mathcal{L}\left(f_{\varnothing}\left(x_{i}^{(0)} ; \theta_{\varnothing}\right), y_{i}^{(0)}\right)$$
+- 损失函数：$$\frac{1}{N_{1}} \sum_{i=1}^{N_{1}} \mathcal{L}\left(f_{\varnothing}\left(x_{i}^{(1)} ; \theta_{\varnothing}\right), y_{i}^{(1)}\right)$$
 - 训练方式：单独复制出来一份 KB（之前的 KB 是主要的东西，不能覆盖掉），随机初始化
 - 要用的结果：用验证集 $$D_{val}^{(1)}$$ 测试效果
 
@@ -162,3 +162,7 @@ $$m_{l}^{\left(t_{a c}\right)}=\text { ElementMax }\left(\left\{m_{l}^{\left(i_{
 总结一下上面，任务 0 相当于不与前面任何相似。任务 1 由于前面只有一个，要么空集，要么全集；中间情况只有任务 2 才可能开始有。任务 0 和 1 的过程都可以统一到任务 t 的流程内。
 
 # 五、实验
+
+## 数据集
+
+采用混合
