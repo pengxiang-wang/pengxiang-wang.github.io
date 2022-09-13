@@ -82,6 +82,9 @@ $$p(y|\mathbf{x})=\frac1{Z_\mathbf{W}(x)} \exp(\sum_{j=1}^p \mathbf{w}_j^T f_j(\
 一般的最大熵模型很难也不会在模型视角下作解释，等价的损失函数应该是奇奇怪怪的。逻辑回归由于是其特例，它能作模型视角的解释（即交叉熵损失）也不奇怪。
 
 
+## 基于能量的模型（EBM）
+
+
 # 纯粹的判别模型
 
 上述判别模型即可以设计决策函数与学习算法，在模型视角下解释；也可以建模条件概率，确定参数估计法（一般是极大似然法），在统计视角下解释。**纯粹的判别模型**是指只可在模型视角，而无法或难以在统计视角下解释的。
@@ -337,11 +340,15 @@ P(y,x_1,x_2,x_3) = P(x_3|y,x_1,x_2)P(x_2|y,x_1)P(x_1|y) P(y) = P(x_3|y)P(x_2|y)P
 
 不是特殊的图结构，而是建模
 
+
+
 和前面讲的判别模型只是形式上差不多，但思想内核是不一样的。按照这里生成模型解决监督学习问题的逻辑，应该是
 
 $$p(\mathbf{x},y)=\frac1{Z_\mathbf{W}(x)} \exp(\sum_{j=1}^p \mathbf{w}_j^T f_j(\mathbf{x}, y)), Z_\mathbf{W}(\mathbf{x})=\sum_{y=0}^{C-1} \exp(\sum_{j=1}^p \mathbf{w}_j^T f_j(\mathbf{x}, y))$$
 
 然后在求边缘 $$p(\mathbf{x})$$ 相除才得到 $$p(y|\mathbf{x})$$ 的模型。它与判别模型不是一回事。
+
+
 
 
 
@@ -563,3 +570,32 @@ Discriminator 更倾向于，，像老师、文学批评家。
 
 
 隐变量与参数其实看起来没什么不同，如果放在bayes观点来看？主要是 EM 算法对它的处理让它与众不同。
+
+
+## Bayes 观点下的监督学习
+
+不管是判别模型还是生成模型，都要建模 $$p(y|x)$$。由于这里把 \theta 看作随机变量，应写为 $$p(y|x,\theta)$$。一个特点是把数据集 $$D = (X,Y)$$ 也引入到随机变量中（而不是看作x,y的样本），所以是 $$p(y|x,\theta,D)$$。
+
+
+给了数据集 D，先验分布 $$p(\theta)$$（通常都是假设连续的），求后验分布 $$p(\theta|D)$$。训练过程在贝叶斯术语中称为推断（inference），就是根据贝叶斯公式：
+
+一个细节很重要：先验分布 $$p(\theta)$$ 和 $$p(\theta|X)$$ 是一样的。\theta 与 x 无关，只有给了y 才有关。
+
+$$ p(\theta|D) =p(\theta|X,Y) =  \frac{p(Y|X,\theta) p(\theta|X)}{\int p(Y|X,\theta) p(\theta|X)d\theta} = \frac{p(Y|X,\theta) p(\theta)}{\int p(Y|X,\theta) p(\theta)d\theta} $$ 求出后验分布。（注意不要把整个D翻过来，而是只翻 Y）数据集 D 的信息蕴含在似然函数 $$p(Y|X,\theta)$$ 里:i.i.d.
+
+$$p(Y|X,\theta) = \prod_{i=1}^N p(y_i| x_i,\theta) $$
+
+分母即归一化即可。
+
+测试阶段即预测（prediction）。有了后验分布：
+
+方法一：简单地从后延分布 $$p(\theta|D)$$ 中找最可能的 $$\theta$$ 值 $$\theta^\star$$，然后使用模型 $$p(y|x,\theta^\star)$$ 来预测。这叫最大后验概率估计（MAP），不是纯正的贝叶斯。
+
+方法二：这是纯正的 Bayes 方法
+
+而是平均：
+
+$$p(y|x,D) = \int p(y,\theta|x,D) d\theta = \int p(y|\theta,x,D) p(\theta |x,D) d\theta = \int p(y|x,\theta,D) p(\theta |D) d\theta$$
+
+
+对于复杂的，是不是方法一二时间上相同？
