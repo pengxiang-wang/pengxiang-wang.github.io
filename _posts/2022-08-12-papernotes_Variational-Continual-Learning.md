@@ -31,12 +31,15 @@ math: true
 
 贝叶斯学派将模型参数 $$\theta$$ 当作随机变量。普通的贝叶斯监督学习只需要求一次后验分布（即一次推断），而对在线学习/持续学习场景，数据是分批来的，需要根据如下迭代公式多次求后验分布：
 
-$$p(\theta|D_{1:t}) = p(\theta |D_{1:t-1},D_t) \propto p(\theta |D_{1:t-1})p(D_t|D_{1:t-1},\theta)= p(\theta |D_{1:t-1})p(D_t|\theta)  \ t=2,\cdots,T$$
+$$
+\begin{align}p(\theta|D_{1:t}) &= p(\theta |D_{1:t-1},D_t) \\&\propto p(\theta |D_{1:t-1})p(D_t|D_{1:t-1},\theta)\\&= p(\theta |D_{1:t-1})p(D_t|\theta)
+\end{align}$$
+
 $$p(\theta|D_1) = p(\theta)p(D_1|\theta)$$
 
 $$p(\theta)$$ 为先验分布。其中最后一个等号是假设了 $$D_t$$ 与 $$D_{t-1}$$ 独立。
 
-求出后验分布后，测试阶段用推断算法得到预测：
+求出后验分布后，测试阶段用推断算法作预测：
 
 $$p\left(y^*| \boldsymbol{x}^*, D_{1: t}\right)=\int q_t(\theta) p\left(y^* | \theta, \boldsymbol{x}^*\right) \mathrm{d} \theta$$
 
@@ -61,13 +64,13 @@ $$p\left(y^*| \boldsymbol{x}^*, D_{1: t}\right)=\int q_t(\theta) p\left(y^* | \t
 
 本文选用的是变分法近似，变分法常用 KL 散度作为分布间相似程度的度量：
 
-$$q_t(\theta) = \argmin_{q(\theta)\in Q} KL(q(\theta)||\frac1{Z_t} q_{t-1}(\theta)p(D_t|\theta)), t = 2,\cdots, T$$
+$$q_t(\theta) = \arg\min_{q(\theta)\in Q} KL(q(\theta)||\frac1{Z_t} q_{t-1}(\theta)p(D_t|\theta)), t = 2,\cdots, T$$
 
 $$ 1/Z $$ 是归一化常数。
 
 这等价于训练时在最大化似然的损失函数中加入 KL 项：
 
-$$\mathcal{L}_t\left(q_t(\theta)\right)=\sum_{n=1}^{N_t} \mathbb{E}_{\theta \sim q_t(\theta)}\left[\log p\left(y_t^{(n)} \mid \theta, \mathbf{x}_t^{(n)}\right)\right]-\mathcal{K} \mathcal{L}\left(q_t(\theta) \| q_{t-1}(\theta)\right)$$
+$$\mathcal{L}_t\left(q_t(\theta)\right)=\sum_{n=1}^{N_t} \mathbb{E}_{\theta \sim q_t(\theta)}\left[\log p\left(y_t^{(n)} \mid \theta, \mathbf{x}_t^{(n)}\right)\right]-KL\left(q_t(\theta) \| q_{t-1}(\theta)\right)$$
 
 本文中取 $$Q$$ 为简单的正态分布的乘积族（称为 Gaussian mean-field Approximation）：$$q_t(\theta)=\prod_{d=1}^D \mathcal{N}\left(\theta_{t, d} ; \mu_{t, d}, \sigma_{t, d}^2\right)$$（对应地 $$q_0(\theta)$$ 应初始化为正态分布）。这样，泛函优化转化为对三个参数 $$\theta_{t, d}, \mu_{t, d}, \sigma_{t, d}^2$$ 的优化。
 
@@ -87,7 +90,7 @@ $$\mathcal{L}_t\left(q_t(\theta)\right)=\sum_{n=1}^{N_t} \mathbb{E}_{\theta \sim
 
 
 
-这里通过迭代求后验 $$p(\theta|D_{1:t}/C_t)$$ 的近似，而不是 $$p(\theta|D_{1:t})$$。求出了 $$p(\theta|D_{1:t}/C_t)$$ 后，可以继续算出 $$p(\theta|D_{1:t})$$，这才是我们要用的。
+这里迭代求后验 $$p(\theta|D_{1:t}/C_t)$$ 的近似，而不是 $$p(\theta|D_{1:t})$$。求出了 $$p(\theta|D_{1:t}/C_t)$$ 后，可以继续算出 $$p(\theta|D_{1:t})$$，这才是我们要用的。
 
 $$p(\theta|D_{1:t}/C_t)$$ 的迭代公式推导：
 
@@ -95,7 +98,7 @@ $$p(\theta|D_{1:t}/C_t) = p(\theta|D_{1:t-1}\cup D_t/C_t\cup C_{t-1}/C_{t-1})=p(
 
 以 $$\tilde{q}(\theta)$$ 表示 $$p(\theta|D_{1:t}/C_t)$$ 的近似，使用变分法近似：
 
-$$\tilde{q}_t(\theta) = \argmin_{q(\theta)\in Q} KL(q(\theta)||\frac1{Z_t} \tilde{q}_{t-1}(\theta)p(D_t \cup C_{t-1}/C_t||\theta)), t = 2,\cdots, T$$
+$$\tilde{q}_t(\theta) = \arg\min_{q(\theta)\in Q} KL(q(\theta)||\frac1{Z_t} \tilde{q}_{t-1}(\theta)p(D_t \cup C_{t-1}/C_t||\theta)), t = 2,\cdots, T$$
 
 在测试时，才求出 $$p(\theta|D_{1:t})$$：
 
@@ -104,7 +107,7 @@ $$p(\theta|D_{1:t})= p(\theta|D_{1:t}/C_t\cup C_t)=p(\theta|D_{1:t}/C_t,C_t)\pro
 
 # 剪枝效应
 
-论文的实验考虑了两个数据集：Split MNIST 和 Permuted MNIST，分别对应持续学习的类别增量和任务增量场景。实验将 VCL、VCL+Coreset 与其他持续学习方法对比平均准确率等指标，也对比了 Coreset 不同的大小（$$K$$）的影响。
+论文的实验考虑了两个数据集：Split MNIST 和 Permuted MNIST，分别对应持续学习的类别增量和任务增量场景。实验将 VCL、VCL+Coreset 与其他持续学习方法对比平均准确率等指标，也对比了 Coreset 不同的大小的影响。
 
 在该团队的另一篇论文 Improving and Understanding Variational Continual Learning 中，提到了一个很有趣的事情：**剪枝效应**（pruning effect）——每个任务训练时会只用极少部分的神经元，剩下的神经元看起来被 prune 掉了。被 prune 掉的神经元表现出两方面：
 
