@@ -32,20 +32,20 @@ math: true
 贝叶斯学派将模型参数 $$\theta$$ 当作随机变量。普通的贝叶斯监督学习只需要求一次后验分布（即一次推断），而对在线学习/持续学习场景，数据是分批来的，需要根据如下迭代公式多次求后验分布：
 
 $$
-\begin{align}p(\theta|D_{1:t}) &= p(\theta |D_{1:t-1},D_t) \\&\propto p(\theta |D_{1:t-1})p(D_t|D_{1:t-1},\theta)\\&= p(\theta |D_{1:t-1})p(D_t|\theta)
+\begin{align}p(\theta\mid D_{1:t}) &= p(\theta \mid D_{1:t-1},D_t) \\&\propto p(\theta \mid D_{1:t-1})p(D_t\mid D_{1:t-1},\theta)\\&= p(\theta \mid D_{1:t-1})p(D_t\mid \theta)
 \end{align}$$
 
-$$p(\theta|D_1) = p(\theta)p(D_1|\theta)$$
+$$p(\theta\mid D_1) = p(\theta)p(D_1\mid \theta)$$
 
 $$p(\theta)$$ 为先验分布。其中最后一个等号是假设了 $$D_t$$ 与 $$D_{t-1}$$ 独立。
 
 求出后验分布后，测试阶段用推断算法作预测：
 
-$$p\left(y^*| \boldsymbol{x}^*, D_{1: t}\right)=\int q_t(\theta) p\left(y^* | \theta, \boldsymbol{x}^*\right) \mathrm{d} \theta$$
+$$p\left(y^*\mid  \boldsymbol{x}^*, D_{1: t}\right)=\int q_t(\theta) p\left(y^* \mid  \theta, \boldsymbol{x}^*\right) \mathrm{d} \theta$$
 
 # 近似算法
 
-用迭代公式 $$p(\theta|D_{1:t})=p(\theta |D_{1:t-1})p(D_t|\theta)$$ 直接计算后验分布是很难的，需要近似算法来计算。这里近似算法的通用框架是：引入一个 $$q_t(\theta)$$ 作为后验分布的近似 $$p(\theta|D_{1:t})$$，初始化与其相同，但迭代公式改为近似公式：$$p(\theta|D_{1:t})=proj(p(\theta |D_{1:t-1})p(D_t|\theta))$$，$$proj(p)$$ 代表近似计算 $$p$$。
+用迭代公式 $$p(\theta\mid D_{1:t})=p(\theta \mid D_{1:t-1})p(D_t\mid \theta)$$ 直接计算后验分布是很难的，需要近似算法来计算。这里近似算法的通用框架是：引入一个 $$q_t(\theta)$$ 作为后验分布的近似 $$p(\theta\mid D_{1:t})$$，初始化与其相同，但迭代公式改为近似公式：$$p(\theta\mid D_{1:t})=proj(p(\theta \mid D_{1:t-1})p(D_t\mid \theta))$$，$$proj(p)$$ 代表近似计算 $$p$$。
 
 不同的 $$proj$$ 代表了不同的近似算法。作者列举了四个：
 
@@ -64,7 +64,7 @@ $$p\left(y^*| \boldsymbol{x}^*, D_{1: t}\right)=\int q_t(\theta) p\left(y^* | \t
 
 本文选用的是变分法近似，变分法常用 KL 散度作为分布间相似程度的度量：
 
-$$q_t(\theta) = \arg\min_{q(\theta)\in Q} KL(q(\theta)||\frac1{Z_t} q_{t-1}(\theta)p(D_t|\theta)), t = 2,\cdots, T$$
+$$q_t(\theta) = \arg\min_{q(\theta)\in Q} KL(q(\theta)\|\frac1{Z_t} q_{t-1}(\theta)p(D_t\mid \theta)), t = 2,\cdots, T$$
 
 $$ 1/Z $$ 是归一化常数。
 
@@ -90,19 +90,19 @@ $$\mathcal{L}_t\left(q_t(\theta)\right)=\sum_{n=1}^{N_t} \mathbb{E}_{\theta \sim
 
 
 
-这里迭代求后验 $$p(\theta|D_{1:t}/C_t)$$ 的近似，而不是 $$p(\theta|D_{1:t})$$。求出了 $$p(\theta|D_{1:t}/C_t)$$ 后，可以继续算出 $$p(\theta|D_{1:t})$$，这才是我们要用的。
+这里迭代求后验 $$p(\theta\mid D_{1:t}/C_t)$$ 的近似，而不是 $$p(\theta\mid D_{1:t})$$。求出了 $$p(\theta\mid D_{1:t}/C_t)$$ 后，可以继续算出 $$p(\theta\mid D_{1:t})$$，这才是我们要用的。
 
-$$p(\theta|D_{1:t}/C_t)$$ 的迭代公式推导：
+$$p(\theta\mid D_{1:t}/C_t)$$ 的迭代公式推导：
 
-$$p(\theta|D_{1:t}/C_t) = p(\theta|D_{1:t-1}\cup D_t/C_t\cup C_{t-1}/C_{t-1})=p(\theta|D_{1:t-1}/C_{t-1} ,D_t\cup C_{t-1}/C_t)\propto p(\theta|D_{1:t-1} /C_{t-1})p( D_t \cup C_{t-1}/C_t|\theta)$$
+$$p(\theta\mid D_{1:t}/C_t) = p(\theta\mid D_{1:t-1}\cup D_t/C_t\cup C_{t-1}/C_{t-1})=p(\theta\mid D_{1:t-1}/C_{t-1} ,D_t\cup C_{t-1}/C_t)\propto p(\theta\mid D_{1:t-1} /C_{t-1})p( D_t \cup C_{t-1}/C_t\mid \theta)$$
 
-以 $$\tilde{q}(\theta)$$ 表示 $$p(\theta|D_{1:t}/C_t)$$ 的近似，使用变分法近似：
+以 $$\tilde{q}(\theta)$$ 表示 $$p(\theta\mid D_{1:t}/C_t)$$ 的近似，使用变分法近似：
 
-$$\tilde{q}_t(\theta) = \arg\min_{q(\theta)\in Q} KL(q(\theta)||\frac1{Z_t} \tilde{q}_{t-1}(\theta)p(D_t \cup C_{t-1}/C_t||\theta)), t = 2,\cdots, T$$
+$$\tilde{q}_t(\theta) = \arg\min_{q(\theta)\in Q} KL(q(\theta)\|\frac1{Z_t} \tilde{q}_{t-1}(\theta)p(D_t \cup C_{t-1}/C_t\|\theta)), t = 2,\cdots, T$$
 
-在测试时，才求出 $$p(\theta|D_{1:t})$$：
+在测试时，才求出 $$p(\theta\mid D_{1:t})$$：
 
-$$p(\theta|D_{1:t})= p(\theta|D_{1:t}/C_t\cup C_t)=p(\theta|D_{1:t}/C_t,C_t)\propto p(\theta|D_{1:t}/C_t)p(C_t|\theta)$$
+$$p(\theta\mid D_{1:t})= p(\theta\mid D_{1:t}/C_t\cup C_t)=p(\theta\mid D_{1:t}/C_t,C_t)\propto p(\theta\mid D_{1:t}/C_t)p(C_t\mid \theta)$$
 
 
 # 剪枝效应

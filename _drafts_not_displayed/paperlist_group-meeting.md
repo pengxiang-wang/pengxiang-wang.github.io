@@ -9,7 +9,55 @@ math: true
 
 > 说明：这是我所在研究组组会上讲的论文列表，按照时间倒序排序。主讲人均为本组博士生。
 
+# 2022-2023 上半年
 
+## 2022-09-19
+
+赵
+
+[Meta-attention for ViT-backed Continual Learning](https://openaccess.thecvf.com/content/CVPR2022/papers/Xue_Meta-Attention_for_ViT-Backed_Continual_Learning_CVPR_2022_paper.pdf)
+
+- 会议：CVPR 2022
+- 作者：Mengqi Xue, Haofei Zhang, Jie Song, Mingli Song
+- 主讲人：Z
+
+[DyTox: Transformers for Continual Learning with DYnamic TOken eXpansion](https://openaccess.thecvf.com/content/CVPR2022/papers/Douillard_DyTox_Transformers_for_Continual_Learning_With_DYnamic_TOken_eXpansion_CVPR_2022_paper.pdf)
+
+- 会议：CVPR 2022
+- 作者：Arthur Douillard, Alexandre Ramé, Guillaume Couairon, Matthieu Cord
+- 主讲人：Z
+
+[A MULTI-HEAD MODEL FOR CONTINUAL LEARNING VIA OUT-OF-DISTRIBUTION REPLAY](https://arxiv.org/pdf/2208.09734.pdf)
+
+- 会议：CoLLAs 2022
+- 作者：Gyuhak Kim, Zixuan Ke, Bing Liu
+- 主讲人：Z
+
+把重演数据当作异常样本加一个新类
+
+Bing Liu 组
+
+[Channel Importance Matters in Few-Shot Image Classification](https://proceedings.mlr.press/v162/luo22c/luo22c.pdf)
+
+- 会议：PMLR 2022
+- 作者：Xu Luo, Jing Xu, Zenglin Xu
+- 主讲人：L
+
+
+
+### [Variational Continual Learning](https://openreview.net/pdf?id=BkQqq0gRb)
+
+- 会议：ICLR 2018
+- 作者：Cuong V. Nguyen, Yingzhen Li, Thang D. Bui, Richard E. Turner
+- 主讲人：W
+- 内容：从贝叶斯学派角度提出了一个持续学习框架——变分持续学习（VCL），提出框架是主要的。同时提出了一个在此框架下简单的防止遗忘的机制——coreset。
+
+### [Improving and Understanding Variational Continual Learning](https://arxiv.org/pdf/1905.02099.pdf)
+
+- 会议：2019 (ArXiv)
+- 作者：Siddharth Swaroop, Cuong V. Nguyen, Thang D. Bui†, Richard E. Turner
+- 主讲人：W
+- 内容：对上一篇文章在训练技巧上做了一点改进，同时讨论了 VCL 特有的现象——剪枝效应。作者认为剪枝效应对持续学习意义是很大的。
 
 
 
