@@ -72,7 +72,7 @@ $$ 1/Z $$ 是归一化常数。
 
 $$\mathcal{L}_t\left(q_t(\theta)\right)=\sum_{n=1}^{N_t} \mathbb{E}_{\theta \sim q_t(\theta)}\left[\log p\left(y_t^{(n)} \mid \theta, \mathbf{x}_t^{(n)}\right)\right]-KL\left(q_t(\theta) \| q_{t-1}(\theta)\right)$$
 
-本文中取 $$Q$$ 为简单的正态分布的乘积族（称为 Gaussian mean-field Approximation）：$$q_t(\theta)=\prod_{d=1}^D \mathcal{N}\left(\theta_{t, d} ; \mu_{t, d}, \sigma_{t, d}^2\right)$$（对应地 $$q_0(\theta)$$ 应初始化为正态分布）。这样，泛函优化转化为对三个参数 $$\theta_{t, d}, \mu_{t, d}, \sigma_{t, d}^2$$ 的优化。
+本文中取 $$Q$$ 为简单的正态分布的乘积族（称为 Gaussian mean-field Approximation）：$$q_t(\theta)=\prod_{d=1}^D \mathcal{N}\left(\theta_{t, d} ; \mu_{t, d}, \sigma_{t, d}^2\right)$$（对应地 $$q_0(\theta)$$ 应初始化为正态分布）。这样，泛函优化转化为对正态分布参数 $$\mu_{t, d}, \sigma_{t, d}^2$$ 的优化。注意，模型参数 $$\theta$$ 不是优化的目标，贝叶斯方法从来不是更新 $$\theta$$ 的确定值，它只是分布的自变量。
 
 训练时，使用了 Monte Carlo（类似随机梯度下降）处理似然项 $$\sum_{n=1}^{N_t}$$ 太大的情况，也用了再参数化（reparameterization）技巧减少参数量。有空我开一篇笔记总结一下训练这种损失函数对技巧。
 
@@ -94,7 +94,11 @@ $$\mathcal{L}_t\left(q_t(\theta)\right)=\sum_{n=1}^{N_t} \mathbb{E}_{\theta \sim
 
 $$p(\theta\mid D_{1:t}/C_t)$$ 的迭代公式推导：
 
-$$p(\theta\mid D_{1:t}/C_t) = p(\theta\mid D_{1:t-1}\cup D_t/C_t\cup C_{t-1}/C_{t-1})=p(\theta\mid D_{1:t-1}/C_{t-1} ,D_t\cup C_{t-1}/C_t)\propto p(\theta\mid D_{1:t-1} /C_{t-1})p( D_t \cup C_{t-1}/C_t\mid \theta)$$
+
+$$
+\begin{align}
+    p(\theta|D_{1:t}/C_t) &= p(\theta|D_{1:t-1}\cup D_t/C_t\cup C_{t-1}/C_{t-1})\\&=p(\theta|D_{1:t-1}/C_{t-1} ,D_t\cup C_{t-1}/C_t)\\&\propto p(\theta|D_{1:t-1} /C_{t-1})p( D_t \cup C_{t-1}/C_t|\theta)\\
+\end{align}$$
 
 以 $$\tilde{q}(\theta)$$ 表示 $$p(\theta\mid D_{1:t}/C_t)$$ 的近似，使用变分法近似：
 
@@ -111,8 +115,8 @@ $$p(\theta\mid D_{1:t})= p(\theta\mid D_{1:t}/C_t\cup C_t)=p(\theta\mid D_{1:t}/
 
 在该团队的另一篇论文 Improving and Understanding Variational Continual Learning 中，提到了一个很有趣的事情：**剪枝效应**（pruning effect）——每个任务训练时会只用极少部分的神经元，剩下的神经元看起来被 prune 掉了。被 prune 掉的神经元表现出两方面：
 
-- 前面连接的权重在更新时几乎不动；
-- 后面连接的权重几乎为 0（多次实验均值为 0，方差很小），使得它对最后结果的影响几乎为 0。
+- 前面连接的权重的（边缘）分布在更新时几乎不动；
+- 后面连接的权重的（边缘）分布几乎为 0 的单点分布（密度为 delta 函数），使得它对最后结果的影响几乎为 0。
 
 
 具体来说，在 Split MNIST 实验（一次来两个新类）中：

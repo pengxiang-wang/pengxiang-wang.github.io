@@ -8,7 +8,7 @@ math: true
 ---
 
 
-\section{Background}
+本文
 
 
 \subsection{History}
