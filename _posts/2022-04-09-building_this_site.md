@@ -20,7 +20,7 @@ img_path: /assets/img/
 
 ## 建站过程
 
-这个网站是用[GitHub Pages](https://pages.github.com)搭建的，不需要自己买域名组服务器，整个网站的文件放到一个GitHub的仓库里即可，由他们部署托管，应该是所有建站方法中最省事的吧。GitHub还给了很多模版，用模板就不用自己写前端了，每次只需把要发的文章写成MarkDown格式，模版的工具[jekyll](https://jekyllrb.com)会自动生成网页源代码。
+这个网站是用[GitHub Pages](https://pages.github.com)搭建的，是一个静态网站，不需要自己买域名组服务器，整个网站的文件放到一个GitHub的仓库里即可，由他们部署托管，应该是所有建站方法中最省事的吧（个人还没有技术能力搭建动态网站）。GitHub还给了很多模版，用模板就不用自己写前端了，每次只需把要发的文章写成MarkDown格式，模版的工具[jekyll](https://jekyllrb.com)会自动生成网页源代码。
 
 就是这么一个简单的东西，只需几步：clone模版仓库、安装jekyll工具、修改模版里的个人信息、push到GitHub上，结果花了我将近一天才成功。我面临的诸多，对于熟悉前后端的程序员来说可能就是小bug的问题，让我绞尽脑汁研究了很长时间：
 

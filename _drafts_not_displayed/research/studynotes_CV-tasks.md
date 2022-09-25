@@ -1,5 +1,5 @@
 ---
-title: 学习笔记：计算机视觉各任务模型原理总结
+title: 学习笔记：计算机视觉、自然语言处理任务总结
 date: 2021-04-20
 categories: [科研]
 tags: [课程笔记]
@@ -13,23 +13,25 @@ math: true
 
 数据集历史 Benchmark
 
+# 计算机视觉任务
 
-# 一、图像分类（Image Classification）
+
+## 一、图像分类（Image Classification）
 
 
 识别类任务
 
-# 二、语义分割（Semantic Segmentation）
+## 二、语义分割（Semantic Segmentation）
 
 姿态检测
 
-# 三、定位（Localization） 
+## 三、定位（Localization） 
 
 分类+定位
 纯定位
 
 
-# 四、目标检测（Object Detection）
+## 四、目标检测（Object Detection）
 
 R-CNN
 Fast R-CNN
@@ -37,7 +39,7 @@ Faster R-CNN
 
 YOLO
 
-# 五、实例分割（Instance Segmentation）
+## 五、实例分割（Instance Segmentation）
 
 Mask R-CNN
 
@@ -46,9 +48,24 @@ Mask R-CNN
 COCO
 
 
-# 生成式任务
+## 生成式任务
 
-## 风格迁移
+### 风格迁移
 
 
 生成模型
+
+
+# 自然语言处理任务
+
+
+
+
+# 多模态任务
+
+
+## Image Captioning
+
+
+
+## VQA
