@@ -25,9 +25,66 @@ img_path: /assets/img/
 
 
 
+# Adele
+
+## Chasing Pavements
+
+6543456 小调色彩 Am G-Em F-Dm E F G 6变为1 C Am Em 
+
+C G F E F G 
+
+6543 
+
+特点： Am和C互换  G和Em 互换 Dm和F互换
+
+## Make You Feel My Love
+
+Adele 的歌擅长大小调转换
+
+卡农变体
+C G (Bb F Fm) C (D7) G C
+
+## Don't You Remember
+
+Eb 调
+
+找不到规律
+
+C F  Am C F
+C G F Am F
+
+G Am C E G
+
+C F  Dm G C
+
+F 
+
+C F Dm G C
+
+## Set fire to the rain
+
+Am C G Dm 
+
+## Someone Like You
+、
+1364
+
+1564
+
+
 ## 五月天
 
 ### 拥抱
+
+4321
+
+
+### 温柔
+
+ 
+
+
+
 - 专辑：五月天第一张创作专辑，1999
 - 原调：B
 - - 选调：
