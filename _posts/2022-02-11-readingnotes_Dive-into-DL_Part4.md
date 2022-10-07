@@ -106,7 +106,7 @@ class MyLinear(nn.Module):
         super().__init__()
         self.weight = nn.Parameter(torch.randn(input_units, units))
         self.bias = nn.Parameter(torch.randn(units, ))
-    def forward():
+    def forward(self, X):
         return torch.matmul(X, self.weight.data) + self.bias.data
 
 net = MyLinear(8, 128)
@@ -222,7 +222,7 @@ chimera = nn.Sequential(nn.Linear(20, 64), nn.ReLU(),
 
 也可以模型的访问所有参数，与上面同理，其算法也是递归地遍历树的叶子。其 API 有：
 
-- `.parameters()` 方法：返回一个生成器，print 无法直接显示，需要遍历其元素 print；另外有 `.named_parameters()` 方法，返回生成器生成的是 (参数名字, 参数数据) 对。
+- `.parameters()` 方法：返回一个生成器，print 无法直接显示，需要遍历其元素 print（或者强制转化为列表），通常用于传入优化器；另外有 `.named_parameters()` 方法，返回生成器生成的是 (参数名字, 参数数据) 对。
 - `.state_dict()` 方法：返回一个 `collections.OrderedDict` 类型，字典键值为 {参数名字:参数数据}， print 可以显示。
 
 ## 参数初始化
@@ -240,7 +240,7 @@ chimera = nn.Sequential(nn.Linear(20, 64), nn.ReLU(),
 > `nn.init` 系列函数也可以直接作用在 Tensor 上。
 {: .prompt-info }
 
-`nn.init` 系列函数的作用方式通常是打包成一个 `init_ parameters` 函数，间接地通过 `apply` 函数作用到模型参数上。这样做的好处是方便维护代码。
+`nn.init` 系列函数的作用方式通常是打包成一个 `init_parameters` 函数，间接地通过 `apply` 函数作用到模型参数上。这样做的好处是方便维护代码。
 
 
 # 读写文件

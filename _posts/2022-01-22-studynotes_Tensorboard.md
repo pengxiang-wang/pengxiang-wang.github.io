@@ -28,11 +28,11 @@ TensorBoard 的逻辑可以看成一个画家，以及一个画布，给画家�
 
 命令总结：
 
-- 安装画布：`conda install TensorBoard`；
-- 启动画布：`TensorBoard --logdir=log`（runs 为日志目录，必须指定），并按提示打开浏览器端口；
+- 安装画布：`conda install tensorboard`；
+- 启动画布：`tensorboard --logdir=log`（runs 为日志目录，必须指定），并按提示打开浏览器端口；
 - 召唤画家：
 ```python
-from torch.utils.TensorBoard import SummaryWriter
+from torch.utils.tensorboard import SummaryWriter
 summaryWriter = SummaryWriter(log_dir='log') # 实例化画家，log_dir 为日志目录
 ```
 
