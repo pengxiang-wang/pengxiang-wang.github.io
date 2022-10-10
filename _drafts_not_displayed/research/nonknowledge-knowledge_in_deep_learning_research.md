@@ -40,6 +40,7 @@ metric
 
 搜索引擎
 
+Google Scholar
 
 怎么看论文？快速看论文？       
 

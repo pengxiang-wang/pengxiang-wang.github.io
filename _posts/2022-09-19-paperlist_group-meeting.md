@@ -11,7 +11,20 @@ math: true
 
 # 2022-2023 上半年
 
-## 2022-09-26
+## 2022-10-10
+
+[Cross-Attention Multi-Scale Vision Transformer for Image Classification](https://openaccess.thecvf.com/content/ICCV2021/papers/Chen_CrossViT_Cross-Attention_Multi-Scale_Vision_Transformer_for_Image_Classification_ICCV_2021_paper.pdf)
+- 会议：ICCV 2021
+- 作者：Chun-Fu (Richard) Chen, Quanfu Fan, Rameswar Panda (MIT-IBM Watson AI Lab)
+- 主讲人：赵
+
+
+[Meta-Baseline: Exploring Simple Meta-Learning for Few-Shot Learning](https://openaccess.thecvf.com/content/ICCV2021/papers/Chen_Meta-Baseline_Exploring_Simple_Meta-Learning_for_Few-Shot_Learning_ICCV_2021_paper.pdf)
+- 会议：ICCV 2021
+- 作者：Yinbo Chen (UC San Diego), Zhuang Liu (UC Berkeley), Huijuan Xu (Penn State University), Trevor Darrell (UC Berkeley), Xiaolong Wang (UC San Diego)
+- 主讲人：李
+
+[]
 
 
 
