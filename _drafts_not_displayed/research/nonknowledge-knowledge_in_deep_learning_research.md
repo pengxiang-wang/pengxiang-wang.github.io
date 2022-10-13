@@ -45,7 +45,11 @@ Google Scholar
 怎么看论文？快速看论文？       
 
 
-PR曲线 线                                                                                                                               
+PR曲线 线                                                                                                                
+
+
+
+引用不一定是直接继承了工作，而是在相关工作（related work）或者 baseline 对比
 
 ## 各种大牛。
 

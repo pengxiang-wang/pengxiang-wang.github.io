@@ -11,22 +11,49 @@ math: true
 
 # 2022-2023 上半年
 
+
+## 2022-10-17
+
+
+
+
+
+
+
+
+
+
 ## 2022-10-10
 
-[Cross-Attention Multi-Scale Vision Transformer for Image Classification](https://openaccess.thecvf.com/content/ICCV2021/papers/Chen_CrossViT_Cross-Attention_Multi-Scale_Vision_Transformer_for_Image_Classification_ICCV_2021_paper.pdf)
+### [Cross-Attention Multi-Scale Vision Transformer for Image Classification](https://openaccess.thecvf.com/content/ICCV2021/papers/Chen_CrossViT_Cross-Attention_Multi-Scale_Vision_Transformer_for_Image_Classification_ICCV_2021_paper.pdf)
 - 会议：ICCV 2021
 - 作者：Chun-Fu (Richard) Chen, Quanfu Fan, Rameswar Panda (MIT-IBM Watson AI Lab)
-- 主讲人：赵
+- 主讲人：Z
+- 内容：Cross-ViT
 
+### [Training data-efficient image transformers & distillation through attention](https://proceedings.mlr.press/v139/touvron21a.html)
+- 会议：ICML 2021
+- 作者：Chun-Fu (Richard) Chen, Quanfu Fan, Rameswar Panda (MIT-IBM Watson AI Lab)
+- 主讲人：Z
+- 内容：DeiT
 
-[Meta-Baseline: Exploring Simple Meta-Learning for Few-Shot Learning](https://openaccess.thecvf.com/content/ICCV2021/papers/Chen_Meta-Baseline_Exploring_Simple_Meta-Learning_for_Few-Shot_Learning_ICCV_2021_paper.pdf)
+### [Meta-Baseline: Exploring Simple Meta-Learning for Few-Shot Learning](https://openaccess.thecvf.com/content/ICCV2021/papers/Chen_Meta-Baseline_Exploring_Simple_Meta-Learning_for_Few-Shot_Learning_ICCV_2021_paper.pdf)
 - 会议：ICCV 2021
 - 作者：Yinbo Chen (UC San Diego), Zhuang Liu (UC Berkeley), Huijuan Xu (Penn State University), Trevor Darrell (UC Berkeley), Xiaolong Wang (UC San Diego)
-- 主讲人：李
+- 主讲人：L
+- 内容：
 
-[]
+### [Overcoming Catastrophic Forgetting with Hard Attention to the Task](https://proceedings.mlr.press/v80/serra18a.html)
+- 会议：ICML 2018
+- 作者：Joan Serrà, Dídac Surís, Marius Miron, Alexandros Karatzoglou
+- 主讲人：W
+- 内容：持续学习模型 HAT，是将 mask 机制加到持续学习的第一篇论文，提出了一个很简单的、每个神经元引入一个任务 mask 的方法，并给出了训练方法，和一个解决模型容量问题的稀疏正则项，让新旧任务 mask 重合。它属于参数隔离方法，之后很多带 mask 机制的持续学习论文以此篇为基础。
 
-
+### 1.[Orthogonal Gradient Descent for Continual Learning](https://arxiv.org/abs/1910.07104), 2.[Continual Learning of Context-dependent Processing in Neural Networks](https://www.nature.com/articles/s42256-019-0080-x), 3.[Gradient Projection Memory for Continual Learning](https://openreview.net/forum?id=3AOj0RCNC2)
+- 期刊/会议：1. Proceedings of the 23rd International Conference on Artificial Intelligence and Statistics; 2. Nature Machine Intelligence 2019; 3. ICLR 2021
+- 作者：1. Mehrdad Farajtabar, Navid Azizan, Alex Mott, Ang Li; 2. Guanxiong Zeng, Yang Chen, Bo Cui, Shan Yu; 3. Gobinda Saha, Isha Garg, Kaushik Roy
+- 主讲人：W
+- 内容：三篇基于梯度修正的持续学习论文，是这种方法最早、最经典的工作。第一、三篇把新任务的梯度投影到垂直于旧任务子空间的方向，为了防止覆盖旧任务的知识。二者的区别在第一篇直接拿旧任务用过的梯度张成子空间，第三篇是用旧任务数据（奇异值分解出的向量）构造。第二篇工作直接归结为一个修正梯度的矩阵，对其使用 RLS 算法迭代更新。
 
 ## 2022-09-19
 
