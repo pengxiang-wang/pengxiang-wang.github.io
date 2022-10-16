@@ -35,7 +35,7 @@ math: true
 
 得到对第 l 层神经元的梯度后，再乘以第 l-1 层（激活后）$$ o_i^{l-1}$$ 就是对权重 $$w_{ij}^{l}$$ 的梯度：
 
-$$\frac{\partial E}{\partial w_{i j}^{l}}=\delta_{j}^{l} o_{i}^{l-1}=g^{\prime}\left(a_{j}^{l}\right) o_{i}^{l-1} \sum_{k=1}^{r^{l+1}} w_{j k}^{l+1} \delta_{k}^{l+1} \ \ \ \ \ \ (2)$$
+$$\frac{\partial L}{\partial w_{i j}^{l}}=\delta_{j}^{l} o_{i}^{l-1}=g^{\prime}\left(a_{j}^{l}\right) o_{i}^{l-1} \sum_{k=1}^{r^{l+1}} w_{j k}^{l+1} \delta_{k}^{l+1} \ \ \ \ \ \ (2)$$
 
 
 
