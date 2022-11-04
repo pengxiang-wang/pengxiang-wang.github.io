@@ -1,5 +1,5 @@
 ---
-title: 组会论文列表（长期更新）
+title: 组会论文/报告列表（长期更新）
 date: 2022-09-19
 categories: [科研]
 tags: [长期更新]
@@ -12,14 +12,111 @@ math: true
 # 2022-2023 上半年
 
 
+## 2022-10-31
+
+### [Worst Case Matters for Few-Shot Recognition](https://link.springer.com/chapter/10.1007/978-3-031-20044-1_6)
+
+- 会议：ECCV 2022
+- 作者：Minghao Fu, Yun-Hao Cao, Jianxin Wu
+- 主讲人：L
+- 内容：
+
+### [Do Deep Networks Transfer Invariance Across Classes?](https://openreview.net/pdf?id=Fn7i_r5rR0q)
+
+- 会议：ICLR 2022
+- 作者：Allan Zhou∗ & Fahim Tajwar, Alexander Robey, Tom Knowles, George J. Pappas & Hamed Hassani, Chelsea Finn
+- 主讲人：Z
+- 内容：
+
+### [Compacting, Picking and Growing for Unforgetting Continual Learning](https://proceedings.neurips.cc/paper/2019/hash/3b220b436e5f3d917a1e649a0dc0281c-Abstract.html)
+
+- 会议：NIPS 2019
+- 作者：Ching-Yi Hung, Cheng-Hao Tu, Cheng-En Wu, Chien-Hung Chen, Yi-Ming Chan, Chu-Song Chen
+- 主讲人：W
+- 内容：参数隔离方法，是先训练后剪枝重新训练的 PackNet 的改进：在训练新任务时，选出旧任务参数的一部分在剪枝时也重新训练。选择哪些参数是学习了在旧任务参数上的 mask，旧任务参数是固定的，类似 Piggyback 训 mask 的方式。
+
+
+
+## 2022-10-24
+
+### [Curvature-Adaptive Meta-Learning for Fast Adaptation to Manifold Data](https://ieeexplore.ieee.org/abstract/document/9749838/)
+
+- 会议/期刊：ICCV 2021, TPAMI 2022
+- 作者：Zhi Gao, Yuwei Wu, Mehrtash T Harandi, Yunde Jia
+- 主讲人：L
+- 内容：
+  
+### [Efficiently Identifying Task Groupings for Multi-Task Learning](https://openreview.net/forum?id=hqDb8d65Vfh)
+
+- 会议：NIPS 2021
+- 作者：Christopher Fifty, Ehsan Amid, Zhe Zhao, Tianhe Yu, Rohan Anil, Chelsea Finn
+- 主讲人：W
+- 内容：多任务学习场景的任务分组方法，基于任务相似度为任务作分组，划分模型分组训练小的多任务。任务相似度计算自训练过程的损失变化。其中任务分组、任务相似性的度量可以借鉴到持续学习上。
+  
+### [Exemplar-free Class Incremental Learning via Discriminative and Comparable One-class Classifiers](https://arxiv.org/abs/2201.01488)
+
+- 发表：arXiv 2022
+- 作者：Wenju Sun, Qingyong Li, Jing Zhang, Danyu Wang, Wen Wang, Yangli-ao Geng
+- 主讲人：Z
+- 内容：
+
+
+
+
+
 ## 2022-10-17
 
+### (主题)
+
+- 主讲人：H
+- 内容：关于持续学习中区分高频/低频信息的想法
 
 
+### [Margin-Based Few-Shot Class-Incremental Learning with Class-Level Overfitting Mitigation](https://arxiv.org/abs/2210.04524)
+
+- 会议：NIPS 2022
+- 作者：Yixiong Zou, Shanghang Zhang, Yuhua Li, Ruixuan Li
+- 主讲人：Z
+- 内容：通过实验发现了持续学习在每个任务上不能学得太狠，最好学个大概即可。
 
 
+### (主题)
 
+- 论文：
+  - [Free Lunch for Few-shot Learning: Distribution Calibration](https://openreview.net/forum?id=JWOiYxMG92s)
+  - [Adaptive Distribution Calibration for Few-Shot Learning with Hierarchical Optimal Transport](https://arxiv.org/abs/2210.04144)
+  - [Powering Finetuning for Few-shot Learning: Domain-Agnostic Bias Reduction with Selected Sampling](https://www.aaai.org/AAAI22Papers/AAAI-2032.TaoR.pdf)
+- 会议：
+  - ICLR 2021 Oral, TPAMI 2022
+  - NIPS 2022
+  - AAAI 2022
+- 作者：
+  - Shuo Yang, Lu Liu, Min Xu
+  - Dandan Guo, Long Tian, He Zhao, Mingyuan Zhou, Hongyuan Zha
+  - Ran Tao, Han Zhang, Yutong Zheng, Marios Savvides
+- 主讲人：L
+- 内容：
 
+### 基于 mask 的持续学习
+
+- 论文：
+  -  [PackNet: Adding Multiple Tasks to a Single Network by Iterative Pruning](https://openaccess.thecvf.com/content_cvpr_2018/papers/Mallya_PackNet_Adding_Multiple_CVPR_2018_paper.pdf)
+  - [Piggyback: Adapting a Single Network to Multiple Tasks by Learning to Mask Weights
+](https://openaccess.thecvf.com/content_ECCV_2018/papers/Arun_Mallya_Piggyback_Adapting_a_ECCV_2018_paper.pdf)
+  - [Scalable and Order-robust Continual Learning with Additive Parameter Decomposition](https://openreview.net/pdf?id=r1gdj2EKPB), 
+  - [Supermasks in Superposition](https://proceedings.neurips.cc/paper/2020/file/ad1f8bb9b51f023cdc80cf94bb615aa9-Paper.pdf),
+- 会议：
+  - CVPR 2018
+  - ECCV 2018
+  - ICLR 2020
+  - NIPS 2020
+- 作者：
+  - Arun Mallya, Svetlana Lazebnik
+  - Arun Mallya, Dillon Davis, Svetlana Lazebnik
+  - Jaehong Yoon, Saehoon Kim, Eunho Yang, Sung Ju Hwang
+  - Mitchell Wortsman, Vivek Ramanujan,  Rosanne Liu,, Aniruddha Kembhavi, Mohammad Rastegari, Jason Yosinski, Ali Farhadi
+- 主讲人：W
+- 内容：整理了持续学习加 Mask 的论文，为这一类方法总结出了一个分类体系（见[持续学习笔记]() 的网络结构法部分）。
 
 
 

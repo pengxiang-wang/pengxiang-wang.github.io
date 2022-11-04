@@ -1,5 +1,5 @@
 ---
-title: 基于 mask 机制的持续学习
+title: 持续学习：参数隔离方法
 date: 2022-10-13
 categories: [科研]
 tags: [学习笔记, 持续学习]
@@ -31,7 +31,10 @@ math: true
 
 为了避独立式学习之嫌，PackNet 论文里采用的方式是：来新任务时，**先将可用参数全部训练，再剪掉（prune）一部分参数预留给后面任务使用**，剩下的留给当前任务。剪掉参数的行为势必会引起效果的断崖式下跌，需要**重新训练**（re-train）保留下来的参数，但训练力度就不必像之前正式训练那样了，可以少些 epoch。
 
-在学习后面任务时，将前面的任务。。过程如下图，注意该图每个圈代表一个权重，这可能表示的是中间某全连接层（5维到5维）的权重。
+在学习后面任务时，将前面的任务。。训练过程的 forward pass 不作用。
+
+
+过程如下图，注意该图每个圈代表一个权重，这可能表示的是中间某全连接层（5维到5维）的权重。
 
 ![](PackNet_training.png)
 
@@ -96,6 +99,20 @@ $$ R(\mathbf{m}^{(t)}, \mathbf{m}^{(\leq t-1)})= \frac{\sum_{l=1}^{L-1}\sum_{i=1
 
 论文链接：[Scalable and Order-robust Continual Learning with Additive Parameter Decomposition](https://openreview.net/pdf?id=r1gdj2EKPB), ICLR 2020
 
+二元 feature mask，可学习的，学习方法和 HAT 一样。
+
+本文的几个模块：
+- 直接用在参数上，可以多一个正则项：让 backbone 尽量与之前的变化不大；这样有点像 Piggyback；
+- 为了不像 Piggyback，还需要为每个参数加一个 $$\tau_t$$，但要约束尽量的小（正则项）
+
+“Order Robust”：不只是考虑 t-1，而是前 t-1。连带着旧任务的所有 mask 和 $$\tau_t$$ 一起更新了（可以吗？）
+
+形式上看，就是参数分解。mask 不是直接作用于参数，而是参数中的 share 部分。
+
+
+
+HKC：每隔几个任务，就把之前涉及的任务聚个类（对 $$\tau_1...t$$），然后删掉类内差距大的类，类内差距不大的全部归于中心。这个东西进一步弱化了 $$\tau_t$$ 作用。
+
 
 
 # SupSup
@@ -108,18 +125,13 @@ $$ R(\mathbf{m}^{(t)}, \mathbf{m}^{(\leq t-1)})= \frac{\sum_{l=1}^{L-1}\sum_{i=1
 - 训练数据有任务 ID 信息，测试数据没有（论文中简称 GN）；
 - 训练数据与测试数据都没有任务 ID 信息（论文中简称 NN）：不打算讲解。
 
-对于 GN 场景，它与 TIL 场景区别在测试阶段有无任务 ID 信息。本文的算法试图先预测出任务 ID，再按照 TIL 处理，而不是一步搞定。对于固定 backbone 的 mask 机制，测试时的输出：
+对于 GN 场景，它与 TIL 场景区别在测试阶段有无任务 ID 信息。本文的算法试图先预测出任务 ID，再按照 TIL 处理，而不是一步搞定。对于固定 backbone 的 mask 机制，测试时的输出（是一组过了 Softmax 的概率）：
 
 $$\tilde{f}(\mathbf{x}; \mathbf{W}, \mathbf{\alpha}) = f(\mathbf{x}; \mathbf{W} \odot (\sum_{t=1}^T \alpha_t \mathbf{M}^t)) $$
 
-其中 $$f(\mathbf{x};\mathbf{W})$$ 是固定的 backbone，固定参数为 $$\mathbf{W}$$，$$\mathbf{\alpha}=[\alpha_1,\cdots,\alpha_C], \alpha_c \in [0,1]$$ 是根据测试数据 $$\mathbf{x}$$ 确定的一个预测任务 ID 的变量（最好是一个 one-hot 向量）。
+其中 $$f(\mathbf{x};\mathbf{W})$$ 是固定的 backbone，固定参数为 $$\mathbf{W}$$，$$\mathbf{\alpha}=[\alpha_1,\cdots,\alpha_C], \alpha_c \in [0,1], \sum_{c} \alpha_c = 1$$ 是根据测试数据 $$\mathbf{x}$$ 确定的一个预测任务 ID 的变量（最好是一个 one-hot 向量）。
 
-如何根据测试数据 $$\mathbf{x}$$ 确定 $$\mathbf{\alpha}$$？作者的方法是将 $$\tilde{f}(\mathbf{x}; \mathbf{W}, \alpha)$$ 看作 $$\mathbf{\alpha}$$ 的分布 $$p(\mathbf{\alpha})$$，使得该分布的熵尽量地大。
-
-发生在测试阶段，
-
-
-
+如何根据测试数据 $$\mathbf{x}$$ 确定 $$\mathbf{\alpha}$$？作者的准则是选择让输出概率 $$\tilde{f}(\mathbf{x}; \mathbf{W}, \mathbf{\alpha})$$ 的信息量最大（即预测某个类的概率特别大、其他类特别小，而不是比较平均的），即熵最小。这是一个带约束的优化问题，有很多优化算法可供使用，不再详述。由于这个优化过程发生在测试阶段，所以选择效率高的算法非常重要。
 
 
 
@@ -130,15 +142,62 @@ $$\tilde{f}(\mathbf{x}; \mathbf{W}, \mathbf{\alpha}) = f(\mathbf{x}; \mathbf{W} 
 论文链接：[Ternary Feature Masks: zero-forgetting for task-incremental learning](https://openaccess.thecvf.com/content/CVPR2021W/CLVision/papers/Masana_Ternary_Feature_Masks_Zero-Forgetting_for_Task-Incremental_Learning_CVPRW_2021_paper.pdf), CVPR Workshop 2021
 
 
+它本质上是一个模型扩张法，只是用了 mask 的语言。它与 Progressive NN 的扩张方式有些许不同：每次新加的一列神经元还包含向左上指的权重。新任务训练时，固定旧网络部分的参数（黑线）不动，训练新加入的参数（绿线），和 Progressive NN 一样。此外，还有一个新的机制：feature normalization。
 
+本文所谓的 mask 是 feature mask，引入了所谓三元 mask 的概念：
+
+训练新任务 $$T$$ 时，$$m_j^{t, l}, n_j^{t, l} (1\leq t \leq T)$$ 共同组合为一个三元 mask：
+
+- $$m=1, n=1$$ 时，神经元既参与训练的前向传播，也参与反向传播；
+- $$m=0, n=1$$ 时，神经元参与前向传播，不参与反向传播（即固定）；
+- $$m=0, n=0$$ 时，神经元不参与前向传播、反向传播。
+
+但一般方法只会涉及两种状态，所以二元 mask 就够用了：例如旧任务 mask 只对反向传播起作用，前向传播一律通过，这样只需要一个二元 mask。
+
+但是本文是一个模型扩张法，论文里用死公式规定了所谓的 mask：
+$$n_j^{t, l}= \begin{cases}1, & \text { for current task, if } 1 \leq j \leq I+N \\ 0, & \text { for previous tasks, if } I<j \leq I+N\end{cases}$$
+$$m_j^{t, l}= \begin{cases}0, & \text { for current task, if } 1 \leq j \leq I \\ 1, & \text { for current task, if } I<j \leq I+N \\ 0, & \text { for previous tasks, if } I<j \leq I+N\end{cases}$$
+
+基本上没有任何意义。
+
+
+![](Ternary_Fetaure_Masks.png)
+
+
+
+# CPG
+
+论文链接：[Compacting, Picking and Growing for Unforgetting Continual Learning](https://proceedings.neurips.cc/paper/2019/file/3b220b436e5f3d917a1e649a0dc0281c-Paper.pdf)
+
+此论文是对 packnet 的改进。大 mask 里面有小 mask ，小 mask 用于规范剪枝后 retrain 的。
+
+retrain 前面的任务会不会忘，因为很小，所以不会。
+
+会扩张。
 
 # KSM
 
 论文链接：[KSM: Fast Multiple Task Adaption via Kernel-wise Soft Mask Learning](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_KSM_Fast_Multiple_Task_Adaption_via_Kernel-Wise_Soft_Mask_Learning_CVPR_2021_paper.pdf), CVPR 2021
 
+也是固定 backbone 网络不动。与 Piggyback 的区别在于 mask 的训练方式，本文又把那个 real mask 分解成。。。并解释了训练过程。
+
+另外为了使文章丰富，kernel wise 而不是 feature wise
 
 
 
 # CTR
 
 论文链接：[Achieving Forgetting Prevention and Knowledge Transfer in Continual Learning](https://proceedings.neurips.cc/paper/2021/file/bcd0049c35799cdf57d06eaf2eb3cff6-Paper.pdf), NIPS 2021
+
+在 BERT 中引入了 CTR 模块。
+
+
+
+
+
+
+出发点：
+
+- NAS 来；
+- 找一篇现成的论文，看它哪里能够提高；
+- 找一篇把里面的框架换成 mask；
