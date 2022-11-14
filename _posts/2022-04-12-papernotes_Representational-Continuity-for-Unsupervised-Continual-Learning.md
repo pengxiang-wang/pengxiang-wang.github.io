@@ -1,5 +1,5 @@
 ---
-title: 论文笔记：Representational Continuity for Unsupervised Continual Learning
+title: 论文笔记：无监督持续学习论文一篇
 date: 2022-04-12
 categories: [科研]
 tags: [论文笔记, 持续学习, 无监督学习]

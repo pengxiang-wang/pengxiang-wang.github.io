@@ -60,3 +60,9 @@ A principled approach for learning task similarity in multitask learning
 ##  CAT
 
 
+
+
+
+# 如何与 mask 机制结合？
+
+参考 Task Grouping 论文 PPT 最后一页怎么用到持续学习

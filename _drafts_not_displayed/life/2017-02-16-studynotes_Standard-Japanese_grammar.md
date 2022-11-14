@@ -6,7 +6,7 @@ tags: [学习笔记, 语言]
 img_path: /assets/img/
 ---
 
-本文接续[日语学习笔记：语法简要总结]()，将《标准日本语》中的语法内容按课整理并对应到语法笔记的体系里。
+本文接续[日语学习笔记：语法简要总结](https://pengxiang-wang.github.io/posts/studynotes_Japanese_grammar/)，将《标准日本语》中的语法内容按课整理并对应到语法笔记的体系里。
 
 
 # 初级上册
