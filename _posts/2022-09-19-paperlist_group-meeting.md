@@ -11,6 +11,52 @@ math: true
 
 # 2022-2023 上半年
 
+## 2022-11-21
+
+
+
+
+
+
+## 2022-11-14
+
+### 一个小样本任务微调的框架
+
+- 主讲人：L
+
+
+### [S3C: Self-Supervised Stochastic Classifiers for Few-Shot Class-Incremental Learning](https://link.springer.com/chapter/10.1007/978-3-031-19806-9_25)
+
+- 会议：ECCV 2022
+- 作者：Zhiming Zhou, Jiadong Liang, Yuxuan Song, Lantao Yu, Hongwei Wang, Weinan Zhang, Yong Yu, Zhihua Zhang
+- 主讲人：Z
+- 内容：
+
+### 快慢网络式持续学习与任务相似性机制的结合
+
+- 主讲人：W
+
+## 2022-11-07
+
+
+### [Cross-Domain Cross-Set Few-Shot Learning via Learning Compact and Aligned Representations](https://openreview.net/forum?id=MpJjrfSJ-Xs)
+
+- 会议：ICLR 2022
+- 作者：Wentao Chen, Zhang Zhang, Wei Wang, Liang Wang, Zilei Wang, Tieniu Tan
+- 主讲人：L
+
+
+### [Temporal Latent Bottleneck: Synthesis of Fast and Slow Processing Mechanisms in Sequence Learning](https://arxiv.org/abs/2205.14794)
+
+- 会议：arXiv 2022
+- 作者：Aniket Didolkar, Kshitij Gupta, Anirudh Goyal, Nitesh B. Gundavarapu, Alex Lamb, Nan Rosemary Ke, Yoshua Bengio
+- 主讲人：Z
+
+### [On the Effectiveness of Lipschitz-Driven Rehearsal in Continual Learning](https://arxiv.org/abs/2210.06443)
+- 发表：arXiv 2022
+- 作者：Lorenzo Bonicelli, Matteo Boschini, Angelo Porrello, Concetto Spampinato, Simone Calderara
+- 主讲人：H
+
 
 ## 2022-10-31
 

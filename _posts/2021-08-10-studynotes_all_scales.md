@@ -1,7 +1,7 @@
 ---
 title: 音阶的分类方法
 date: 2021-08-10
-categories: []
+categories: [音乐]
 tag: []
 img_path: /assets/img/
 ---
