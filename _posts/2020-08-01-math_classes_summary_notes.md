@@ -2,7 +2,7 @@
 title: 数学课程手写笔记总结
 date: 2020-08-01
 categories: [其他]
-tags: [学习笔记]
+tags: [学习笔记, 数学]
 img_path: /assets/img/
 math: true
 ---

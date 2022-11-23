@@ -2,7 +2,7 @@
 title: 读书笔记：《动手学深度学习》Part 4：复杂神经网络入门，GPU 的使用
 date: 2022-02-11
 categories: [科研]
-tags: [读书笔记, 《动手学深度学习》, 技术]
+tags: [读书笔记, 《动手学深度学习》, 机器学习, 技术]
 img_path: /assets/img/
 math: true
 ---

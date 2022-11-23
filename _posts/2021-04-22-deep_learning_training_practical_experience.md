@@ -2,7 +2,7 @@
 title: 深度学习训练实践经验
 date: 2021-04-20
 categories: [科研]
-tags: [课程笔记]
+tags: [学习笔记, 技术]
 img_path: /assets/img/
 math: true
 ---

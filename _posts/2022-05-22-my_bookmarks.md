@@ -2,7 +2,7 @@
 title: 我使用的资源网站、软件推荐
 date: 2022-05-22
 categories: [生活]
-tags: [长期更新]
+tags: [日常管理, 长期更新]
 img_path: /assets/img/
 ---
 

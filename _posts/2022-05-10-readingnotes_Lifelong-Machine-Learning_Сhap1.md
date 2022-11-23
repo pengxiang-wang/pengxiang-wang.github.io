@@ -2,7 +2,7 @@
 title: 读书笔记：《终身机器学习》第 1 章：终身学习简介
 date: 2022-05-10
 categories: [科研]
-tags: [读书笔记, 《终身机器学习》]
+tags: [读书笔记, 《终身机器学习》, 机器学习, 持续学习]
 img_path: /assets/img/
 math: true
 ---

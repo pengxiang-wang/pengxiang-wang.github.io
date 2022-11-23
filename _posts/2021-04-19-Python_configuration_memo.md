@@ -2,7 +2,7 @@
 title: 配置 Python 环境备忘
 date: 2021-04-19
 categories: [科研]
-tags: [技术]
+tags: [日常管理, 技术]
 img_path: /assets/img/
 ---
 

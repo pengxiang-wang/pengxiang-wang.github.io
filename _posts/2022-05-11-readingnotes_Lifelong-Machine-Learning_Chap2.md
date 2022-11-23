@@ -2,7 +2,7 @@
 title: 读书笔记：《终身机器学习》第 2 章：机器学习范式总结
 date: 2022-05-11
 categories: [科研]
-tags: [读书笔记, 《终身机器学习》]
+tags: [读书笔记, 《终身机器学习》, 机器学习, 持续学习]
 img_path: /assets/img/
 math: true
 ---

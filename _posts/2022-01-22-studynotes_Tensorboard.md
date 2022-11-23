@@ -2,7 +2,7 @@
 title: 学习笔记：深度学习可视化工具 TensorBoard
 date: 2022-01-22
 categories: [科研]
-tags: [技术]
+tags: [学习笔记, 机器学习, 技术]
 img_path: /assets/img/
 math: true
 ---

@@ -2,7 +2,7 @@
 title: 组会论文/报告列表（长期更新）
 date: 2022-09-19
 categories: [科研]
-tags: [长期更新]
+tags: [日常管理, 长期更新]
 img_path: /assets/img/
 math: true
 ---

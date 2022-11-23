@@ -2,7 +2,7 @@
 title: 论文笔记：Queried Unlabeled Data Improves and Robustifies Class-Incremental Learning
 date: 2022-09-23
 categories: [科研]
-tags: [论文笔记, 持续学习]
+tags: [论文笔记, 机器学习, 持续学习]
 img_path: /assets/img/
 math: true
 ---

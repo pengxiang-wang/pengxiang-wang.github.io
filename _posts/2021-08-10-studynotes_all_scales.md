@@ -2,7 +2,7 @@
 title: 音阶的分类方法
 date: 2021-08-10
 categories: [音乐]
-tag: []
+tag: [音乐理论]
 img_path: /assets/img/
 ---
 

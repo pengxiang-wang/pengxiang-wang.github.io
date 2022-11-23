@@ -2,7 +2,7 @@
 title: PyTorch 理解自定义数据集与预处理
 date: 2022-05-24
 categories: [科研]
-tags: [技术]
+tags: [机器学习, 技术]
 img_path: /assets/img/
 ---
 

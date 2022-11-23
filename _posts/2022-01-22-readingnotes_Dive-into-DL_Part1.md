@@ -2,7 +2,7 @@
 title: 读书笔记：《动手学深度学习》Part 1：预备知识，简单网络的实现
 date: 2022-01-22
 categories: [科研]
-tags: [读书笔记, 《动手学深度学习》, 技术]
+tags: [读书笔记, 《动手学深度学习》, 机器学习, 技术]
 img_path: /assets/img/
 math: true
 ---

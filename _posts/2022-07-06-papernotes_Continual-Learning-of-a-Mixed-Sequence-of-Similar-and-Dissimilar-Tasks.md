@@ -2,7 +2,7 @@
 title: 论文笔记：Continual Learning of a Mixed Sequence of Similar and Dissimilar Tasks
 date: 2022-07-06
 categories: [科研]
-tags: [论文笔记, 持续学习]
+tags: [论文笔记, 机器学习, 持续学习]
 img_path: /assets/img/
 math: true
 ---
