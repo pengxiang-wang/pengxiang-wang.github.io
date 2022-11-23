@@ -1,9 +1,10 @@
 ---
 title: LaTeX 入门（给高数 D 课上同学参考）
-date: 2022-11-24
+date: 2022-11-23
 categories: [其他]
 tags: [技术]
 img_path: /assets/img/
+math: true
 ---
 
 LaTeX 我很早就会了，本文目的是我作为助教引导《高等数学D》课程要求用 LaTeX 排版课程论文的同学快速入门 LaTeX。我将尽量以文科生友好的语言、尽量简单地描述 LaTeX 的概念和用法，以够写课程论文用为原则，不讲解写课程论文用不到的东西。
