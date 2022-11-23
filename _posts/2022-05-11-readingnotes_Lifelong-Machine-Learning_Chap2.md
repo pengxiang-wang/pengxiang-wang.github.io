@@ -88,7 +88,7 @@ math: true
 
 SCL 的做法是抽取两个任务中共现频率较高的词作为 pivot features，构造关于这些词的二分类问题，学到的网络参数 $$W$$ 就浓缩了两个领域共有的知识，也就是要迁移的知识。使用此知识的方法是：用 $$W$$ 构造一个映射 $$\theta$$ 把输入 $$\mathbf{x}$$ 映射到另一个空间，用这个新输入 $$\theta \mathbf{x}$$ （也包含 $$\mathbf{x}$$）训练模型。这个模型理论上可以在两个领域上都有不错的效果。具体算法见下图：
 
-![SCL](/assets/img/SCL_algorithm.png){:w='500'}
+![SCL](SCL_algorithm.png){:w='500'}
 
 类似的非深度学习的迁移还有对朴素贝叶斯算法下手的，即 Naïve Bayes Transfer Classifier（NBTC），不详细讲了。
 
@@ -114,7 +114,7 @@ $$\sum_{t=1}^{N} \sum_{i=1}^{n_{t}} \mathcal{L}\left(f\left(\mathbf{x}_{i}^{t} ;
 
 书中的两个例子（multi-task DNN，TDNNs）都是一个大网络，前几层是共享的，后几层独立的、与任务关联的。以第一个例子为例，模型如下图。
 
-![m](/assets/img/multi-task_example.png){:w='600'}
+![m](multi-task_example.png){:w='600'}
 
 <br>
 

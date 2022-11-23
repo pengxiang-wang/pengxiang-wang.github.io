@@ -4,6 +4,7 @@ date: 2021-08-10
 categories: [音乐]
 tag: [音乐理论]
 img_path: /assets/img/
+math: true
 ---
 
 

@@ -40,7 +40,7 @@ $$ \mathcal{L}  = \mathcal{L}^{\text{FINETUNE}} + \mathcal{L}^{\text{REVIEW}} $$
 | :-: | :-: | :-: |
 | 新来的数据 | $$\mathcal{D}_{\tau} = \{(\mathbf{x}_{i,\tau}, y_{i,\tau})_{i=1}^{n_\tau}\}$$ |  $$\mathcal{U}_\tau = \{(\mathbf{x}_{i,\tau})_{i=1}^{n_\tau}\}$$|
 |  模型与参数  |  $$X_\tau \rightarrow \mathcal{Y}_\tau$$，可看成 表示函数 $$f_\Theta : X_\tau \rightarrow \mathbb{R}^D$$ <br>和 分类器 $$h_\psi: \mathbb{R}^D \rightarrow \mathcal{Y}_\tau$$ |  只有表示 $$f_\Theta : X_\tau \rightarrow \mathbb{R}^D$$   |
-| $$\mathcal{L}^{\text{FINETUNE}} $$  | $$\mathcal{L}_{\text{SCL}}^{\text{FINETUNE}} = CE(h_\psi(f_\Theta(\mathbf{x}_{i,\tau})，y_{i,\tau})$$  |  <font color='red'> $$\mathcal{L}_{\text{UCL}}^{\text{FINETUNE}}$$ </font>|fff
+| $$\mathcal{L}^{\text{FINETUNE}} $$  | $$\mathcal{L}_{\text{SCL}}^{\text{FINETUNE}} = CE(h_\psi(f_\Theta(\mathbf{x}_{i,\tau})，y_{i,\tau})$$  |  <font color='red'> $$\mathcal{L}_{\text{UCL}}^{\text{FINETUNE}}$$ </font>|
 | $$\mathcal{L}^{\text{REVIEW}} $$  | 由现有的各种持续学习框架定义 |  <font color='red'> $$\mathcal{L}_{\text{UCL}}^{\text{REVIEW}}$$ </font>|
 
 对于不同的任务有不同的分类器（注意：$h_\psi(\cdot, \tau)$），分类器是一个比表示$f_\Theta$简单得多的网络，对每个任务 $\tau$ 都会根据当前的  $f_\Theta$ 作微调。虽然这里是有参数的，但完全可以是无参数的，如K近邻分类器。这个分类器不是持续学习的学习目标，只是模型里的一个必要的输出头。

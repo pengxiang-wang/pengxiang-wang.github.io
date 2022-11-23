@@ -58,11 +58,11 @@ math: true
 
 这里只能给一个概念上的、形而上的定义，因为终身学习的研究繁多，只有统一的思想，而没有统一的数学框架。下面就像《人工智能》课程讲的各种 agent 一样，一张流程图即可描述：
 
-![1](/assets/img/isolated_learning_paradigm.png)
+![1](isolated_learning_paradigm.png)
 
 独立式学习很简单，目标就是一个任务 $$T$$，用一个数据集 $$D$$，用学习算法学到一个模型，再去应用（测试）。
 
-![2](/assets/img/lifelong_learning_paradigm.png)
+![2](lifelong_learning_paradigm.png)
 
 终身学习的目标是一系列任务 $$T_1, \cdots, T_N$$，在处理任务 $$T_{N+1}$$ 时，不仅用它的数据集 $$D_{N+1}$$（图中①），还利用了之前存下的知识（图中②）。终身学习多了一个部件用于存储过去的知识，称为 Knowledge Base（KB）。此时应当把新任务的知识存到 KB 中（图中④），为下一个任务作准备。这样学习到模型后再去应用（测试新任务，图中③），应注意这里模型只有一个在不断改进，而不是从新开始学。
 

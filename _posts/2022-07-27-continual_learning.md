@@ -456,12 +456,12 @@ $$\frac{\partial L}{\partial w_{i j}^{l}}=\delta_{j}^{l} o_{i}^{l-1}=g^{\prime}\
 
 以下列举一些持续学习相关的参考资料与学习资源。
 
-1. 课程 Continual Learning（比萨大学）
-2. 持续学习社区 Continual AI
+1. 课程 Continual Learning（比萨大学）：<https://course.continualai.org>
+2. 持续学习社区 Continual AI：<https://www.continualai.org>
 
 
 
 <br>
 
 
-[^footnote]: [Gradient Episodic Memory for Continual Learning]()
+[^footnote]: [Gradient Episodic Memory for Continual Learning](https://proceedings.neurips.cc/paper/2017/file/f87522788a2be2d171666752f97ddebb-Paper.pdf)

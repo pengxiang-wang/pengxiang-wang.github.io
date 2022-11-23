@@ -21,7 +21,7 @@ math: true
 
 ### [Improving and Understanding Variational Continual Learning](https://arxiv.org/pdf/1905.02099.pdf)
 
-- 作者：Siddharth Swaroop∗, Cuong V. Nguyen∗, Thang D. Bui†, Richard E. Turner∗
+- 作者：Siddharth Swaroop, Cuong V. Nguyen, Thang D. Bui, Richard E. Turner
 - 内容：对上一篇文章在训练技巧上做了一点改进，同时讨论了 VCL 特有的现象——剪枝效应。作者认为剪枝效应对持续学习意义是很大的。
 
 

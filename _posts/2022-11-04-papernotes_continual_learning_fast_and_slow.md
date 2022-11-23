@@ -22,7 +22,7 @@ math: true
 - 作者：Quang Pham, Chenghao Liu, Steven C.H. Hoi
 
 
-### [Learning Fast, Learning Slow: A General Continual Learning Method based on Complementary Learning System.pdf](https://openreview.net/pdf?id=uxxFrDwrE7Y)
+### [Learning Fast, Learning Slow: A General Continual Learning Method based on Complementary Learning System](https://openreview.net/pdf?id=uxxFrDwrE7Y)
 
 - 会议：ICLR 2022
 - 作者：Elahe Arani, Fahad Sarfraz, Bahram Zonooz
@@ -53,9 +53,9 @@ math: true
 
 ![](learning-fast-learning-slow.png)
 
-## 借鉴
+# 借鉴
 
-# 应用到任务相似性的方法
+## 应用到任务相似性的方法
 
 我希望从快慢网络式持续学习中得到启发，结合到基于任务相似性的方法。落脚点暂定任务分组的 mask 方法（见 Task Grouping 论文 PPT 最后一页：应用到持续学习）。
 
@@ -71,7 +71,7 @@ math: true
 - 借鉴 Learning fast, Learning slow 的方法，网络扩张法：每个任务分组给一个网络，有多个网络而不是两个快慢网络。新加入的任务分组开辟新的网络。选择蒸馏损失时的网络的标准、更新几率都使用任务相似度。甚至可以把选择网络也改成软的：相似度与蒸馏损失项的正则化系数成正比。
 
 
-# 两个网络，训练信息更多
+## 两个网络，训练信息更多
 
 在快慢网络的方法中，有至少两套网络，直观上能获得加倍的信息（如果两套网络比较独立），很适合使用这种方法。这些方法直接套用到快慢网络中是没有意义的，必须对快慢网络有所区别地获取信息，否则不如直接不分快慢网络，而构造一个参数量二倍的网络。如何有区别地获取训练信息是重点。
 
