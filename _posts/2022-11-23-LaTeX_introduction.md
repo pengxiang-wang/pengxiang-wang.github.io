@@ -1,5 +1,5 @@
 ---
-title: LaTeX 入门（给高数 D 课上同学参考）
+title: LaTeX 入门（给高数 D 的同学参考）
 date: 2022-11-23
 categories: [其他]
 tags: [技术]
