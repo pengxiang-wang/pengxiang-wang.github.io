@@ -26,7 +26,7 @@ math: true
 - 参数值，更新前后参数的变化（可以通过梯度的大小反映）；
 - 其他指标的变化量；
 - 特征；
-- 网络的 Lipschitz 性（用 Lipschitz 常数来刻画）
+- 网络的 Lipschitz 性（用 Lipschitz 常数来刻画）；
 - 训练的 mask 重合程度。
 
 有的会在训练过程中人为引入一些额外的过程（会带来一些额外的计算量）。一个常见的是向前看（look-ahead）的方法：向前看一步的更新，计算完相关的信息后，退回不实际实施这一步更新。
@@ -53,7 +53,7 @@ math: true
 
 ## Task Grouping
 
-Task Grouping 方法原论文为[]()，是多任务场景，可以改造成迭代的持续学习场景。
+Task Grouping 方法原论文为[Efficiently Identifying Task Groupings for Multi-Task Learning](https://openreview.net/forum?id=hqDb8d65Vfh)，是多任务场景，可以改造成迭代的持续学习场景。
 
 训练信息是使用旧任务的损失，引入了额外的过程，即向新任务更新方向（损失降低方向）向前看一步，以在各旧任务上损失降低的大小作为任务相似度信息，据此划分给新任务不同的任务分组影响新任务的训练。
 
