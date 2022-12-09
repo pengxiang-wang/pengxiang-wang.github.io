@@ -169,7 +169,7 @@ LaTeX 的发明者规定了各种各样的标记，正如上面看到的，每�
 
 和 Word、PPT 一样的道理，网上也有大量现成的 **LaTeX 模板**（是 tex 文件），把它们 copy 到你的项目里，你要做的就只剩**在 LaTeX 代码里找到对应的位置填空**了。[Overleaf 社区](https://www.overleaf.com/latex/templates)有很多用户上传模板（包括北大的同学）。我也提供一个我常用的模板，使用方法如下：
 - 保存我发给大家的压缩包到电脑，在 Overleaf 新建项目时选择 Upload Project，上传此压缩包即可；
-- 或者（我的模板尚未通过 Overleaf 审核，请无视这一条）从 Overleaf 模板库中找到我的模板，链接：<>，点击 Open as Template，模板就作为一个项目复制到你的 Overleaf 项目列表里了。
+- 或者从 Overleaf 模板库中找到[我的模板](https://www.overleaf.com/latex/templates/bei-jing-da-xue-ke-cheng-lun-wen-mo-ban/yntmqcktrzfh)，点击 Open as Template，模板就作为一个项目复制到你的 Overleaf 项目列表里了。
 
 （如果编译报错，右边红红的一片，检查一下有没有像上一章说的调成 XeLaTeX 编译器）
 

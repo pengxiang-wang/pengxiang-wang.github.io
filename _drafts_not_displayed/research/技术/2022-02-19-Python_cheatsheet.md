@@ -15,6 +15,6 @@ math: true
 
 | 操作 | Numpy | Pandas | PyTorch |
 
-
+xxZX
 
 求多个点导数
