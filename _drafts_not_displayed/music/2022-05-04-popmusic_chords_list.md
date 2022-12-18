@@ -1,5 +1,5 @@
 ---
-title: 乐谱汇总：流行歌曲极简乐谱（长期更新）
+title: 乐谱汇总：流行歌曲和声分析（长期更新）
 date: 2022-05-04
 categories: [音乐]
 tags: [乐谱, 长期更新]
@@ -206,9 +206,13 @@ Am C G Dm
     - chorus: `F - G - Em - Am，F - G - C, F - G - E7- Am， Dm - Em - Am`
 
 
+# The Beatles
+
+Hey Jude
+- Mixolydian
 
 
-
+# Taylor Swift
 
 
 
@@ -228,6 +232,21 @@ Am C G Dm
 ## 其他
 
 不常听歌手的、零散的歌曲归到此类。
+
+
+
+
+### All I have to do is Dream
+
+
+
+
+
+
+
+
+
+
 
 ### 暖暖
 - 歌手：梁静茹

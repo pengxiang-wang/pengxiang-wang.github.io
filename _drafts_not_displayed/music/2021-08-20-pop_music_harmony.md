@@ -22,7 +22,7 @@ img_path: /assets/img/
 - 把这些和弦配到旋律中的方法与原则是什么，有没有什么套路？
 - 除了这几个和弦之外，有没有可能使用其他的和弦，怎么用？
 
-以下将讨论这三个问题，每一章对应一个问题。本文参考了很多官大为老师的 [NiceChord 频道]()的视频，结合自己的理解，如有误请指正。
+以下将讨论这三个问题，每一章对应一个问题。本文参考了很多官大为老师的 [NiceChord 频道]()、[David Bennett](https://www.youtube.com/@DavidBennettPiano) 的视频，结合自己的理解，如有误请指正。
 
 
 
@@ -79,27 +79,89 @@ img_path: /assets/img/
 
 以下总结这些常见的和弦进行。这些套路之所以常见，因为遵循了第一章的和声功能，一般遵循 “家 -> 桥 -> 回家的路 -> 家” 的顺序。
 
+也可以 家 -> 桥-> 家 也被允许。
+
+不是严格地固定的每小节速度一样.和弦按照稳定的周期变化
+
+Songwriter Harlan Howard once said "country music is three chords and the truth."[4]
+
+
 - 三和弦进行：
-  - 145：大调是 C-F-G-C，小调是 Am-Dm-Em-Am；
-  - 251：2516）爵士
+  - 145：大调是 C-F-G-C，小调是 Am-Dm-Em-Am；1545 Major Vamp;6545 Aeolian Vamp （david 的叫法）
+  - 1415：
+  - 415：
+  - 1454：
+
+- 加入 6
 - 四和弦进行：指由 I、IV、V、VI 级和弦组成的和弦进行，可以有很多顺序：
-  - 1645（[50年代进行、Doo-wop 进行](https://en.wikipedia.org/wiki/%2750s_progression)）：大调是 C-Am-F-G
-  - 1564（[流行朋克进行](https://en.wikipedia.org/wiki/I–V–vi–IV_progression)）：大调是 C-G-Am-F
+  - 1645（[50年代进行、Doo-wop 进行](https://en.wikipedia.org/wiki/%2750s_progression)）：大调是 C-Am-F-G，常用于西方五六十年代的老歌；
+    - 4516：Viva la vida
+  - 1564（[流行朋克进行](https://en.wikipedia.org/wiki/I–V–vi–IV_progression)）：大调是 C-G-Am-F。是流行朋克歌曲常用的进行。balance of tension release。4也是一种tension。下属和弦某种（属和弦）
+    - 轮换 5641
+    - 6415（[敏感女性进行]()）：大调是 Am-F-C-G。相当于1564的小调版本。
+    - 4156：有点 circle of fifth的 感觉，不能这么看
+    - 15b74：Make me feel my love   a natural woman Chromatic desc ending 5–6 sequence.  sequence的代表。C 到 C Mixolydian 1-5,1-5（Bb）
+    - 14b74：
+
+  - 1465：类似于 1415.6比1高。
   - 6451：大调是 Am-F-G-C
-  - 6415（[敏感女性进行]()）：大调是 Am-F-C-G
-  - 6543
-  - 4566
+  - 456：大调是 F-G-Am
+
+
+
+  - 6152（Plagal Cascade）：Am-C-G-D（boulevard of broken ）Cirle of fifth
+  - 6534（Can't Stop）：Am-G-Em-F
+  - 1524：subdominant 2->4 climb。
+  - 
+- 1245：Major scale climb：C-Dm-F-G
+- 
+
+
 - 更多：
-  - 15634125（[顺接低音（leading bass）进行、卡农进行](https://en.wikipedia.org/wiki/Pachelbel%27s_Canon)）：大调是 C-G-Am-Em-F-C-Dm-G-C。 据统计大概有 30% 的华语流行歌使用此进行。小调是 Am-Em-F-C-Dm-Am-Em-Am。本质上就是给 17654321 这个旋律配和弦。看怎么配才好听。有一定规律，见编曲教程。
-  - 4536251（[四度圈进行]()）：大调是 F-G-Em-Am-Dm-G-C，小调是 Dm-Em-C-F- Bdim-Em-Am。衍生：4536。据统计大概有 30% 的华语流行歌使用此进行。
+  - 15631415（[顺接低音（leading bass）进行、卡农进行](https://en.wikipedia.org/wiki/Pachelbel%27s_Canon)）：
+    - 3变大。 Dont look back in anger
+    - 15634125。2小、2大。2大苏联国歌
+    - 也是sequence的一个代表。17654321。
+    - 也可以看成 1-5 1-5 1-5 1-回来（turn around）
+    - 大调是 C-G-Am-Em-F-C-Dm-G-C。 据统计大概有 30% 的华语流行歌使用此进行。。
+    - 本质上就是给 17654321 这个旋律配和弦。看怎么配才好听。有一定规律，见编曲教程。
+  
+  - 4536251（[]()）：五度向前推演，弦是这样的：FMaj7 - Bm7b5 - Em7 - Am7 - Dm7 - G7 - CMaj7。但是由于Bm7b5和弦在大调里不常用，所以使用它的顺阶和弦，G和弦。
+  - 正过来看就是四度。大调是 F-G-Em-Am-Dm-G-C，小调是 Dm-Em-C-F- Bdim-Em-Am。衍生：4536。据统计大概有 30% 的华语流行歌使用此进行。
+    - 4536（王道进行）：讲故事，娓娓道来。
+    - 2536：
+    - 6251：[Circle progression](https://en.wikipedia.org/wiki/Vi–ii–V–I)
+      - 1625：
+    - 251：(https://en.wikipedia.org/wiki/Ii–V–I_progression)      2516）爵士
+    - 6251（大调）[Ragtime progression]() a chain of secondary dominants following the circle of fifths
+
+文艺复兴时期，16th C
+Passamezzo moderno：上面的大调形式。  C	F	C	G	C	F	C–G	C
+
+Folia
 
 
+爵士乐常用的和弦进行：
+- 8-bar blues
+- 12 bar Blues
+- 16 bar blues
+- Bird Change
+- Rhythm Change：https://en.wikipedia.org/wiki/Rhythm_changes
+- Stomp progression
+- ii–V–I with tritone substitution  (♭II7 instead of V7)
+- ♭III+ as dominant substitute  
+- viio7/V–V–I (common in ragtime)
+- Backdoor progression(front door is V7)
+- Coltrane changes
+- Irregular resolution
+- ii–V–I progression
+- Montgomery–Ward bridge
 
-
+V–IV–I turnaround
 
 
 （终止式：正格终止，半终止，假终止，变格终止）
-
+♭VII–V7 cadence
 
 
 # 和弦进行改造技巧
@@ -110,9 +172,9 @@ img_path: /assets/img/
 
 ## 接和弦的方法
 
-### 副属和弦
+### 副属和弦（secondary dominant）
 
-在和弦前面加 5 级大三和弦（属七和弦）。原理：想解决。会引入很多。
+在（非主和弦）和弦前面加 5 级大三和弦（属七和弦）。原理：想解决。会引入很多。
 
 例：C-G -> C-**D**-G
 C-Dm -> C-A7-Dm
@@ -135,6 +197,14 @@ Db。
 # modal interchange
 
 小调借用同一级的大调和弦，反之也可以。
+- Norweign Wood（Mixolydian -> Dorian)
+- 
+
+
+
+Modal Quality? 大调转化到关系的大小调，C 大调 到 A 小调，A 和声大调 到 E Phrygian Dominant、根据同一调式。
+
+> 左边的谱号，只是标明了什么音可以用。而不是确定是什么大调。。
 
 
 ## 加入 251
