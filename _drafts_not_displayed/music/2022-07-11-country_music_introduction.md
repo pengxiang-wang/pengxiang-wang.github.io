@@ -22,6 +22,11 @@ img_path: /assets/img/
 
 维基百科按照年代分感觉很科学。我将生年标注出来，以便对历史有一个认识。
 
+
+
+**
+Songwriter Harlan Howard once said "country music is three chords and the truth."[4]
+**
 # 第一代：乡村音乐诞生
 
 (1920s)
