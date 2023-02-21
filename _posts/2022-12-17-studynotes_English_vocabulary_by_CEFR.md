@@ -30,130 +30,149 @@ img_path: /assets/img/
   - *xxx*：代表只知道常见意思，不知道冷门释义的单词。通常是看到知道什么意思，但是自己不会使用。
 - 像之前整理日语单词一样，子序号下列举单词注意点、用法或进一步解释含义；对汉语解释不清楚的，附上英文释义；
 - 只强调含义，不讲语法，不讲搭配，但标注词性，名词会标可数、不可数、单复数同形等信息；动词会标及物、不及物。需要强调的词性会加粗标出；
-- 我也会积累不在该单词表出现的单词，它们一定超过了 A1-C2 的范围，是冷门、不常见的单词。这些单词我会按我自己的理解划分到这个主题分类中。
+- 我也会积累不在该单词表出现的单词，它们一定超过了 A1-C2 的范围，是冷门、不常见的单词。这些单词我会按我自己的理解划分到这个主题分类中；
+- 同义词、近义词目前不考虑，累完了以后再考虑。将单独在一个地方写同义词的知识，参考同义词词典。
 - 这个单词表有英式英语和美式英语两种，我不清楚对里面单词有何影响，先只整理英式英语，之后再补上美式英语和它有区别的地方。
 
+# 词性
+
+单词表的第二列表示词性，以以下符号表示：
+
+https://dictionary.cambridge.org/zhs/help/codes.html
+
+单复数比较模糊的，例如 band，单复数都可以的，只写名词 n。
 
 
-# 动物
+
+
+- 名词
+  - 可数名词：C
+    - 单复数同形
+    - 复数特殊形式（违反：1. 加s；2. s、x、sh、ch 加 es；3. 辅音字母+y 变 i 加 es；4. f、fe 变 ve 加 s），单独标注
+  - 不可数名词：U
+  - 单数名词：S
+  - 复数名词：plural
+  - 可数或不可数都可以：C/U
+
+# 动物（animals）
 
 ##### A1
 
 |:-: | :-: | :-: | ::-|
-|animal|  C | 动物 |  狭义的语境一般不包括人类、鸟、鱼、昆虫等|
-|bird|  C | 鸟  |     | 
-|cat |   |  猫  |   |
-|cow |   | 奶牛，母牛|     <font color='grey'>a large female farm animal kept to produce meat and milk</font> |
-| dog |   |狗 |   |
-|fish |   |鱼 |   |
-|horse|   | 马 |   |
-|pet|    | 宠物 |   |
-|pig|   |  猪 |   |
-|sheep|   | 绵羊 |   |
-|zoo|   | 动物园|    |
+|animal|   动物 |  C | |
+|bird|  鸟  |  C |   | 
+|cat |    猫  | C |   |
+|cow |  奶牛，母牛| C |  |
+|dog |狗 | C |  |
+|fish | 鱼 | C |  |
+|horse|  马 | C |  |
+|pet| 宠物 | C |  |
+|pig| 猪 | C |  |
+|sheep| 绵羊 | C，单复数同形  |   |
+|zoo| 动物园| C，复数 zoos |    |
 
 ##### A2
 
 |:-: | :-:  | :-: | ::-|
-| baby|    | 幼年动物 |<font color='grey'>a very young animal</font>|
-|bear|   |  熊|    | 
-|chicken|    |鸡，小鸡|  作动物时单复数无特殊变化|
-|dinosaur|    |恐龙  |   |
-|duck |    |  鸭 |   |
-|elephant |    |  大象 |   |
-|insect |    | 昆虫 |   |
-|lion|    |  狮子 |    |
-|monkey|   |  猴子|     |
-|mouse|    | 老鼠  |  <font color='grey'>a small animal with fur and a long, thin tail</font><br>家鼠/小白鼠，倾向宠物，褒义|
-| rabbit|    |  兔子|    |
-|rat|    | 老鼠 |  <font color='grey'>an animal that looks like a large mouse and has a long tail</font><br>大老鼠，倾向害虫，贬义|
-|snake|    |蛇|    |
+| baby|   幼年动物 |  C |  |
+|bear|  熊|  C |  | 
+|chicken|  鸡，小鸡| **C** |   |
+|dinosaur| 恐龙  | C |  |
+|duck | 鸭 | C |  |
+|elephant | 大象 | C |  |
+|insect | 昆虫 | C |  |
+|lion| 狮子 |  C | |
+|monkey| 猴子|  C |   |
+|mouse|   老鼠  | C，复数 mice | 家鼠/小白鼠，倾向宠物，褒义|
+|rabbit|   C |  兔子|  C |  |
+|rat|  老鼠 | C |  大老鼠，倾向害虫，贬义|
+|snake| 蛇|  C |   |
 
 ##### B1
 
 |:-: | :-: | :-: | ::-|
-|ant|   |蚂蚁|    |
-|bat|   |蝙蝠|    |
-|bee|   |蜜蜂|    |
-|bug|   |虫子  |  倾向于非常小的虫子|   
-|bull|   |公牛，公x（其他动物）| <font color='grey'>a male cow, or the male of particular animals such as the elephant or the whale</font>|
-|butterfly|   |蝴蝶|    |
-|cage|   |（关动物的）笼子|    |
-|**<u>calf</u>**|   |小牛，牛犊 |<font color='grey'>a young cow</font> |
-|camel|   |骆驼|    | 
-|cattle|  单复数同形 |牛  | <font color='grey'>male and female cows kept on a farm for their milk or meat</font> <br>一般指在牧场中蓄养的家牛|
-|creature|   |生物|  狭义的语境一般指活物，因此植物不算在内|
-|dolphin|   |海豚|    |
-|donkey|   |驴|    |
-|**fly**|   |苍蝇|    |
-| frog|   |青蛙|    |
-| **fur**|   |（动物的）毛|  不包括鸟，鸟的是羽毛（feather）|
-|giraffe|   |长颈鹿|    |
-|goat|   |山羊|    |
-|kangaroo|   |袋鼠|    |
-|**<u>kitten</u>**|   |小猫 | <font color='grey'>a young cat</font>|
-|**mosquito**|   |蚊子|    |
-|**parrot**|   |鹦鹉|    |
-|penguin|   |企鹅|    |
-|**puppy**|   |小狗 |<font color='grey'>a young dog</font>|
-|shark|   |鲨鱼|    |
-| spider|   |蜘蛛|    |
-|tiger|   |老虎|    |
-|*web*|   |蜘蛛网|    |
-|whale|   |鲸|    |
-|wing|   |翅膀|    |
+|ant| 蚂蚁|  C |   |
+|bat| 蝙蝠| C |   |
+|bee| 蜜蜂| C |   |
+|bug| 虫子 |  C  |  倾向于非常小的虫子|   
+|bull| 公牛；公x（其他动物如大象、鲸）| C  |   |
+|butterfly|  蝴蝶| C |   |
+|cage|（关动物的）笼子| C  |    |
+|**<u>calf</u>**| 小牛，牛犊 | C |   |
+|camel| 骆驼| C |   | 
+|cattle| 牛  |  **plural** | 一般指在牧场中蓄养的家牛|
+|creature| 生物 |  **C**  | 狭义的语境一般指活物，因此植物不算在内|
+|dolphin| 海豚 |  C  |   |
+|donkey| 驴|  C  |   |
+|**fly**| 苍蝇| C |    |
+|frog| 青蛙|  C |   |
+|**fur**|（动物的）毛|  C/U | 不包括鸟，鸟的是羽毛（feather）|
+|giraffe| 长颈鹿|  C，单复数同形或直接加 s  |   |
+|goat| 山羊 | C |    |
+|kangaroo| 袋鼠 | C，单复数同形或直接加 s |    |
+|**<u>kitten</u>**| 小猫 | C |   |
+|**mosquito**| 蚊子|  C，复数加 s 或 es |    |
+|**parrot**| 鹦鹉| C |    |
+|penguin| 企鹅| C |   |
+|**puppy**| 小狗 | C |   |
+|shark| 鲨鱼 | C，单复数同形或直接加 s |   |
+|spider| 蜘蛛 | C  |    |
+|tiger| 老虎| C |    |
+|*web*| 蜘蛛网|  C |   |
+|whale| 鲸|  C |    |
+|wing| 翅膀|  C  |    |
 
 ##### B2
 
 |:-: | :-:  | :-: | ::-|
-|bark|  vi. | 汪（狗叫）|主语：狗|
-|biological|   |生物的 |<font color='grey'>connected with the natural processes of living things</font>|
-|*breed* |n.|  品种|    |
-|breed |vt.|饲养 |<font color='grey'>to keep animals for the purpose of producing young animals</font><br>主语：人，宾语：动物|
-|cell|   |细胞|    |
-|**collar**|   |（动物的）项圈|    |
-|crocodile|   |鳄鱼|    |
-|deer|   |鹿|    |
-|eagle|   |鹰|    |
-|egg|   |卵|    |
-|feather|   |羽毛|    |
-|fox|   |狐狸|    |
-|lay eggs|   |产卵|    |
-|**<u>leopard</u>**|   |豹|    |
-|owl|   |猫头鹰|    |
-|**paw**|   |（动物的）爪子，掌|  多表示比较软的四足兽的爪子或掌，很少用于鸟|
-|polar bear|   |北极熊|    |
-|seal|   |海豹|    |
-|species|   |物种|    |
-|swan|   |天鹅|    |
-|tail|   |尾巴|    |
-|*territory*|   |（人或动物的）领地|    |
-|trap|   |（抓动物的）陷阱|    |
-|**<u>wasp</u>**|   |马蜂|    |
-|wolf|   |狼|    |
-|worm|   |虫子|    |
-|zebra|   |斑马|    |
+|bark| 汪（狗叫）| I | 主语：狗|
+|biological| 生物的；与生命过程有关的 | adj |   |
+|*breed* |  品种| C |   |
+|breed |（为育种目的）饲养 | T | 主语：人，宾语：动物|
+|cell| 细胞 |  C  |    |
+|**collar**| （动物的）项圈|  C |    |
+|crocodile| 鳄鱼 | C，单复数同形或直接加 s |    |
+|deer|鹿| C，单复数同形 |    |
+|eagle| 鹰| C |   |
+|egg| (鸟类的）卵 | C |    |
+|feather| 羽毛 | C |   |
+|fox| 狐狸| C  |    |
+|lay eggs|  产卵|   |   |
+|**<u>leopard</u>**| 豹|  C |    |
+|owl|  猫头鹰|  C |     |
+|**paw**| （动物的）爪子，掌| C | 多表示比较软的四足兽的爪子或掌，很少用于鸟|
+|polar bear| 北极熊|    |   |
+|seal| 海豹 | C |     |
+|species| 物种| C，**单复数同形** |    |
+|swan| 天鹅| C |    |
+|tail| 尾巴| C |   |
+|*territory*| （人或动物的）领地 | C/U |    |
+|trap| （抓动物的）陷阱 | C |   |
+|**<u>wasp</u>**|  马蜂|  C |   |
+|wolf| 狼|  C  |  |
+|worm| 蠕虫 |  C  |  |
+|zebra| 斑马|  C，单复数同形或直接加 s  |  |
 
 ##### C1
 
 |:-: | :-:  | :-: | ::-|
-|**beak**|   |鸟喙|    |
-| horn|   |（动物的）角|    |
-|mammal|   |哺乳动物|    |
-|pony|   |小马 |<font color='grey'>a small horse</font>|
-|**<u>predator</u>**|   |食肉动物|    |
-|**reptile**|   |爬行动物|    |
+|**beak**| 鸟嘴，鸟喙|  C  |   |
+| horn| （动物的）角|  C  |   |
+|mammal|哺乳动物|  C  |   |
+|pony| 小马 | C  |    |
+|**<u>predator</u>**|食肉动物|  C  |   |
+|**reptile**| 爬行动物|  C  |     |
 
 ##### C2
 
 |:-: | :-:  | :-: | ::-|
-| *cry*|   |（动物的）叫声 |<font color='grey'>a sound that a particular animal or bird makes</font>|
-|*nest* | vi.| 住在巢里，筑巢 |<font color='grey'>to live in a nest or build a nest</font>|
-|nest| nc.|鸟巢|    |
-|*pack*|   |（量词）一群动物| <font color='grey'>a group of animals that live together, especially those of the dog family</font><br>常用于狗、狼等动物|
-|**<u>prey</u>**|   |猎物|    |
-|saddle|   |马鞍|    |
-|**<u>trail</u>**|   |（动物的）踪迹、痕迹|    |
+| *cry*|  （动物的）叫声 |  C |    |
+|*nest* |  巢居，筑巢 |  I  |      |
+|nest| 鸟巢|  C   |     |
+|*pack*|（量词）一群（动物）|  C   | 常用于狗、狼等群居动物|
+|**<u>prey</u>**| 猎物| U   |    |
+|saddle| 马鞍|  C  |    |
+|**<u>trail</u>**| （动物的）踪迹、痕迹|  C  |   |
 
 
 # 艺术、传媒领域
@@ -161,78 +180,188 @@ img_path: /assets/img/
 ##### A1
 
 |:-: | :-:  | :-: | ::-|
-|band|   |  乐队 |    |
-|book|   |  书 |    | 
-|camera|   | 照相机 |   | 
-|film|   | 电影|     | 
-|group|   | 组合（指明星） |    |
-|guitar|   | 吉他 |     |
-|movie |    |  电影 |   美式英语   |
-|music |    |  音乐 |     |
-|newspaper |   | 报纸 |     | 
-|page |   | 页|    | 
-|photo|   | 照片 |    |
-|radio |   | 收音机 |    |
-|television |   |  电视 |    | 
-| *the radio* |   | 广播节目|   |
+|band|  乐队 |    |    | 
+|book|   书 |   C |   | 
+|camera|  照相机 |  C |    | 
+|film|电影|  C/U   |  US: movie |  
+|group| （流行音乐）组合 |    |   |
+|guitar|  吉他 |  C |   |
+|music |  音乐 |  U |     |
+|newspaper |  报纸 |   C |     | 
+|page | 页|  C  |   | 
+|photo| 照片 |  C，复数加 s  |     |
+|radio |  收音机 |  C，复数加 s  |    |
+|television/TV | 电视 |  C   |    | 
+| *the radio* | 广播节目|    |   |
 
 ##### A2
 
 |:-: | :-:  | :-: | ::-|
-| advertisement |   | 广告 |    | 
-| album |    | 专辑 |    |
-| art |    | 艺术 |    |
-| cartoon |    | 漫画 |   |
-| cartoon |    | 动画片 |    | 
-| channel |   |  电视频道 |    | 
-| classical music |   | 古典音乐 |   |
-| clown |    |  小丑 |     | 
-| comic |    | 连环画 |    |
-| concert |    | 音乐会 |     | 
-| dance |    | 舞蹈（技能） |    |
-| *dance* |    | 舞会 |     |
-| dancer |     | 舞者 |    |
-| drum |   | 鼓 |    |
-| hip-hop |   | 嘻哈乐 |   |
-| instrument |    | 乐器 |     |
-| jazz |     | 爵士乐 |    | 
-| keyboard |    | 键盘 |      | 
-| magazine |    | 杂志|    | 
-| musical |    | 音乐的 |      | 
-| newspaper |   | 报纸的纸 |    |
-| on |  prep.  | 在……播出 | used to show the way in which something is recorded or broadcast| 
-| opera |    |  歌剧 |  特指歌剧，没有广义戏剧的含义  |
-| painter |   |  画家 |    |
-| painting |   | 画画 |    |
-| painting |   |  画作 |  |
-| photograph |    | 照片 |    | 
-| photography |    |  摄影 |    |
-| piano |   | 钢琴 |     |
-| *play* |   | 剧本，戏剧| a piece of writing that is intended to be acted in a theatre or on radio or television   | 
-| player  |   | 演奏者 |    |
-|pop |   |  流行音乐 |    |
-|**poster** |   | 海报  |     | 
-| programme |   |  节目   |     |
-| rap |    |  说唱 |    |
-| rock |   | 摇滚 |    |
-| show |    | 演出，节目 |    |
-| song |    | 歌曲|    |
-| soul |   | 灵魂乐 |     |
-| stage |   | 舞台|    |
-| star |   | 明星 |   |
-| tune |   | 曲调 |   |
-| violin |   | 小提琴  |    |
+| advertisement / ad / advert |  广告 |  C  |    | 
+| album |   专辑 | C  |   |
+| art |   艺术 |  U  |
+| cartoon |    漫画 |  C  |  |
+| cartoon |   动画片 |  C  |     | 
+| channel |    电视频道 | C |     | 
+| classical music |  古典音乐 |    |    |
+| clown |  小丑 |  C |    | 
+| comic |  连环画 | C  |    |
+| concert |  音乐会 |  C |    | 
+| dance | 舞蹈（技能） |  U  |   |
+| *dance* | 舞会 |  C  |   |
+| dancer | 舞蹈演员 |  C  |   |
+| drum | 鼓 |  C |     |
+| hip-hop | 嘻哈乐 | U |   |
+| instrument |  乐器 | C |     |
+| jazz |  爵士乐 |  U |  | 
+| keyboard |  键盘乐器 |  C  |     | 
+| magazine | 杂志|  C |  | 
+| musical |  音乐的 |   adj |    | 
+| newspaper | 报纸的纸 | U  |    |
+| on |   在……(记录、录制或演出）播出 | prep |  | 
+| opera | 歌剧 |  C/U | 特指歌剧，没有广义戏剧的含义  |
+| painter | 画家 |  C |  |
+| painting |  绘画（技能） |  U  |  |
+| painting |   画作 | C/U   |    |
+| photograph |  照片 | C |    | 
+| photography | 摄影 | U |    |
+| piano |钢琴 |  C/U，复数加 s|    |
+| *play* | 剧本，戏剧| C |   | 
+| player  | （乐器）演奏者 | C |    |
+|pop |  流行音乐 |  U |   |
+|**poster** | 海报  | C|     | 
+| programme |   节目   | C |     |
+| rap |  说唱乐 | U |   |
+| rock | 摇滚乐 | U  |    |
+| show |  演出，节目 | C |    |
+| song |  歌曲|  C |   |
+| soul |   灵魂乐 | U |    |
+| stage |  舞台| C |    |
+| star |  明星 |  C |   |
+| tune |  曲调 |  C |  |
+| violin | 小提琴  | C |    |
 
 ##### B1
 
-| *a horror film/movie/story* | 恐怖片/故事 |    |
-| act  |  vi./ vt.   | 表演  |  宾语可以是演出、角色等  |
-| act |  C  |  （戏剧或歌剧的）幕  |    |
-| ad |   | 广告 |    |
-| **<u>advert</u>** |  广告 |   | 
-| advertise |    | 广告，宣传 |   |
-| **animated** |   | 动画的 |    | 
-| **animation** |    | 动画片 |   |
+|:-: | :-:  | :-: | ::-|
+| *a horror film/movie/story* | 恐怖片/故事 |   |      |
+| act  | 表演  |  I/T |  宾语可以是演出、角色等  |
+| act |  （戏剧或歌剧的）幕  |  C  |   |
+| advertise | 广告，宣传 | I/T |    |
+| **animated** | 动画的 | adj |    | 
+| **animation** |  动画片 | C/U |      |
+| appear in/at/on |  在……中出演 |   |
+| article |  文章 |  C  |   |
+| audience |  观众，听众，读者  |   |      |
+| ballet | 芭蕾舞剧 | C/U  |    | 
+| biography | 传记 | C/U |    |
+| **cable** | 有线电视，有线电话 | U  |    |  
+| chapter | 章节 |   C  |   | 
+| character | 人物，角色 |  C  |   |
+| **<u>chat show</u>** | 访谈节目 |   | 
+| circus | 马戏团，马戏演员，马戏表演 | C/S |   |  
+| comedy | 喜剧 | C |   | 
+| *comic* | 滑稽的，好笑的 | adj |   | 
+| *content* | （文章、演讲、电影等的）内容（信息） | S/U |  | 
+| *cultural* |  文艺的 |  adj |    | 
+| culture | 文艺 | U  |    | 
+| disc/disk | 唱片，光盘 | C |   |    
+| display | 陈列 |  T  |   | 
+| documentary | 纪录片 | C  |   | 
+| drama | 戏剧  |  C/U |   | 
+| entertainment | 娱乐节目，娱乐| C/U |  |   
+| exhibition | 展览会 |   |   | 
+| festival | 节日 |  C |   | 
+| fiction | 小说 | U |     | 
+| flute | 长笛  |  C |   |
+| folk | 民谣乐  | U  |   |
+| folk | 民间的，民俗的（艺术） |  adj |    | 
+| gallery | 美术馆，画廊 |  C |   | 
+| graphics | （计算机）图像 | plural |    | 
+| headline | （报纸）标题，头条 | C  |   |
+| *hero* |  男主角 | C |    |
+| *interval* | 中场休息 | C | US: intermission | 
+| *lead* | 首席的，演主要角色的 | adj |   | 
+| literature | 文学 | U |   | 
+| live | 直播的 | **adj** |   |
+| novel | 长篇小说 | C |   | 
+| on display | 正在展出 |   |  |
+| orchestra | 交响乐团 |   |   |
+| *paper* | 报纸 | C  |    | 
+| *part* | 角色，扮演的部分 | C |   | 
+| performance |  表演，演出 |  C |   |
+| performer | 表演者，演员 |  C |  |
+| *picture* |  电影  | C  |   |
+| poem | 诗 | C |   | 
+| poet | 诗人 |  C |  |
+| poetry | （总称）诗，诗歌 | U  |   |
+| publish | 出版，发表 |  T |    |
+| record |  唱片；单曲 |  C |   | 
+| recording | 录音，录像；唱片 | C |    |
+| role | 角色 |  C  |   | 
+| romantic | 爱情的，情爱的 |  adj |    | 
+| scene | 场，场景；镜头 |  C |   | 
+| science fiction | 科幻小说/电影 |  U |    | 
+| sculpture |  雕塑 | C/U |  | 
+| series|  系列节目，剧集 | C，单复数同形 |   | 
+| set | （故事，电影等）以……为背景 | T，用被动 |  | 
+| soap/ soap opera | 连续剧，肥皂剧 |  C |   | 
+| *star* | 主演 | T | 主语：人，宾语：角色，电影 |
+| *station* | 电台，电视台 | C |   | 
+| statue | 雕塑 |  C |   |
+| television | 电视广播业 | U  |   | 
+| the news| 重大事件的宣布 |   |   |
+| thriller | 惊悚小说/电影 |  C |   |
+| trumpet |  小号 | C  |   |
+
+
+
+##### B2
+
+| abstract | 抽象（派）的 | adj  |    |
+| apperance | （艺人的）亮相，露面|  C |   |
+| artistic | 艺术的，与艺术有关的 | adj |  | 
+| *artistic* | 有艺术天赋的，有艺术鉴赏力的 |  adj |  |
+| arts |   |   |   |
+| *audience* | 观众人数，听众人数，读者人数 |    |    |
+| background | 背景 |  C |   |
+| beat | 节拍，拍子 | C/U  |   |
+| bestseller | 畅销的东西 | C |    |
+| broadcast | 播送（节目），广播 | I/T |    |
+| capture | 拍摄   |   T | capture sb/sth on camera/film, etc. | 
+| **cast** | 全体演员  |   |    |
+| cello | 大提琴 |   |   |
+| choir | 合唱团，唱诗班 |   |   |
+| classic | 经典的    |  adj |    |
+| *classic* | 优秀的，一流的 | adj |   |
+| *classic*  |  经典作品，杰作 | C  |   |
+| column | （报纸或杂志的）栏 |  C |    |
+| **comedian** | 喜剧演员 | C |   |
+| *commercial* | 商业广告 | C |   |
+| compose | 作曲，创作 | I/T |    | 
+| composition | 音乐作品 | C |  |
+| conduct| 指挥（合唱团，乐队等） |  I/T |    |
+| contents | 目录 | plural |  |
+| craft | 工艺，手艺；技术 | C/U |  |
+| *display* | 演出 |  |  | 
+| edition | 版本  |  C |   |
+| episode | 一集 | C |   |
+| go | （歌曲）进行，唱到 | I/T |   | 
+| *guest* | 特邀嘉宾 | C  |   |
+| image | 图像 | C |    |
+| *issue* | （报刊的）期 |   C|    |
+| *item* | （一条）新闻 | C |  |
+| literary | 文学的，与文学有关的 |  adj |  |
+| lyrics | 歌词 | plural  |  |
+| musical |  音乐剧 | C |   |
+| orchestral | 交响乐的 | adj |   |
+| *original* | 原作的，真迹的 | adj |  |
+| *picture* | （电视或电影的）图像，画面 | C |   |
+| piece | 作品 | C | masterpiece | 
+| portrait | 肖像 | C |    | 
+| present | 主持（电视或广播节目） | T |  英式英语 |
+| presenter | 主持人 |   C | 英式英语 |
+| print |
 
 
 

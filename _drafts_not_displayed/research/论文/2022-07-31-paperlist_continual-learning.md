@@ -17,9 +17,6 @@ math: true
 {:toc}
 
 
-
-
-
 ---------
 
 对一些重要的论文，标识。
@@ -33,13 +30,14 @@ math: true
 
 # 综述
 
-### [Lifelong Learning Algorithms]()
-- 期刊：
-- 作者：Thrun
+### [Lifelong Learning Algorithms](https://link.springer.com/book/10.1007/978-1-4615-5529-2)
+- 图书：《Learning to learn》，1998，第 8 章
+- 作者：[Sebastian Thrun](https://zh.wikipedia.org/zh-cn/塞巴斯蒂安·特龙)
+- 内容：《Learning to learn》这本书是元学习领域的开山鼻祖，Thrun 是元学习和持续学习早期最重要的研究者之一。这本书主要是系统地引入了元学习的概念，中间穿插总结了当时多任务学习和持续学习的算法。（我一直没办法看到这本书，那个 Springer 用学校登录不上，要花钱 TAT）
 
-### [A continual learning survey: Defying forgetting in classification tasks](https://arxiv.org/pdf/1909.08383.pdf)
-- 期刊：
-- 作者：Matthias De Lange, Rahaf Aljundi, Marc Masana, Sarah Parisot, Xu Jia, Ales Leonardis, Gregory Slabaugh, Tinne Tuytelaars
+### [A continual learning survey: Defying forgetting in classification tasks](https://ieeexplore.ieee.org/document/9349197)
+- 期刊：TPAMI 2021
+- 作者：比利时鲁汶大学：Matthias De Lange, Rahaf Aljundi；西班牙 UAB：Marc Masana；Sarah Parisot, Xu Jia, Ales Leonardis, Gregory Slabaugh, Tinne Tuytelaars
 - 内容：
 
 
@@ -58,9 +56,6 @@ math: true
 
 
 # 大概念/理论
-
-
-
 
 ### [CHILD: A First Step Towards Continual Learning](https://link.springer.com/content/pdf/10.1023/A:1007331723572.pdf)
 - 期刊：Machine Learning 1997

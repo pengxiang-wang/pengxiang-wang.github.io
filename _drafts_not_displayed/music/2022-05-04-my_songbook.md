@@ -6,93 +6,19 @@ tags: [乐谱, 长期更新]
 img_path: /assets/img/
 ---
 
-本文是和弦 pattern 理论笔记的实践篇，会分析大量的曲目。按照歌手组织
-
-
-
-会根据我的嗓音调整到最适合的调。
 
 
 
 
-本文按歌手汇总了流行歌曲的乐谱。我所谓的极简指的是只标注**和弦进行**和曲式（歌曲的结构）。这些都是我熟悉的歌，旋律默认知道。
+# 宫崎骏
 
-本文就是为了在**玩**吉他（现在还有手风琴）时，不去现场找谱子！而且网上的谱子不够简略，其实很多歌就是几个和弦在重复，吉他谱非要把整个歌都展开来！只要看这一份，就可以来个歌曲串烧啦！
+## 天空之城
 
-若我感兴趣 + 有时间，我会挑一些比较适合的歌曲编配成手风琴独奏曲。敬请期待！
-
-注：以下和弦进行一律统一到 C 调，其他调自行推演（手风琴较方便，变调后和弦相对位置不变）。
+Am G Em 
 
 
 
-# Adele
 
-## Chasing Pavements
-
-6543456 小调色彩 Am G-Em F-Dm E F G 6变为1 C Am Em 
-
-C G F E F G 
-
-6543 
-
-特点： Am和C互换  G和Em 互换 Dm和F互换
-
-## Make You Feel My Love
-
-Adele 的歌擅长大小调转换
-
-卡农变体
-C G (Bb F Fm) C (D7) G C
-
-## Don't You Remember
-
-Eb 调
-
-找不到规律
-
-C F  Am C F
-C G F Am F
-
-G Am C E G
-
-C F  Dm G C
-
-F 
-
-C F Dm G C
-
-## Set fire to the rain
-
-Am C G Dm 
-
-## Someone Like You
-、
-1364
-
-1564
-
-
-## 五月天
-
-### 拥抱
-
-4321
-
-
-### 温柔
-
- 
-
-
-
-- 专辑：五月天第一张创作专辑，1999
-- 原调：B
-- - 选调：
-- 曲式：
-    - intro - verse1 - verse2 - chorus - 
-    - intro - verse1 - verse2 - chorus...
-- 和弦进行
-    - 全部： `Fmaj7 - Em - Dm7 - C`
 
 
 

@@ -330,14 +330,14 @@ Mixolydian 的 V 级和弦变成了小三和弦 Gm，解决倾向不如大三和
 |  Fmaj7 |IV（下属和弦） | VI |
 |  G7 |V（属和弦）  | VII |
 | Am7 |VI |  I（主和弦） |
-| Bdim7 |VII |  II |
+| Bø |VII |  II |
 
-涉及 4 种七和弦——[大七和弦](https://en.wikipedia.org/wiki/Major_seventh)（maj7）、[小七和弦](https://en.wikipedia.org/wiki/Minor_seventh_chord)（m7）、[属七和弦](https://en.wikipedia.org/wiki/Dominant_seventh_chord)（7）、[半减七和弦](https://en.wikipedia.org/wiki/Half-diminished_seventh_chord)（dim7、m7-b5），还有一种[小大七和弦](https://en.wikipedia.org/wiki/Minor_major_seventh_chord)（mM7）未涉及。在上述和弦中：
+涉及 4 种七和弦——[大七和弦](https://en.wikipedia.org/wiki/Major_seventh)（maj7）、[小七和弦](https://en.wikipedia.org/wiki/Minor_seventh_chord)（m7）、[属七和弦](https://en.wikipedia.org/wiki/Dominant_seventh_chord)（7）、[半减七和弦](https://en.wikipedia.org/wiki/Half-diminished_seventh_chord)（ø、m7-b5），还有一种[小大七和弦](https://en.wikipedia.org/wiki/Minor_major_seventh_chord)（mM7）未涉及。在上述和弦中：
 
 - 属七和弦：G7 用于解决到主和弦 C，构成 V7->I 完全终止式；
 - 大七和弦：Cmaj7、Fmaj7；
 - 小七和弦：Dm7、Em7、Am7 比较常用；
-- 半减七和弦：Bdim7。
+- 半减七和弦：Bø，作为小调的二级和弦，类似大调的 Dm7。
 
 
 ### 挂留和弦、附加和弦、六和弦

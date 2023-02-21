@@ -26,7 +26,6 @@ img_path: /assets/img/
 
 
 
-
 ---------
 
 ![p](Python_logo.png){:w='300'}
