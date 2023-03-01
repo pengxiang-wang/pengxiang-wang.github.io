@@ -16,12 +16,7 @@ math: true
 
 
 - 会议：CVPR 2021
-- 作者：
-    - Mohamed Abdelsalam, Mojtaba Faramarzi - 蒙特利尔大学，[Mila-Quebec AI Institute](https://mila.quebec)，博士生
-    - [Shagun Sodhani](https://shagunsodhani.com) - Facebook
-    - [Sarath Chandar](http://sarathchandar.in) - 蒙特利尔工程学院，加拿大高等研究院（CIFAR），[Mila-Quebec AI Institute](https://mila.quebec)
-- 内容：提了一个持续学习的新场景，是类别增量学习的推广：允许数据包含多个由粗到细的标签，允许旧数据携带细标签进入新任务。
-
+- 作者：蒙特利尔大学等
 
 ------------------------------
 

@@ -20,8 +20,6 @@ math: true
   - [Zixuan Ke](https://underline.io/speakers/97701-zixuan-ke)：伊利诺伊大学芝加哥分校，博士生，后者的学生。
   - [Bing Liu](https://www.cs.uic.edu/~liub/)：伊利诺伊大学芝加哥分校，教授。他是《终身机器学习》的作者，我有系列[读书笔记](https://pengxiang-wang.github.io/tags/终身机器学习/)。
   - [Xingchang Huang](https://people.mpi-inf.mpg.de/~xhuang/)：苏黎世联邦理工大学，博士生。
-- 内容：提出了一个持续学习模型。它不仅关注不相似任务的灾难性遗忘，还关注相似任务的知识迁移。本文是持续学习与迁移学习相结合。
-
 
 
 --------------

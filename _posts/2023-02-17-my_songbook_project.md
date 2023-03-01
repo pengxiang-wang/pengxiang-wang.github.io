@@ -1,5 +1,5 @@
 ---
-title: 我的 Songbook 项目
+title: 我的 Songbook 项目（长期更新）
 date: 2023-02-17
 categories: [音乐]
 tags: [乐谱, 长期更新]
@@ -7,9 +7,9 @@ img_path: /assets/img/
 ---
 
 我的 songbook 链接如下：
-- Songbook PDF 版：<https://pengxiang-wang.github.io/my-songbook/output/songbook.pdf>
-- Songbook HTML 版：<https://pengxiang-wang.github.io/my-songbook/output/songbook.html>
-- GitHub 项目：<https://github.com/pengxiang-wang/my-songbook>
+- **Songbook PDF 版**：<https://pengxiang-wang.github.io/my-songbook/output/songbook.pdf>
+- **Songbook HTML 版**：<https://pengxiang-wang.github.io/my-songbook/output/songbook.html>
+- **GitHub 项目**：<https://github.com/pengxiang-wang/my-songbook>
 
 我一直想拥有属于我自己的 songbook。Songbook 是将一系列歌曲的歌词和和弦进行装订在一起，形成的一个小册子，方便在非正式的演奏中翻阅。可以理解为公园里演奏乐器的老大爷带的那种手写的简谱册哈哈。它不太好用一个精炼的中文词形容，叫“歌曲集、歌本”都感觉怪怪的，所以我就叫英文好了，别怪我说话夹英文装起来了啊哈哈。
 

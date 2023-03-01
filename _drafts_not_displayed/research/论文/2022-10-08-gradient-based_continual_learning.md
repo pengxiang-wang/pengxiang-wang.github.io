@@ -1,29 +1,145 @@
 ---
-title: 论文笔记：Continual Learning with Recursive Gradient Optimization
-date: 2022-04-18
+title: 梯度操控法持续学习
+date: 2022-10-08
 categories: [科研]
-tags: [论文笔记, 机器学习, 持续学习]
+tags: [论文笔记, 持续学习]
 img_path: /assets/img/
 math: true
 ---
 
+本文介绍持续学习的**梯度操控法**。它是一种防遗忘机制的方法，是直接规定、操控训练的更新过程的，通过修改梯度的计算、梯度下降公式来实现。
 
-## 论文信息 
+# 论文信息
 
+### [Orthogonal Gradient Descent for Continual Learning](https://proceedings.mlr.press/v108/farajtabar20a.html)
 
+- 会议：AISTATS 2020
+- 作者：DeepMind
+
+### [Continual learning of context-dependent processing in neural networks](https://www.nature.com/articles/s42256-019-0080-x)
+
+- 期刊：Nature Machine Intelligence 2019
+- 作者：中科院自动化所，类脑智能研究中心
+  
+### [Gradient Projection Memory for Continual Learning](https://openreview.net/forum?id=3AOj0RCNC2)
+
+- 会议：ICLR 2021
+- 作者：普渡大学
+
+### [Gradient Episodic Memory for Continual Learning](https://papers.nips.cc/paper/2017/hash/f87522788a2be2d171666752f97ddebb-Abstract.html)
+
+- 会议：NIPS 2017
+- 作者：Facebook
+
+### [Efficient Lifelong Learning with A-GEM](https://openreview.net/forum?id=Hkf2_sC5FX)
+
+- 会议：ICLR 2019
+- 作者：牛津大学，Facebook
 
 ### [Continual Learning with Recursive Gradient Optimization](https://openreview.net/forum?id=7YDLgf9_zgm)
 
-
 - 会议：ICLR 2022 (Spotlight)
-- 作者：
-    - Hao Liu - 清华大学计算机系（可能是后者的学生）
-    - [刘华平](https://www.cs.tsinghua.edu.cn/info/1122/3566.htm) - 清华大学计算机系
-- 内容：本文可以看成是加正则项的持续学习方法。
+- 作者：清华大学计算机系
+
+--------------------
 
 
-------------------------------
 
+# 正交梯度下降（OGD）
+
+这是一种直接修正梯度的方法。在训练新任务时，让参数向着**垂直于旧任务更新方向**更新。即对任务 $$t$$，旧任务在更新时的梯度方向 会张成子空间 $$V_{t-1}$$，让新任务更新时的梯度方向限制在该空间的正交补空间 $$V_{t-1}^\perp$$ 中进行（不用担心子空间占满了参数空间导致没有正交补，因为参数空间往往是很大的）。
+
+当然这个梯度方向不是任意 $$V_{t-1}^\perp$$ 上的方向，首先要契合训练新任务，所以最终是将新任务原始梯度（分类损失正常反向传播计算的梯度）$$g$$ **投影**到 $$V_{t-1}^\perp$$，使用这个**修正**后的梯度 $$\tilde{g}$$ 作新任务的梯度下降参数更新：
+
+$$\theta \leftarrow \theta - \eta \tilde{g}$$
+
+这个子空间是属于旧任务的，所有必须在记忆中记住。下面讨论如何表示旧任务梯度子空间，即需要记住什么内容。表示一个子空间，通常是用空间中的向量。子空间由**旧任务梯度**张成的（以任务 $$t-1$$ 为例）：$$\{\nabla_\theta L(f(\mathbf{x};\theta),y)\}_{(\mathbf{x},y)\in \mathcal{D}_{train}^{(t-1)}}$$（注意 $$\theta$$ 一直在变化，每个求导点 $$\theta$$ 都不一样；目标函数由于 $$\mathbf{x}$$ 不同也不同）。
+
+我们不能直接记住这些 $$\nabla_\theta L(f(\mathbf{x};\theta),y)$$，而应转换为正交基 $$S$$（用 Gram-Schmidt 公式，参考线性代数），原因有二：
+
+- 正交基是空间的代表，数量较少，可减少记忆量；
+- 算正交投影的公式（参考线性代数）只能用正交基计算：
+
+$$ \tilde{g} = g - \sum_{v\in \mathcal{M}} proj_v(g)$$
+
+
+记忆如何积累：记忆 $$\mathcal{M}$$ 里记录了旧任务子空间的正交基，随任务数增加是不断扩充的，因为 Gram-Schmidt 公式是迭代的。
+
+还需要考虑以下问题：
+
+- 为减少计算量和存储量，可以选用$$\{\nabla_\theta L(f(\mathbf{x};\theta),y)\}_{(\mathbf{x},y)\in \mathcal{D}_{train^{(t-1)}}$$的一部分而不是全部，例如 $$\mathbf{x}$$ 选 $$\mathcal{D}_{train^{(t-1)$$ 的一部分；对 $$C$$ 分类问题，$$ L(f(\mathbf{x};\theta),y)=[\nabla f_1(\mathbf{x};\theta), \cdots,\nabla f_C(\mathbf{x}_C,\theta)] [a_1-y_1, \cdots, a_C- y_C]^T$$，由于 $$y$$ 总是一个 one-hot 向量（即 $$y_1,\cdots,y_C$$ 只有一个 1，其他全是 0），可以只要 $$y_c = 1$$ （ground truth label）的，即 $$L(f(\mathbf{x};\theta),y) = \nabla f_c(\mathbf{x}; \theta)(a_c - 1)$$，原论文中称为 OGD-GTL；
+- 可以用固定的旧任务训练好的 $$\theta^{(t-1)}_\star$$ 来代替旧任务梯度中一直变化 $$\theta$$，这样就可以在旧任务训练结束后再统一计算记忆的梯度，而不用边训练边算。
+
+调节防遗忘程度的超参数算是选用的旧梯度数量。
+
+
+
+# 递归最小二乘法（RLS）
+
+这也是一种修正梯度的方法，它是将变换矩阵 $$P^{(t-1)}$$ 作用在梯度上：
+
+$$ \theta \leftarrow \theta - \eta P^{(t-1)} g$$
+
+这个变换矩阵记录了旧任务的某种知识，而且能够随任务 $$t$$ 迭代地积累知识。
+
+假设任务采用线性回归模型 $$f(\mathbf{x}) = \mathbf{w}^T\mathbf{x}$$，由回归分析知识可知，在平方损失下，使用最小二乘法可得到参数的最优解公式：
+
+$$\mathbf{w}^{\star} = (\mathbf{X}^T\mathbf{X})^{-1} \mathbf{X}^T \mathbf{y}$$
+
+这个结果可以看作汇聚了该任务的所有知识。本方法就利用此式构建变换矩阵。首先不能直接拿来当作 $$P^{(t-1)}$$，它是参数，乘在参数梯度 $$g$$（量纲与参数一致）上是没有意义的。应当取 $$(\mathbf{X}^T\mathbf{X})^{-1}$$，它是一个方形矩阵，维度等于输入维数，也等于参数维数，所以能作用在参数梯度 $$g$$ 上。（它在统计学上应该有某种意义，但我不太清楚，欢迎大佬指点）
+
+众所周知，直接计算这个矩阵是非常麻烦的，主要是因为 $$\mathbf{X}$$ 包含样本数太多。有近似算法——**递归最小二乘（RLS）算法**可以让 $$\mathbf{X}$$ 中的数据一个一个地来，迭代地计算。设 $$\mathbf{X} = [\mathbf{x}_1,\cdots, \mathbf{x}_n]$$，前 $$i$$ 个记为 $$\mathbf{X}_i$$，$$(\mathbf{X}_i^T\mathbf{X}_i)^{-1}$$ 的近似 $$P_i$$ 迭代计算公式：
+
+$$ k_i = \frac{P_{i-1}\mathbf{x}_i}{\alpha + \mathbf{x}_i^T P_{i-1} \mathbf{x}_i}$$
+
+$$P_i = P_{i-1} - k_i  \mathbf{x}_i^T P(i-1)$$
+
+$$P_0$$ 初始化为单位矩阵 $$I$$。（该算法的原理是线性代数中子矩阵、矩阵分块的计算，感兴趣可以自己推导试试，不再详述。）
+
+
+该方法的一大优点是所需记忆固定的，即一个固定大小的矩阵 $$P$$，不会随任务量增长。
+
+记忆如何积累：面对持续学习，这种迭代的计算方式起到的作用不仅是简化了计算，也让任务之间可以继承，即在计算完毕任务 $$t-1$$ 的 $$(\mathbf{X}^T\mathbf{X})^{-1}$$ 后，可以以此为下一个任务迭代的初值，继续积累下去。也就是说，$$P^{(t-1)}$$ 不是只记录了任务 $$t-1$$，而是记录了所有旧任务 $$1,\cdots, t-1$$。
+
+
+
+还需要考虑以下问题：
+
+- 模型不一定是线性模型：对于深度为 $$L$$ 的网络，可以看成 $$L$$ 个线性模型，每层 $$l$$ 都有独立的 $$P$$ 作用在该层的梯度上（**layerwise**），这些 $$P$$ 的更新也是独立的。注意迭代公式里只用到了数据的输入（不用标签），所以 $$\mathbf{X}$$ 用每层的输入即可；
+- 数据不是一个一个来的，而是一个 batch 来的：可以简单取 batch 的平均，当作一个数据，当然也有其他更好的方法；
+- 可以在 $$P^{(0)}$$ 初始化时引入调节防遗忘程度的超参数 $$\lambda$$：$$P_0 = \lambda I$$。
+
+
+# GPM
+
+
+与 OGD 类似，区别在构造旧任务梯度的方式不一样。它不是就地取材从旧任务实际使用的梯度出发构造子空间，而是从数据下手，提取旧任务数据的信息来构造。也设任务采用线性回归模型，旧任务数据为 $$\mathbf{X} \in \mathbb{R}^{N\times p}$$。提取数据矩阵信息的一大工具是**奇异值分解（SVD）**：
+
+$$\mathbf{X}_{N\times p} = \mathbf{U}_{N\times N}\mathbf{\Sigma}_{N\times p}\mathbf{V}^T_{p\times p}$$
+
+我们要的是与梯度量纲一致的量，观察可以发现是右奇异向量 $$\mathbf{V}^T = [\mathbf{v}_1,\cdots, \mathbf{v}_p]$$，它的维度与参数梯度一致，可以在参数空间中张成子空间。与 OGD 一样，在训练新任务时，让参数在该子空间的正交补中更新即可。
+
+
+记忆如何积累：由于奇异向量本身是正交的，直接当作正交基存到记忆里即可。
+
+
+还需要考虑以下问题：
+
+- 对于深度为 $$L$$ 的网络，也需要 layerwise，每层 $$\mathbf{X}$$ 用该层的输入即可；
+- 数据不是整个来的，而是分 batch 来的：那计算奇异值分解也分 batch 来即可；
+- 为减少计算量和存储量，可以取奇异向量的一部分。$$\mathbf{V}^T$$ 天生就按重要程度（奇异值）排序了，按照一定的准则取前 $$k$$ 个即可。个数 $$k$$ 算是调节防遗忘程度超参数。
+
+
+
+# GEM, A-GEM
+
+
+
+
+
+
+
+# RGO
 
 
 ## 一、持续学习：加正则项法

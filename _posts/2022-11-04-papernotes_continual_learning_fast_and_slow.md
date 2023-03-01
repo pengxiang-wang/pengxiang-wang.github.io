@@ -19,13 +19,12 @@ math: true
 ### [DualNet: Continual Learning, Fast and Slow](https://openreview.net/pdf?id=eQ7Kh-QeWnO)
 
 - 会议：NIPS 2021
-- 作者：Quang Pham, Chenghao Liu, Steven C.H. Hoi
-
+- 作者：新加坡管理大学
 
 ### [Learning Fast, Learning Slow: A General Continual Learning Method based on Complementary Learning System](https://openreview.net/pdf?id=uxxFrDwrE7Y)
 
 - 会议：ICLR 2022
-- 作者：Elahe Arani, Fahad Sarfraz, Bahram Zonooz
+- 作者：荷兰四维图新
 
 --------------
 

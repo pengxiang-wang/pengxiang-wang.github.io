@@ -11,20 +11,14 @@ math: true
 ## 论文信息 
 
 
-
-### [Variational Continual Learning](https://openreview.net/pdf?id=BkQqq0gRb)
-
-
+### [Variational Continual Learning](https://openreview.net/forum?id=BkQqq0gRb)
 - 会议：ICLR 2018
-- 作者：Cuong V. Nguyen, Yingzhen Li, Thang D. Bui, Richard E. Turner
-- 内容：从贝叶斯学派角度提出了一个持续学习框架——变分持续学习（VCL），提出框架是主要的。同时提出了一个在此框架下简单的防止遗忘的机制——coreset。
+- 作者：剑桥大学
 
 ### [Improving and Understanding Variational Continual Learning](https://arxiv.org/pdf/1905.02099.pdf)
-
-- 作者：Siddharth Swaroop, Cuong V. Nguyen, Thang D. Bui, Richard E. Turner
-- 内容：对上一篇文章在训练技巧上做了一点改进，同时讨论了 VCL 特有的现象——剪枝效应。作者认为剪枝效应对持续学习意义是很大的。
-
-
+- 发表：ArXiv 2019
+- 作者：剑桥大学
+- 
 --------------
 
 # 贝叶斯观点下的监督学习

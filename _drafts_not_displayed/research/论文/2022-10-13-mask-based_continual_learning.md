@@ -11,16 +11,55 @@ math: true
 
 注意，基于 mask 机制的持续学习天然要求场景为 TIL，即要求给出数据的任务 ID $$t$$。
 
-## 论文信息
+# 论文信息
 
+### [PackNet: Adding Multiple Tasks to a Single Network by Iterative Pruning](https://openaccess.thecvf.com/content_cvpr_2018/papers/Mallya_PackNet_Adding_Multiple_CVPR_2018_paper.pdf)
+
+- 会议：CVPR 2018
+- 作者：伊利诺伊大学香槟分校
+
+
+### [Piggyback: Adapting a Single Network to Multiple Tasks by Learning to Mask Weights
+](https://openaccess.thecvf.com/content_ECCV_2018/papers/Arun_Mallya_Piggyback_Adapting_a_ECCV_2018_paper.pdf)
+
+- 会议：ECCV 2018
+- 作者：伊利诺伊大学香槟分校
+
+### [Overcoming Catastrophic Forgetting with Hard Attention to the Task](https://proceedings.mlr.press/v80/serra18a.html)
+- 会议：ICML 2018
+- 作者：西班牙巴塞罗那的大学
+
+### [Scalable and Order-robust Continual Learning with Additive Parameter Decomposition](https://openreview.net/forum?id=r1gdj2EKPB)
+
+- 会议：ICLR 2020
+- 作者：韩国 KAIST，AITRICS
+
+### [Supermasks in Superposition](https://proceedings.neurips.cc/paper/2020/hash/ad1f8bb9b51f023cdc80cf94bb615aa9-Abstract.html)
+
+- 会议：NIPS 2020
+- 作者：华盛顿大学等
 
 ### [Ternary Feature Masks: zero-forgetting for task-incremental learning](https://openreview.net/forum?id=oLvlPJheCD)
 
-- 期刊：TMLR 2022
-- 作者：Tianlong Chen, Sijia Liu, Shiyu Chang, Lisa Amini, Zhangyang Wang
+- 会议：CVPR 2021
+- 作者：西班牙巴塞罗那的大学、比利时鲁汶大学等
 
+### [Compacting, Picking and Growing for Unforgetting Continual Learning](https://papers.nips.cc/paper/2019/hash/3b220b436e5f3d917a1e649a0dc0281c-Abstract.html)
 
+- 会议：NIPS 2019
+- 作者：（台湾）中央研究院资讯所
 
+### [KSM: Fast Multiple Task Adaption via Kernel-wise Soft Mask Learning](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_KSM_Fast_Multiple_Task_Adaption_via_Kernel-Wise_Soft_Mask_Learning_CVPR_2021_paper.pdf)
+
+- 会议：CVPR 2021
+- 作者：亚利桑那州立大学
+
+### [Achieving Forgetting Prevention and Knowledge Transfer in Continual Learning](https://openreview.net/forum?id=RJ7XFI15Q8f)
+
+- 会议：NIPS 2021
+- 作者：Facebook、Bing Liu 组
+
+--------------
 
 # PackNet
 
@@ -135,6 +174,13 @@ $$\tilde{f}(\mathbf{x}; \mathbf{W}, \mathbf{\alpha}) = f(\mathbf{x}; \mathbf{W} 
 
 
 
+# CPG
+
+此论文是对 packnet 的改进。大 mask 里面有小 mask ，小 mask 用于规范剪枝后 retrain 的。
+
+retrain 前面的任务会不会忘，因为很小，所以不会。
+
+会扩张。
 
 
 # TFM
@@ -164,20 +210,8 @@ $$m_j^{t, l}= \begin{cases}0, & \text { for current task, if } 1 \leq j \leq I \
 ![](Ternary_Fetaure_Masks.png)
 
 
-
-# CPG
-
-论文链接：[Compacting, Picking and Growing for Unforgetting Continual Learning](https://proceedings.neurips.cc/paper/2019/file/3b220b436e5f3d917a1e649a0dc0281c-Paper.pdf)
-
-此论文是对 packnet 的改进。大 mask 里面有小 mask ，小 mask 用于规范剪枝后 retrain 的。
-
-retrain 前面的任务会不会忘，因为很小，所以不会。
-
-会扩张。
-
 # KSM
 
-论文链接：[KSM: Fast Multiple Task Adaption via Kernel-wise Soft Mask Learning](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_KSM_Fast_Multiple_Task_Adaption_via_Kernel-Wise_Soft_Mask_Learning_CVPR_2021_paper.pdf), CVPR 2021
 
 也是固定 backbone 网络不动。与 Piggyback 的区别在于 mask 的训练方式，本文又把那个 real mask 分解成。。。并解释了训练过程。
 
@@ -187,7 +221,6 @@ retrain 前面的任务会不会忘，因为很小，所以不会。
 
 # CTR
 
-论文链接：[Achieving Forgetting Prevention and Knowledge Transfer in Continual Learning](https://proceedings.neurips.cc/paper/2021/file/bcd0049c35799cdf57d06eaf2eb3cff6-Paper.pdf), NIPS 2021
 
 在 BERT 中引入了 CTR 模块。
 
