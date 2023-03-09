@@ -1,25 +1,29 @@
 ---
-title: 
-date: 2022-
-categories: [其他]
+title: 吉他教程
+date: 2018-08-30
+categories: [音乐]
 tags: []
 img_path: /assets/img/
 math: true
 ---
 
+个人整理的，我认为自己整理出来。不够权威。
+
+主要参考资料 [Justin Guitar]()
+不按照初学者顺序，而是专题。更关注乐理在吉他上的实现。
+
+用不同的颜色：乐理、纯技术（physical）、实现
+
 只讨论吉他的技术，不讨论乐理
 
-justin guitar
+# 吉他常识
 
-## 吉他品牌常识
+## 原理
 
-古典吉他（尼龙xian)
-民谣吉他（原声吉他）
-电吉他
+拾音器，旋钮，switch 
 
 
-
-## 调弦
+### 调弦
 
 吉他的标准调弦是EADGBE 55545，当然也有很多别的调弦方式，适合不同的歌。nashiville tuning，
 
@@ -38,13 +42,37 @@ capo 不要太紧的，会变音
 男声和女声 差4-7个半音
 并不是只新手才用的，抛弃这种观点
 
-## 音色（电吉他）
+特殊调弦
 
-humbucker
+
+### 音色（电吉他）
+
+
+#### 吉他自己的声音
+
+默认声音
+
+弦的影响
+
+拾音器（pickup）：
+单双单 
+humbucker HSS，Single Coil
+用 switch 来选择
+
+
+旋钮（每个拾音器）：
+- 音量：
+- 
+- tone 旋钮：
+
+
+#### 效果器：
+
+amplifier（扩音器）
+profiler
 
 pedal
 
-效果器：
 gain：
 Distortion：
 overdrive：
@@ -52,9 +80,25 @@ crunch：
 fuzz
 
 presets
+古典吉他（尼龙xian)
+民谣吉他（原声吉他）
+电吉他
+
+民谣吉他拾音器。
 
 
-## 姿势
+## 吉他品牌
+
+### 弦
+
+Strastroter Tele
+
+
+## 保养与维修常识
+
+
+
+# 演奏姿势
 
 古典式：一般弹古典吉他
 
@@ -72,9 +116,17 @@ presets
 - 无法用脚打节拍了
 - kneel chair for 长时间站立练琴
 
-## 按弦方法（左手）
 
+
+基本功练习 标注。力度、灵活性、速度、准确度。
+
+有的练习可以给自己限制时间，设定目标，不拖延，防止不专注，有节奏，节省时间，对中期感到无聊很有用。
+练习要准确，养成良好的习惯，不准确不如不练，practice perfectly。
 所有练习一开始不要练快了
+
+# 左手：按弦方法
+
+## 按弦姿势
 
 指甲要剪掉（留一点白的没关系）
 
@@ -95,7 +147,9 @@ presets
 - 初学者不要每天练习时间太长，20min足够，不要逼得太狠 
 
 
-### 单音与riff
+## 实现
+
+### 单音
 
 音阶是基础：
 一开始用 all down picking，再练 alternative picking。
@@ -132,6 +186,10 @@ riff 在一开始可以用来当做手指练习，也不是专门练。
 
 ornament：
 - 击弦练习（hammer-on）：各种手指组合 练习（食指+中指，食指+无名指。。。，无名指+小指）
+- 
+- 勾弦练习（
+
+击勾弦 legato ：多个指头击弦。这个强调light，而不是击勾弦强调的力度。
 
 
 ### riff
@@ -159,6 +217,10 @@ Chord Perfect Practice
 Perfect fast changes：完美地换和弦，然后练速度
 
 一开始练习的时候，可以不把拇指放上来。
+
+### 和弦按法
+
+### 开放把位
 
 D：注意4弦空不要碰到，三角形，有一点倾斜角度，中指往前伸，不要往另外两个靠
 A：Justin 213，传统的123的话1按得很紧， 还有234也是一样。拇指可以mute 6th。A 系列都要加拇指
@@ -244,8 +306,83 @@ G：shifting F
 no need 去练所有的chord change，碰到的时候。与歌结合起来练 change。
 一开始可以练一个个指头换，但要学会一起换（air changes）
 
-Chord Explorer module
-思想：和弦不一定非要必须弹成固定的，可以偶尔抬抬手指，串串开放把位，挪挪位置（变成其他某种扩展和弦），可以混合某种音阶。初学阶段自己实验。
+
+其他把位的开放和弦（属于凑巧）：
+- C 和弦：开放 G弦、E
+  - C 上移2：Dsus4add9（可以加小指）
+  - C 上移3加小指：Eb
+  - C 上移5加小指：Fadd9，不加小指 Fmaj7
+  - C 上移7：G6
+  - C 上移8：Abmaj7
+  - C 上移9：A7
+- A 和弦：开放A弦
+  - 上移1：spanish thing
+  - 上移2：B/A
+  - 上移3：Am7
+  - 上移5：D/A
+  - 上移7：E/A
+  - 上移8：F/A
+- G 和弦：开放弦太多了，我无法
+- E 和弦：开放E弦（类似A）
+  - 上移1：Fmaj7#11 spanish thing
+  - 上移2：F#11
+  - 上移3（从A弦开始）：G6/D
+  - 上移5弦（从A弦开始）：A
+  - 上移7弦（从A弦开始）：B
+  - 上移8弦（从A弦开始）：Cmaj7
+  - 上移10弦（从A弦开始）：D
+- D 和弦：开放 D弦
+  - 2：E/D
+  - 3: Dm（neil young）
+  - 5：G/D
+  - 7：A/D
+  - 8：Bb/D
+  - 10:C/D
+- Am 和弦
+  - 上移2：Bm
+  - Amaj7
+  - Dm/A
+  - A9
+  - A6
+- Dm 
+  - Em/D
+  - Dmaj7
+  - Gm/D
+  - D6
+- Em 开放弦太多
+  - 上移2 加食指：F#m11
+  - 上移4：G#m
+  - 上移5：Am
+  - 上移7：Bm
+  - 上移9：C#？
+  - 
+还有很多很多，值得探索
+
+
+
+
+### 把位原理
+
+CAGED 系统。
+所有和弦本质上都落在 CAGED 的一种。
+C 系统的开放把位和弦有：C、...
+
+调内和弦只需要记住开放把位的指法：
+C 调：C Dm Em F G Am Bdim
+A 调：A Bm C#m D E F#m G#dim
+G 调：G Am Bm C D Em F#dim
+E 调：E F#m G#m A B C#m D#dim
+D 调：D Em F#m G A Bm C#dim
+
+E 调不实用，barre chord 太多，主要是小三和弦是 Cm Am Gm Em Dm。这五个调的特殊性是，大三和弦都能open 实现 CAGED，所以这是 CAGED 系统的缺点。G 调比较实用。
+
+
+应用：
+- 同一个和弦有五种弹法（手型）
+  - 可以用手的话，barre chords
+  - 可以加变调夹（不是变调），Duet，获得不同的感觉。变调夹位置：+3+2+2+3（通过根音记住） 0.3.5.7.10
+
+#### 封闭和弦
 
 
 
@@ -254,7 +391,64 @@ Chord Explorer module
 
 
 
-## 弹拨方法（右手）
+
+
+
+
+
+以下不会全部探索，主要是 common pattern，实用的
+
+### Alternative bass（交替低音）
+
+特别适用于乡村音乐。
+
+
+### 和弦经过bass（bass note chord link）
+
+特别适用于乡村音乐。
+
+C-G：1765 
+A-D：ABC#D
+Am-Dm：ABCD
+Em-Am：EFGA
+C-A：CBBbA
+C-F：CGEF、CGF#F
+F-C: FABC
+
+
+
+
+### Chord Explorer module(variations)
+
+记住和弦的 root note，很重要，有利于理解 CAGED
+
+
+
+思想：和弦不一定非要必须弹成固定的，可以偶尔抬抬手指，串串开放把位，挪挪位置（变成其他某种扩展和弦），可以混合某种音阶。初学阶段自己实验。会变成其他和弦，但不要死记硬背，而是多听，找到每种的感觉。
+- 围绕 D 和弦：D 和弦组成：1513
+  - 抬指
+    - 1弦抬指 Dsus2
+    - 2弦抬指：D6
+    - 3 弦抬指：Dsus4
+    - 1、3弦抬指：Dsus2sus4
+    - ...
+    - 全抬起来：D6sus2sus4
+  - adding
+    - Dsus4
+    - Dsus#4（lydian）
+    - 小指3弦4品：D6 三线三品：Daug（D->Daug->D6）
+    - 小指4弦4品：D/F#
+  - moving finger
+    - 3弦降半：Dsus#4
+- 围绕 Dm：
+  -  
+
+
+
+
+
+
+# 右手：弹拨方法
 
 音色：后部比较犀利，前部比较圆润，音孔处平衡。
 
@@ -270,7 +464,6 @@ Fingerstyle（finger picking）
 - 一般不用于电吉他
 - 指头琶音
 
-入门曲：Happy Birthday，bass note + melody line
 
 Pattern：
 - 6/8:
@@ -285,6 +478,14 @@ strumming：注意角度，手臂是否摇晃，没有正确答案，适合自�
 - 比心：食指当拨片用，上来是拇指
 - 拇指拨bass，食指strum
 - 。。。很多组合，包括指弹 Neil Young
+
+拨多个音：
+- 同时拨（block chord）
+- 琶音（rolling）：目的把最后一个音突出出来
+  - peeling： 先把手放在同时拨，斜向外依次拨开转开。反复练习，用于熟悉感觉，实际没那么夸张。还要改回来
+  - 也可以按照快速依次拨弦练习，由慢到快
+  - 练习的时候，练习不同弦的组合（只有 4 根手指，6根弦）
+
 
 
 
@@ -378,7 +579,7 @@ muddy。
 Rolling in the deep
 
 
-## 组合（实战）
+## 实战：左右手的配合
 
 ### 弹唱
 
@@ -411,8 +612,15 @@ song doesn't stop，练习能跟上曲子，不间断。即使和弦错了，及
 对于刷和弦，一般很自然就学会了；其他可能难一些。练习看指头的目的地，而不是盯着指头的移动轨迹
 
  
-### 指弹 
+### 指弹：完整曲子
 
+不想唱的。
+
+简单的 split：bass note + melody line。（可以一起，可以 bass 提前 melody 一点）
+入门曲：Happy Birthday，
+
+chord melody arrangement：
+练习曲：greensleeves
 
 
 
@@ -422,7 +630,7 @@ song doesn't stop，练习能跟上曲子，不间断。即使和弦错了，及
 
 
 
-### 专题：Blues
+### 风格专题：Blues
 
 12 小节布鲁斯 实现方式
 
@@ -438,3 +646,5 @@ song doesn't stop，练习能跟上曲子，不间断。即使和弦错了，及
 blues 即兴：
 - leave space，play / rest
 - use repetition
+
+### 风格专题：摇滚

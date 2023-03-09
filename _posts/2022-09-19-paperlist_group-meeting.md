@@ -24,6 +24,21 @@ math: true
 
 ## 2022-03-02
 
+### [Gradient Regularized Contrastive Learning for Continual Domain Adaptation]()
+
+- 会议：AAAI 2021
+- 作者：悉尼大学，香港中文大学，商汤
+- 主讲人：W
+- 内容：
+
+
+
+### [Learnable istribution Calibration for Few-Shot Class-Incremental Learning](https://arxiv.org/abs/2210.00232)
+
+- 发表：ArXiv 2022
+- 作者：中国科学院大学，华为等
+- 主讲人：Z
+- 内容：小样本持续学习
 
 ## 2022-02-23
 

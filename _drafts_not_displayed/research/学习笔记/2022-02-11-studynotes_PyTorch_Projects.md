@@ -1,11 +1,92 @@
 ---
-title: 学习笔记：深度学习可视化工具 TensorBoard
-date: 2022-01-22
+title: PyTorch 学习笔记：工程性知识
+date: 2022-02-11
 categories: [科研]
-tags: [学习笔记, 机器学习, 技术]
+tags: [读书笔记, 《动手学深度学习》, 机器学习, 技术]
 img_path: /assets/img/
 math: true
 ---
+
+本文汇总使用 PyTorch 搭建项目时的一些边缘性的工程性知识，让代码真正地成为一个完整的深度学习项目。这部分内容包括如何可视化数据、读写训练进度等。本文参考 [Dive into Deep Learning (PyTorch 版)](https://d2l.ai) 中的以下内容：
+- 5.5 节：读写文件；
+
+
+ 
+------------------------------
+
+
+
+
+
+在真正开始训练前，作double check 。cs231n
+
+
+
+# 读写训练进度
+
+深度学习程序的一个特点是运行时间长，一个任务经常需要跑几天、几个月。可以把深度学习程序比作 RPG 游戏，打通关时间长的 RPG 时我们需要定期存档，不仅为了下一次打开游戏时接续进度，还能预防电脑未响应、死机等突发情况导致游戏白打，甚至有时需要换台电脑玩这个进度、应当存档拷贝到新电脑；而且有时候会存多份档，为了预防游戏中某一次策略错误（如，买错了道具；打 boss 打不过去或者游戏有 bug 导致的陷入死循环，俗称坏档）导致的严重后果，起到后悔药的作用。
+
+大型的深度学习程序需要**定期存档且存多份档**，和上面是一个道理，不必多解释了。它与游戏的不同在于用户无法在运行过程中手动控制，只有停止程序这一个选择；定期存档的操作需要预先写进代码里。
+
+深度学习程序也是 Python 程序，当然可以用 Python 自带的文件读写功能，将变量保存于本地文件。但 PyTorch 为深度学习设计了专门更高级的 API，更加方便，最好使用这套 API。PyTorch 可以读写 Tensor 对象，`nn.Parameter` 对象，还可以是 `{字符串:Tensor或Parameter}` 的字典：
+- `torch.save(obj, path)`：将对象 obj 存到路径为 path 的文件中；
+- `obj = torch.load(filename)`：将 filename 文件存储的变量赋值到 obj。
+此类文件属文本文件，PyTorch 推荐使用扩展名 `.pt`,`.pth`（书中使用了 `.params`）。存档文件最好存储在项目单独的一个子目录下。
+
+深度学习最需要存档的东西是**模型参数**，它是训练的目标。网络结构无需保存，因为它就写在代码里，只需保存其参数即可。保存模型参数的推荐方法是存它的 `.state_dict()`（前面说过它是存所有模型参数的字典），因为 `nn.Module` 有一个方便的 API：`net.load_state_dict(state_dict)`，能将 state_dict 一步读取所有参数到模型 net 中。
+
+除了模型参数，还有一些必须存档的信息：当前 epoch 轮数，优化器里还有一些状态量（`optimizer.state_dict()`），如果用了调度器它也有状态量 `scheduler.state_dict()`，等等。可以将其统统打包成一个字典，类似下面的做法：
+```python
+checkpoint = {
+    'epoch': epoch,
+    'net': net.state_dict(),
+    'optimizer': optimizer.state_dict()
+}
+```
+除此之外，为了方便，也可以打包进去其他需要记住的东西，如超参数、配置变量、当前 loss 等统计信息，等等。写到字典里是为了方便程序内使用，如果只是给人看一下，一些小的信息也可以传给 `path`，写到文件名内。
+
+下面讨论存档的频率。首先要说一点，为了实现多份存档，文件名最好不一样，防止覆盖。存档太频会浪费硬盘空间，例如一个 batch 或 epoch 一存；太不频则有更大的重新训练风险。而且并不是所有的档都需要存，和游戏一个道理，一般是在比较关键的进度存一下档。常见的做法是在训练循环体中设置条件判断语句写的检查点（checkpoint），判断是不是关键的存档。
+
+以下是一套完整的流程（引自[知乎](https://www.zhihu.com/question/340567722/answer/2505072802)，作者“”人类之奴）：
+```python
+start_epoch = -1
+
+# 如果接续训练（RESUME=1），则加载 checkpoint
+if RESUME:
+    path_checkpoint = checkpoint_path
+    checkpoint = torch.load(path_checkpoint)
+    start_epoch = checkpoint['epoch']
+    net.load_state_dict(checkpoint['net'])
+    optimizer.load_state_dict(checkpoint['optimizer'])
+    scheduler.load_state_dict(checkpoint['lr_schedule'])
+
+
+for epoch in range(start_epoch+1, num_epochs):
+    train(net, train_loader)
+    test_loss = test(net, test_loader)
+
+    # 检查点：测试集 loss 小于一定阈值。epoch 小于一半总训练轮数时认为训练不够，不设检查点
+    min_loss_val = 1
+    if epoch > int(num_epochs/2) and test_loss <= min_loss_val: 
+        min_loss_val = test_loss
+        checkpoint = {
+            'loss':test_loss,
+            'epoch':epoch,
+            'net':net.state_dict(),
+            'optimizer':optimizer.state_dict(),
+            'lr_schedule':scheduler.state_dict()}
+        if not os.path.isdir(r'tf-logs/'+save_model):
+            os.mkdir(r'tf-logs/'+save_model)
+        torch.save(checkpoint,r'tf-logs/'+save_model+'/ckpt_best_%s.pth'%(str(epoch+1)))
+```
+
+> 读写功能除了上述存档接续训练进度，还有其他常见的应用场景：例如保存训练好的参数给别人使用。常见的大型网络可以使用别人预训练的权重，再在自己的任务上微调，这些预训练权重通常保存在 `.pth` 文件中，从网上下载。
+{: .prompt-tip }
+
+
+
+# 可视化
+
 
 深度学习里很多内容需要**可视化**，辅助研究，例如：
 

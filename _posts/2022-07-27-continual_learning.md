@@ -96,7 +96,7 @@ math: true
 
 - **类别增量学习**（Class Incremental Learning, CIL）：每个任务包含若干不重复的类别，训练数据有而测试数据没有任务 ID 信息；
 - **任务增量学习**（Task Incremental Learning, TIL）：训练数据与测试数据都有任务 ID 信息，对任务类别是否相同无要求；
-- **领域增量学习**（Domain Incremental Learning, DIL）：每个任务包含的类别相同，但背后的领域不同。
+- **领域增量学习**（Domain Incremental Learning, DIL）：从形式上看，只有“每个任务包含的类别相同”一个要求。它强调的是每个任务的具体数据集中数据输入 $$\mathbf{x}$$ 领域的不同。
 
 
 ## 形式化定义
