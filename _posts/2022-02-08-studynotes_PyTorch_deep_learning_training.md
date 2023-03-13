@@ -8,7 +8,7 @@ math: true
 ---
 
 
-本文总结 PyTorch 是如何实现深度学习训练中的各种技巧与细节，包括防止过拟合、参数初始化、优化器、损失函数、超参数优化等等。关于这部分知识，我在[这篇笔记]()中有系统的总结。本文的编排顺序基本与这篇笔记对应（数据预处理部分在[介绍 Dataset 类型的笔记]()中）。此外，还有一篇[笔记]()总结了深度学习训练的实践经验，可供参考。
+本文总结 PyTorch 是如何实现深度学习训练中的各种技巧与细节，包括防止过拟合、参数初始化、优化器、损失函数、超参数优化等等。关于这部分知识，我在[这篇笔记]()中有系统的总结。本文的编排顺序基本与这篇笔记对应（数据预处理部分在[介绍 Dataset 类型的笔记]()中，调参、学习曲线等放在 [PyTorch 工程性知识的笔记]()中）。此外，还有一篇[笔记]()总结了深度学习训练的实践经验，可供参考。
 
 本文参考 [Dive into Deep Learning (PyTorch 版)](https://d2l.ai) 中的以下内容：
 - 4.4 节：模型选择、欠拟合与过拟合；
@@ -35,6 +35,9 @@ def relu(x):
 ```
 在 `torch.nn.functional` 中有各种预定义的激活函数，见文档：<https://pytorch.org/docs/stable/nn.functional.html#non-linear-activation-functions>
 
+> `torch.nn.functional` 提供了各种深度学习可能用到的预定义函数。这里都是用 Python 函数实现的，相对来说封装程度没有那么高，一般用于自己模型设计的零件；下面可以看到，很多这种函数如激活函数、损失函数是实现为一个可调用类的，封装程度更高。
+{: .prompt-info }
+
 在深度学习中，激活函数的用处就是作为 `nn.Module` 模型的一个组成部分。使用的方法就是将其套在 forward 函数中。以下是[笔记（三）]()自定义块中见到的例子：
 ```python
 class MLP(nn.Module):
@@ -46,7 +49,6 @@ class MLP(nn.Module):
         return self.out(nn.functional.relu(self.hidden(X)))
 ```
 
-
 因此在实际使用 PyTorch 的高级 API 中，激活函数被看成是一个层，是 `nn.Module` 类型。我们也在[笔记（三）]()自定义层中见到过：
 ```python
 class ReLULayer(nn.Module):
@@ -55,7 +57,7 @@ class ReLULayer(nn.Module):
     def forward(self, X):
         return nn.functional.relu(X)
 ```
-当然 PyTorch 也预定义了很多这种激活函数层，它们放在 `torch.nn` 中，与其他预定义的有实际参数的层（如 `nn.Linear`）并列。这种预定义层的用法就是放在 `nn.Sequential` 容器里，与其他层串联。例如，上述自定义层等价于如下预定义层：
+当然 PyTorch 也预定义了很多这种激活函数层，它们放在 `torch.nn` 中（[文档](https://pytorch.org/docs/stable/nn.html#non-linear-activations-weighted-sum-nonlinearity)），与其他预定义的有实际参数的层（如 `nn.Linear`）并列。这种预定义层的用法就是放在 `nn.Sequential` 容器里，与其他层串联。例如，上述自定义层等价于如下预定义层：
 ```python
 relu = nn.ReLU()
 ```
@@ -107,6 +109,10 @@ PyTorch 也设计了访问模型所有参数的方法，与 `nn.Module` 同理�
 - `nn.init.kaiming_uniform(tensor, a, mode)`, `nn.init.kaiming_normal(tensor, a, mode)`：何恺明的初始化
 
 当然，这些函数内部细节就是取出 data 属性后对 Tensor 的操作，也可以自己按照的方式定义一个初始化函数。
+
+> PyTorch 预定义的 `nn.Module` 层带有默认的初始化方法（`reset_parameters()`），是一些优秀初始化方法的汇总和精调，在实例化模型时就会调用它。PyTorch 为每种层都涉及了适合它们的默认初始化方法。
+> 因此，除了研究不同初始化方法的需要，在高级 API 搭建深度学习模型的流程中可以省略初始化这一步。
+{: .prompt-info }
 
 在实际中，参数初始化一般是整体地对一整个模型初始化。通常是打包成一个 `init_parameters` 函数，通过 `nn.Module` 的 `apply` 方法（可以将传入的函数递归地作用到它包含的所有层上）作用到模型参数上。以下是[笔记（一）]中出现的例子：
 ```python
@@ -172,90 +178,47 @@ scheduler = torch.optim.lr_scheduler.ExponentialLR(optimizer, gamma=0.9)
 如果不是专门研究学习率，PyTorch 提供的 API 就够用了（见[文档](https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate)），这种东西用的不多，也几乎没有需要自己写的场合，所以知道有这种东西就差不多了。
 
 
-
-
 # 六、损失函数
 
-
-
-
-# 七、超参数优化
-手动粗选范围
-参数搜索算法
-
-
-# 过拟合问题总论
-过拟合、欠拟合的判断
-解决过拟合、欠拟合
-
-
-# 一、过拟合、欠拟合
-
-此图是可以实时画出来的，使用作者的 `Animator` 类或 Tensorboard 等工具。
-
-### 权重衰减（L2 正则化）
-
-#### 从头开始实现
-
-只需在前向传播 loss 中加入正则项：
+损失函数在形式伤也是一个 Python 函数，它接受数据预测值和真实值的 Tensor 类型的输入并输出一个数。在[笔记（一）]()MLP 的从头开始实现中可以看到：
 ```python
-def l2_penalty(w):
-    return torch.sum(w.pow(2)) / 2
-
-#...
-for epoch in range(num_epochs):
-    for X, y in train_iter:
-        l = loss(net(X), y) + lambd * l2_penalty(w)
-        l.sum().backward()
-        sgd([w, b], lr, batch_size)
-        #...
+def squared_loss(y_hat, y):
+    return (y_hat - y) ** 2 / 2
 ```
-一个小细节：`lambda` 是 Python 的关键字，不能占用，此超参数改写为 `lambd`。
+在 `torch.nn.functional` 中也有各种预定义的损失函数，见文档：<https://pytorch.org/docs/stable/nn.functional.html#loss-functions>
 
-#### 简洁实现
+与激活函数类似，损失函数也被 PyTorch 的高级 API 实现为一个 `nn.Module` 层，它们也放在 `torch.nn` 中（[文档](https://pytorch.org/docs/stable/nn.html#loss-functions)），与其他预定义的有实际参数的层（如 `nn.Linear`）并列。这里预定义的都是最基本、原始的损失函数，使用方法相对来说比较固定，例如：
+- 交叉熵损失，用于分类问题：`nn.CrossEntropyLoss()`；
+- 平方损失，用于回归问题：`nn.MSELoss()`；
+- ...
 
-在 PyTorch 的高级 API，权重衰减功能在优化器中提供：
+在深度学习中，除了原始的损失函数，还会加正则项，实现其他目的，如防止过拟合、迁移学习的迁移、持续学习的防遗忘等。
+
+实现正则项的方式是自由的，可以与原始损失函数打包到一个 `nn.Module` 类（用 forward 函数嵌套的原理）或 Python 函数，也可以单独写成一个损失函数，在训练过程中计算损失的时候加进来：
 ```python
-trainer = torch.optim.SGD(
-    [{'params':net[0].weight, 'weight_decay':3}, {'params':net[0].bias}],
-    lr=lr)
+class RegLoss(nn.Module):
+
+    def __init__(self, factor):
+        ...
+        self.factor = factor # 正则化系数
+
+    def forward(self, y_hat, y):
+        reg_loss = ... # 使用 y_hat 和 y 定义的公式
+        return self.factor * reg_loss
+
+loss = nn.CrossEntropyLoss()
+reg = RegLoss(factor=FACTOR)
+
+# 训练过程
+for epoch:
+    for batch:
+        ...
+        y_hat = net(X)
+        l = loss(y_hat, y) + reg(y_hat, y)
+        l.backward()
+        ...
+...
 ```
-相当于线性回归简洁实现中修改了优化器的 `params` 参数，现在仔细研究一下这个参数。[PyTorch 中文文档](https://pytorch-cn.readthedocs.io/zh/latest/package_references/torch-optim/)上写：
+正则化系数可以放在训练过程外面，也可以像上面这样打包到损失函数里面。具体怎么实现，全看代码模块化程度的需要。
 
-> Optimizer 也支持为每个参数单独设置选项。若想这么做，不要直接传入 Variable 的 iterable，而是传入 dict 的 iterable。
-
-此时属于后一种情况。传入各参数的字典必须包含一个参数键值：`'params':参数`（其中“参数”为 `nn.Parameters` 类），其余的键值负责该参数的其他选项，如本例中的键 `'weight_decay':wd`，其值 `wd` 代表正则化系数 $$\lambda$$。当然，Optimizer 自己的构造参数（写在字典外面）能全局设置，例如本例 `lr=lr` 指定了整个学习率。如果与字典中的设置冲突，以字典为准。本例没有全局设置 `weight_decay`，因为不想给 bias 正则化。
-
-### 暂退法（Dropout）
-
-#### 从头开始实现
-
-#### 简洁实现
-
-
-# 二、数值稳定性
-
-本节讨论数值稳定性问题，首先考察深度学习训练的主要算法——反向传播算法。
-
-
-简单的**随机初始化**就能很好地避免的上面的问题。常用做法是使用正态分布，通常均值（取0）、方差是固定的。之前的例子都是我们手动初始化了的，对简洁实现的高级 API 来说，即使不手动初始化，框架也将默认使用随机初始化，说明此方法非常常用且普遍。
-
-PyTorch 也提供了几十种初始化方法，[下一 Part]() 会系统讲解初始化的代码。每种层都有自己的默认初始化方法。
-
-## 解决数值稳定性问题的方法
-
-
-# 三、环境和分布偏移
-以线性回归为例，**L2 正则化** 就是在损失函数中加正则项：
-
-$$ L(\mathbf{w}, b) = \frac{1}{n} \sum_{i=1}^n SquaredLoss (\mathbf{w}^T \mathbf{x}^{(i)} + b, y^{(i)}) + \frac{1}{\lambda} \left\| \mathbf{w}\right\|^2$$
-书 4.7 节讲解了加正则化的网络训练时的前向传播计算图长什么样、反向传播的公式推导，我直接跳过。
-
-
-# 超参数优化
-
-
-
-
-
-自动优化。
+值得注意的是 L2 正则化，因为它与修改梯度下降公式的权重衰减等价，除了在损失中实现 L2 正则项，还可以直接在优化器中实现。在 PyTorch 的高级 API 中，大部分优化器提供一个超参数：`weight_decay`，传入即可实现权重衰减。

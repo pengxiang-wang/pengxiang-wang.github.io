@@ -7,7 +7,7 @@ img_path: /assets/img/
 math: true
 ---
 
-
+ 
 
 
 Moshe Zutcher 手风琴教学
@@ -40,6 +40,14 @@ Moshe Zutcher 手风琴教学
 # 左手：按钮
 
 ![](accordion_lefthand.png)
+
+手风琴的左手
+counterbass
+
+由于等价，所以只考虑一个，下图。与音名无关
+
+
+
 
 ## 单音
 
@@ -77,7 +85,7 @@ Moshe Zutcher 手风琴教学
 
 音阶 
 自然大调：仅适使用半音和全音。
-- 从二排出发：同排+2、跨一-2、
+- 从二排出发：2（同排+2）、3（跨一-2）、r4 r2 t4 r5 / r3 t5 t3 r4 (r = root row, t = thirds row)
 - 
 自然小调：
 半音阶：仅适用半音
@@ -91,8 +99,36 @@ Moshe Zutcher 手风琴教学
 
 是按照五度圈关系排列的，可以实现基本的，
 
-
+[Stradella 低音系统](https://en.wikipedia.org/wiki/Stradella_bass_system)
+∑
 不用考虑调。相对位置不变。
+
+
+提供了四种：
+- 的
+
+
+但并不是说，只能弹着四种和弦，事实上所有和弦都可以通过不同和弦、单音组合起来按实现，只不过有的比较难需要多加练习。
+
+以下每种都讨论它的所有实现可能性，并讨论和弦内音（因为有时候左手需要分解和弦）。
+- 根音在二排
+- 根音在一排
+
+
+### 三和弦
+
+
+
+https://www.yumpu.com/en/document/read/32251079/left-hand-chord-combining-on-the-accordion
+
+
+大三和弦：
+
+
+https://accordionchords.com/
+
+
+总结表
 
 | 和弦  | 根音在二排 | 和弦内音 | 根音在一排  | 和弦内音 |
 | :-:|:-:|:-:|
