@@ -1,6 +1,6 @@
 ---
 title: PyTorch 学习笔记（三）：自定义网络结构（nn.Module）
-date: 2022-02-11
+date: 2022-02-08
 categories: [科研]
 tags: [读书笔记, 《动手学深度学习》, 机器学习, 技术]
 img_path: /assets/img/

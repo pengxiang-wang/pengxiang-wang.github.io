@@ -75,3 +75,8 @@ A principled approach for learning task similarity in multitask learning
 # 如何与 mask 机制结合？
 
 参考 Task Grouping 论文 PPT 最后一页怎么用到持续学习
+
+
+
+侯雨廷想法：mask + 按类加 mask + （对比学习框架）
+牟老师：TAG 造一个普通的优化算法。

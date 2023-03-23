@@ -7,7 +7,7 @@ img_path: /assets/img/
 math: true
 ---
 
-本文汇总了目前我看过的持续学习领域相关文献。按照我的[《学习笔记：持续学习》]()一文的脉络整理。
+本文汇总了目前我看过的持续学习领域相关文献。按照我的[《持续学习基础知识》]()一文的脉络整理。
 
 
 ----------
@@ -25,15 +25,13 @@ math: true
 个人推荐指数：
 
 
-
-
-
 # 综述
 
 ### [Lifelong Learning Algorithms](https://link.springer.com/book/10.1007/978-1-4615-5529-2)
 - 图书：《Learning to learn》，1998，第 8 章
 - 作者：[Sebastian Thrun](https://zh.wikipedia.org/zh-cn/塞巴斯蒂安·特龙)
-- 内容：《Learning to learn》这本书是元学习领域的开山鼻祖，Thrun 是元学习和持续学习早期最重要的研究者之一。这本书主要是系统地引入了元学习的概念，中间穿插总结了当时多任务学习和持续学习的算法。（我一直没办法看到这本书，那个 Springer 用学校登录不上，要花钱 TAT）
+- 内容：`《Learning to learn》这本书是元学习领域的开山鼻祖，Thrun 是元学习和持续学习早期最重要的研究者之一。这本书主要是系统地引入了元学习的概念，中间穿插总结了当时多任务学习和持续学习的算法。（我一直没办法看到这本书，那个 Springer 用学校登录不上，要花钱 TAT）`
+- 
 
 ### [A continual learning survey: Defying forgetting in classification tasks](https://ieeexplore.ieee.org/document/9349197)
 - 期刊：TPAMI 2021
@@ -169,6 +167,7 @@ $\sum_k^K \alpha_k = 1$
 - 内容：R-EWC: Rotate your networks: A factorized rotation of parameter space in conjunction with EWC
 
 ### [SI: Continual learning through Synaptic Intelligence](https://arxiv.org/pdf/1703.04200.pdf)
+**没有导入**
 - 会议：ICML 2017
 - 作者：Friedemann Zenke, et al, Stanford University
 - 内容：Bring biological complexity into artificial neural networks

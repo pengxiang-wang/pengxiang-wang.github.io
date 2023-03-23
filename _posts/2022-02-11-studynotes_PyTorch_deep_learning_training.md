@@ -1,6 +1,6 @@
 ---
 title: PyTorch 学习笔记（四）：深度学习的训练
-date: 2022-02-08
+date: 2022-02-11
 categories: [科研]
 tags: [读书笔记, 《动手学深度学习》, 技术]
 img_path: /assets/img/
@@ -213,8 +213,7 @@ reg = RegLoss(factor=FACTOR)
 for epoch:
     for batch:
         ...
-        y_hat = net(X)
-        l = loss(y_hat, y) + reg(y_hat, y)
+        l = loss(net(X), y) + reg(net(X), y)
         l.backward()
         ...
 ...

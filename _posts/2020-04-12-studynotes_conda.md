@@ -57,6 +57,7 @@ Conda 作为一个包管理工具，最主要的逻辑就是一个两层的关�
 - 对环境的操作
     - 检索：`conda info --envs`
     - 创建：`conda create --name NAME python=x.x`
+      - 复制：`conda create --name NAME --clone XXX`
     - 切换：`conda activate NAME` (`conda deactivate` 等效于 `conda activate base`)
     - 删除：`conda remove --name NAME --all`
 - 对包的操作
