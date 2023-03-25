@@ -803,6 +803,8 @@ with Class(...) as var:
 - assert 语句可以全局开关。在运行代码时加参数 `-O` 可以关闭所有 assert（相当于把所有 assert 语句删掉）。用 print 语句如果不想调试了必须删除或注释掉；
 - logging 库更适合耗时较长的大型项目中管理日志，对于小代码实在没有必要；
 - 在 IDE 里调试的问题是每次都需要手动打断点，不能长久保存断点信息，也无法输出成文本。更适合临时地查看程序执行的逻辑。
+Python 官方教程里也介绍了什么时候用什么工具最好：<https://docs.python.org/zh-cn/3/howto/logging.html#logging-basic-tutorial>
+
 
 ## 测试
 

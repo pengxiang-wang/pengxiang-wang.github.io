@@ -43,6 +43,7 @@ Mac 的定位是只做学习机或者跑一些简单的程序，不跑大型项�
 - base：当作基本环境，只作临时使用，只在此环境中安装必要的通用的包，如 Jupyter Notebook，IPython，在创建新环境时都统一复制一份此环境；
 - dl_study：学习、测试深度学习代码用，在 base 的基础上安装深度学习的包；
 - spyder：爬虫程序的环境，在 base 的基础上安装爬虫相关包，如 requests, BeautifulSoup；
+- 对于要发布的项目环境，从头开始创建一个即可（不需要复制 base）。
 
 # 二、个人电脑（Windows 系统）
 

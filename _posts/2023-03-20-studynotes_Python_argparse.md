@@ -10,6 +10,8 @@ img_path: /assets/img/
 
 当运行的代码有多个参数并需要多次运行时，简单的处理方法是将参数放在代码里面的全局变量中，每次运行前修改变量的值。但这样需要大量的手动操作，非常费力且不够优雅；且这些参数本身在逻辑上属于程序的输入，将其与代码主体分离是更加合理的。
 
+argparse 官方文档：<https://docs.python.org/zh-cn/3/library/argparse.html>
+
 
 # sys.argv
 

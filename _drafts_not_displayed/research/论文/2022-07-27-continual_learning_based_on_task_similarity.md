@@ -80,3 +80,5 @@ A principled approach for learning task similarity in multitask learning
 
 侯雨廷想法：mask + 按类加 mask + （对比学习框架）
 牟老师：TAG 造一个普通的优化算法。
+
+可不可以融合各种相似度，如梯度、，，。变成一个大的综合相似度？。
