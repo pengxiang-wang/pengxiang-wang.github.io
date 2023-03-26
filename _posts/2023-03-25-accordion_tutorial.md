@@ -56,7 +56,7 @@ math: true
 
 
 ![](accordion_register_treble.gif)
-![](accordion_register_treble_2.gif)
+![](accordion_register_treble2.gif)
 
 > 基础音色越多（即记号中的点越多）的音色，实际上声音也会越大，因为打开的气口更多。因此，第 6 个音色用同样的力气拉声音会比第 1、2 个的大。
 {: .prompt-info }
@@ -97,7 +97,7 @@ math: true
 - 不要靠在椅背上，靠前一点坐（1/2 或 1/3 处）；
 - 琴的重心落在左腿，使得左手的风箱能以左腿为支点自由开合；
 - 右大腿内侧抵住右手键盘的右下角，用于固定琴的前后位置（小琴可以不用）；
-- 脚正常地平放在地上，不要踮脚或盘腿，左脚可以打拍子（右腿起固定作用不要用它打拍子）。
+- 脚正常地平放在地上，不要踮脚或盘腿，右脚可以打拍子（不要用左腿，会引起风箱晃动）。
 
 所有乐器演奏的精髓是**放松不紧张**，这里也重复一下这个原则，练琴时应时刻注意身体的放松，保持愉快的心情。
 
@@ -108,8 +108,6 @@ math: true
 
 
 手风琴的右手键盘负责高音旋律声部。它与钢琴是一致的，本章的学习内容也与钢琴的右手相通。
-
-![](piano_keyboard.png)
 
 ## 右手触键姿势
 
@@ -212,8 +210,8 @@ math: true
 
 作业 1：查找手风琴资料，培养兴趣
 
-: 去 B 站、YouTube 关注一些手风琴区 up 主：[风流先森](https://space.bilibili.com/2874364)、[仲凯手风琴](https://space.bilibili.com/21263434)、[小王的手风琴](https://space.bilibili.com/168610518)、[修仙大神李小肠](https://space.bilibili.com/432692126)、[刘宽音乐工厂](https://space.bilibili.com/17353875)、[毛茸茸的热水袋](https://space.bilibili.com/157002422)；[Moshe Zuchter](https://www.youtube.com/@moshezuchter)、[Jo Brunenberg](https://www.youtube.com/@jobrunenberg-accordion)、[amarcordeon](https://www.youtube.com/@amarcordeon)、[CrazyAccordion Trio](https://www.youtube.com/@CrazyAccordionTrio)、[Just Duet](https://www.youtube.com/@JustDuetFFM)
-: 阅读我写的[手风琴的各种风格](https://pengxiang-wang.github.io/posts/accordion_style/)一文，观看其中的视频
+: 1. 去 B 站、YouTube 关注一些手风琴区 up 主：[风流先森](https://space.bilibili.com/2874364)、[仲凯手风琴](https://space.bilibili.com/21263434)、[小王的手风琴](https://space.bilibili.com/168610518)、[修仙大神李小肠](https://space.bilibili.com/432692126)、[刘宽音乐工厂](https://space.bilibili.com/17353875)、[毛茸茸的热水袋](https://space.bilibili.com/157002422)；[Moshe Zuchter](https://www.youtube.com/@moshezuchter)、[Jo Brunenberg](https://www.youtube.com/@jobrunenberg-accordion)、[amarcordeon](https://www.youtube.com/@amarcordeon)、[CrazyAccordion Trio](https://www.youtube.com/@CrazyAccordionTrio)、[Just Duet](https://www.youtube.com/@JustDuetFFM)
+: 2. 阅读我写的[手风琴的各种风格](https://pengxiang-wang.github.io/posts/accordion_style/)一文，观看其中的视频
 
 作业 2：复习课堂练习 1、2
 : 练会为止
@@ -221,5 +219,3 @@ math: true
 作业 3：自由探索手风琴
 : 把手风琴当做玩具，自由探索它的各部件（变音器、排气孔等），找到摸琴、拉琴的感觉
 
-
-（统计一下学员乐理的了解程度）
