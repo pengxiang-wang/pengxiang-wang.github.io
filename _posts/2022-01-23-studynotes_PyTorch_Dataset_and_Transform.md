@@ -2,7 +2,7 @@
 title: PyTorch 学习笔记（二）：自定义数据集，数据预处理
 date: 2022-01-23
 categories: [科研]
-tags: [机器学习,《动手学深度学习》，技术]
+tags: [机器学习,《动手学深度学习》, 技术]
 img_path: /assets/img/
 ---
 

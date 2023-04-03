@@ -16,3 +16,9 @@ under the hood」指的就是引擎盖下面的那些平常看不到的构造，
 note that 注意到
 
 the more so the more...  ...更多则更多
+
+a handful of 少量的，几个
+
+vanilla 普通的、基本的
+
+albeit 尽管
