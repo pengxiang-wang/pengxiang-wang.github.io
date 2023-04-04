@@ -53,9 +53,7 @@ img_path: /assets/img/
 （微调模型）
 
 
-
-
-
+HAT 的 mask 只能在模型结构中定义，因为每个 module 情况不一样，难以以统一的方法遍历神经元
 
 
 
@@ -84,7 +82,7 @@ CIL 如何画三角图？
 TensorBoard
 
 在 dataset.py 中定义了 show_in_tensorboard 函数，用于查看每个任务的图像。
-
+r'r
 
 
 

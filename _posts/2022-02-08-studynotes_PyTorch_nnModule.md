@@ -103,8 +103,8 @@ net = nn.Linear(8, 128)
 class MyLinear(nn.Module):
     def __init__(self, input_num, output_num):
         super().__init__()
-        self.weight = nn.Parameter(torch.randn(input_units, units))
-        self.bias = nn.Parameter(torch.randn(units, ))
+        self.weight = nn.Parameter(torch.randn(input_num, output_num))
+        self.bias = nn.Parameter(torch.randn(output_num, ))
     def forward(self, X):
         return torch.matmul(X, self.weight.data) + self.bias.data
 
