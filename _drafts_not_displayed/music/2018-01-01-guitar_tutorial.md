@@ -651,3 +651,12 @@ blues 即兴：
 - use repetition
 
 ### 风格专题：摇滚
+
+
+### 风格专题：乡村
+
+simple。
+
+Songwriter Harlan Howard once said "country music is three chords and the truth."[4]
+
+https://en.wikipedia.org/wiki/Flatpicking
