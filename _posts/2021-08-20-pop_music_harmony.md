@@ -2,7 +2,7 @@
 title: 流行音乐和声理论与配和弦方法总结
 date: 2021-08-20
 categories: [音乐]
-tag: [音乐理论]
+tag: [乐理]
 img_path: /assets/img/
 ---
 
@@ -332,12 +332,20 @@ Mixolydian 的 V 级和弦变成了小三和弦 Gm，解决倾向不如大三和
 | Am7 |VI |  I（主和弦） |
 | Bø |VII |  II |
 
-涉及 4 种七和弦——[大七和弦](https://en.wikipedia.org/wiki/Major_seventh)（maj7）、[小七和弦](https://en.wikipedia.org/wiki/Minor_seventh_chord)（m7）、[属七和弦](https://en.wikipedia.org/wiki/Dominant_seventh_chord)（7）、[半减七和弦](https://en.wikipedia.org/wiki/Half-diminished_seventh_chord)（ø、m7-b5），还有一种[小大七和弦](https://en.wikipedia.org/wiki/Minor_major_seventh_chord)（mM7）未涉及。在上述和弦中：
+涉及 4 种七和弦——[大七和弦](https://en.wikipedia.org/wiki/Major_seventh)（maj7）、[小七和弦](https://en.wikipedia.org/wiki/Minor_seventh_chord)（m7）、[属七和弦](https://en.wikipedia.org/wiki/Dominant_seventh_chord)（7）、[半减七和弦](https://en.wikipedia.org/wiki/Half-diminished_seventh_chord)（ø、m7-b5）。在上述和弦中：
 
 - 属七和弦：G7 用于解决到主和弦 C，构成 V7->I 完全终止式；
 - 大七和弦：Cmaj7、Fmaj7；
 - 小七和弦：Dm7、Em7、Am7 比较常用；
 - 半减七和弦：Bø，作为小调的二级和弦，类似大调的 Dm7。
+
+上述没有涉及的七和弦种类有：
+- [小大七和弦](https://en.wikipedia.org/wiki/Minor_major_seventh_chord)（mmaj7）；
+- [减七和弦](https://en.wikipedia.org/wiki/Diminished_seventh_chord)（dim7）；
+- [减大七和弦](https://en.wikipedia.org/wiki/Diminished_major_seventh_chord)（maj7b5）；
+- [增大七和弦](https://en.wikipedia.org/wiki/Augmented_major_seventh_chord)（maj7#5）。
+
+
 
 
 ### 挂留和弦、附加和弦、六和弦
@@ -395,28 +403,6 @@ Mixolydian 的 V 级和弦变成了小三和弦 Gm，解决倾向不如大三和
 | Am9 |VI |  I（主和弦） |
 | Bdim9 |VII |  II |
 
-### 斜杠和弦
-
-本节专门探讨斜杠和弦的用法和其等价的和弦。
-
-斜杠和弦形式为 A/B，A 为和弦，B 为低音，读作 A over B。它的意义为在 A 和弦基础上加入 B 低音形成的和弦。因此，斜杠和弦与原和弦性质相似，某些时候原和弦可以直接代替斜杠和弦。
-
-根据 A 与 B 的关系，斜杠和弦有两种：
-- 根音是和弦内音：即和弦的转位；
-  - 三和弦
-  - 七和弦
-  - ...
-- 根音不是和弦内音：
-
-作用：
-- 起到 bass 的作用，让和弦转换更顺畅
-  - 例如：G/B，1765. G/F#  C/E：C 到 F，Dm to C to F(234)  F/A:Am to F Am/G：Am/F#：6543
-  - F7/E：用于 blues，最后几节 5415 的4 
-- 乡村音乐：交替低音
-
-斜杠和弦与扩展和弦的等价关系
-
-- 挂四和弦与挂二和弦的等价关系
 
 ## 引入调外和弦
 

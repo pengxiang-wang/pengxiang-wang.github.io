@@ -1,8 +1,8 @@
 ---
-title: 乐理
+title: 爵士乐乐理
 date: 2016-08-10
-categories: []
-tag: []
+categories: [音乐]
+tag: [乐理]
 img_path: /assets/img/
 ---
 
