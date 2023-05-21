@@ -69,7 +69,7 @@ relu = nn.ReLU()
 
 对网络结构下手的一些训练 trick 与 `nn.Module` 是兼容的，可以看作一种特殊的层。PyTorch 为 Dropout 和 Batch Normalization 都提供了高级的 API：`nn.Dropout()`、`nn.BatchNorm1d()`。对于图像等数据，还提供了 2D、3D 等版本。
 
-这里需要注意的是，Dropout 和 Batch Normalization 都是训练和测试不一样的层（在训练阶段引入随机性，在测试阶段以期望值代替来消除随机性），**所以这些层前向传播时，必须要有指示告诉它们是训练还是测试**。PyTorch 设计了这个指示命令为 `model.train()` 与 `model.eval()`，`model` 指层所在的整个 `nn.Module` 模型。这两句话放在整个训练或测试阶段开始前即可。
+这里需要注意的是，Dropout 和 Batch Normalization 都是训练和测试不一样的层（在训练阶段引入随机性，在测试阶段以期望值代替来消除随机性），**所以这些层前向传播时，必须要有指示告诉它们是训练还是测试**。PyTorch 设计了这个指示变量封装在 `nn.Module` 类型的实例属性 `training` 中（布尔变量）；方法 `.train()` 与 `.eval()` 可以修改此变量，把它放在整个训练或测试阶段开始前即可。
 
 
 # 四、参数管理与初始化
