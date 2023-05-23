@@ -8,138 +8,19 @@ img_path: /assets/img/
 
 
 
+## Small Talks
 
-
-## 打招呼（寒暄）
-
-How are you, I'm fine. 非常刻板
-
-熟人朋友打招呼，非正式：
-- Hello, mate?（英式）
-- Alright, xx? （英式）
-- How are you? = How you doing? = How's it going?（英式）
-- What's up? = What's happening?（英式）
-
-- What brought you here today? 你来做什么？
-
-初次见面：
-- Nice to meet you.
-
-
-回答：
-- I'm good very well 
-- Alright.
-- Not too bad. （英式）
-
-
-
-## 请求
+办正事之前，一般有
+small talks
+让气氛更融洽，破冰。
+- 禁忌话题：个人隐私（非常重视）不要搞中国人喜欢聊的家长里短（聊工作没问题？）。宗教、政治
 
 
 
 
-餐厅点餐：
-- I'd like XXX, please.
-
-请求别人不要用祈使句，用问句，但也不要突兀地提问，前面有点铺垫显得更礼貌：
-- Is this your XXX?
-- Excuse me. I'm doing sth.
-
-
-Do you mind XXX?
-
-情态动词虚拟式could，might，would表示非现实的个人愿望，有礼貌的意思。
-Could you do sth?
-Would you mind doing sth?
-
-wonder用一般过去式或过去进行时表示礼貌：
-I was (just) wondering if you could do sth.
 
 
 
-将句子用假设包起来，变成假设从句，表示请求，礼貌：（并不是画没说完）
-If I could ...，please.
-
-If 固定短语：
-If you don't mind.
-If it's OK with you.
-If I may say so.
-If it'll help.
-
-## 道谢
-
-除了 Thank you.
-I appreciate it.
-I'm flattered. 过奖了。
-
-
-
-## 道歉
-
-Sorry.比较随意.
-I'm sorry 更不随意.
-
-程度比较深的。
-I'm (so/awfully sorry. 非常抱歉。
-Please forgive me.
-I promise it won't happen again.
-
-回答：
-
-
-
-
-## 表达陈述或感受：
-
-用反义疑问句获得对方认同， isn't it?
-
-否定别人变成否定自己，更委婉
-I don't think XXX.
-
-Softening word:
-kind of + adj
-just + v
-Could you just
-a little
-
-I think 
-I'm afraid XXX
-
-
-
-
-## 赞美
-
-- XXX are just XXX!
-- How XXX!
-- What a adj XXX!
-
-
-## 表达同感、附和、反馈
-
-That's XXX.
-How XXX.
-Really.
-Oh, wow, Cool.
-Uh-oh/Uh-huh
-
-
-I agree
-Can't believe XXX.
-This is ridiculous.
-
-
-## 结束谈话
-
-You are a great help. Thank you!
-Have a nice day/ good time! Have fun!
-Excuse me.I'm going to XXX. I have a XXX date. Got to go.
-It was a pleasure chatting with you! Great to meet you!
-
-Do you have a card/
-Facebook?
-
-You made my day. 你让我今天过得很高兴。
 
 
 ## 非语言
@@ -154,6 +35,11 @@ You made my day. 你让我今天过得很高兴。
 
 eye contact，看着对方说话
 语气词
+
+
+
+## 文化知识：政治正确
+- 种族主义、
 
 
 
@@ -239,7 +125,16 @@ fries:
 
 
 
-# 生活物品
+# 物品
+
+## 一般物体
+
+slice: 
+
+
+
+
+
 
 
 
@@ -346,6 +241,9 @@ conversational
 
 
 # 科研
+
+
+先修：
 
 disclaimer
 

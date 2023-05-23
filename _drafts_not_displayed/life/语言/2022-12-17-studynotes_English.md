@@ -22,20 +22,11 @@ img_path: /assets/img/
 
 # 交际
 
-
-交际技巧：
-注意 eye contact，看着对方的眼睛，不要回避别人的视线，在外国人看来不礼貌。
-习惯更远一点的距离就开始打招呼，接话反应要快一点。多一些话余量。
-多道谢、道歉。咳嗽打喷嚏要 excuse me. 接话 God bless you. 
-
-办正事之前，一般有
-small talks
-让气氛更融洽，破冰。
-- 禁忌话题：个人隐私（非常重视）不要搞中国人喜欢聊的家长里短（聊工作没问题？）。宗教、政治
-
-政治正确：
-- 种族主义、
-
+中西交际文化是有差异的，以下是聊天时一些通用的应该注意的区别：
+- 注意 eye contact，说话时看着对方的眼睛，不要回避别人的视线，在外国人看来不礼貌；
+- 外国人习惯从更远一点的距离就开始打招呼，接话反应更快，话语量输出不多；
+- 外国人习惯多道谢、道歉。有些中国人觉得没必要的场合，外国人习惯了道谢、道歉。例如咳嗽打喷嚏后要说 Excuse me，回复 God bless you；一点小事都要说 Thank you.
+- 外国人更注重个人隐私，如果不是特别熟，一般不要在聊天中触及中国人觉得家常的话题，如家庭情况、工作、婚姻，还有政治、宗教信仰等。
 
 
 ## 文化知识：姓名
@@ -106,9 +97,165 @@ small talks
 > 由上述文化现象衍生的短语：`on a first-name basis (with XX)` / `on first-name terms`（英式），表示“以名相称”，意为很熟、习以为常。它不仅可以对人，也可以对事物。
 {: .prompt-info }
 
-以下是社交称谓语，代称的用法：
-- 对不认识的人，尊重：sir、madam（口语ma'am）、miss 
-- 对一群人，尊重：ladies and gentlemen
-- guy, guys, mate?
+以下是社交称谓语（不知道姓名时的代称）的用法：
+- 对不认识的人，尊重的称呼：sir, madam（口语ma'am）, miss
+- 轻松随意的称呼：mate（英式）, pal, buddy, dude, man（男）, guy（男）, bro（男）, homie（非常要好）, lad（男）
+- 对一群人，尊重的称呼：ladies and gentlemen
 
 
+
+## 打招呼（寒暄）
+
+初次见面：
+- (It's) nice to meet you. 
+
+熟人朋友打招呼，非正式：
+- 直接打招呼：
+  - Hello/Hi + mate 等社交称谓语?
+- 询问对方情况：
+  - Alright, xx? （英式）
+  - How are you?（比较刻板） = How (are) you doing?（英式）= How's it going?
+  - What's up? = What's happening?（英式）
+  - What brought you here today? 
+
+回答：
+- 直接表达我很好（美式）：
+  - I'm fine（比较刻板）/ good / very well / ...
+  - 表达自己的情况后一般接 thank you! 并询问对方：and you? 
+- 间接表达我还行（英式）：
+  - Alright.
+  - Not too bad. （英式）
+
+
+## 询问或请求
+
+询问或请求别人事情需要通过各种方式保持语气的缓和与礼貌，否则会带来不客气、粗鲁的感觉：
+- 不用具有命令语气的祈使句，改用问句；
+- 通过 please, just 等加强礼貌；
+- 使用情态动词的虚拟式 could, might, would 表达非现实的个人愿望，有一种礼貌的意思；
+- 不要突兀地提问，前面有点内容的铺垫显得更礼貌；
+- 可以将句子用 if 包起来，变成假设从句表示请求，显得更礼貌。（此时不需要主句，也并不代表话没说完）
+
+以下是一些例子：
+
+- Do you mind ...?（问句）
+- Could you (please/just) ...?（问句/虚拟/please）
+- Would you mind doing sth?（问句/虚拟）
+- I'd like ..., please.（虚拟/please，常用于餐厅点餐）
+- If I could ..., please. （假设/虚拟/please）
+- I was (just) wondering if you could ... .（假设，注意这里 wonder 用一般过去式或过去进行时可以表示礼貌）
+- Is this your ...? Could ...? （铺垫）
+- Excuse me. I'm doing ... . Could you tell me ...? (铺垫)
+
+
+> If 可以表示礼貌，由此衍生出了一些固定短语，加在自己说的话中，增强谦虚和客气感：
+> - ..., if you don't mind.
+> - ..., if it's OK with you.
+> - ..., if I may say so.
+> - ..., If it'll help.
+{: .prompt-tip }
+
+
+## 道谢
+
+道谢最简单的方式是 thank you / thanks。
+
+可以加重 thank you / thanks 感谢的程度：
+- Thank you very much.
+- Thanks a lot.
+- Many thanks.
+
+除了 thank you 还有很多别的表达：
+- I appreciate it. 
+- I'm grateful.
+- You're so kind.
+- I'm honoured/flattered/humbled/blessed by ... . 
+
+并不是所有情况都需要回答道谢。只有帮比较多的忙才需要。回答道谢最简单的方式是 you're welcome. 除此之外还有很多别的表达：
+- 表达对对方的安抚，劝对方不必客气：
+  - No problem.
+  - That's all right.
+  - No worries.
+- 表达是我应该做的：
+  - Of course!
+  - Sure!
+  - Don't mention it.
+- 表达我在享受帮助对方的过程：
+  - It was my pleasure.
+  - Happy to!
+  - It's an honour.
+- 表达我很开心看到对你有所帮助：
+  - I’m glad you liked it!
+  - I’m so glad it was helpful!
+- 加重回应程度：
+  - You're very/most welcome.
+- 其他：
+  - Anytime. （随时乐意效劳）
+  - It was the least I could do.
+  - (I should) Thank YOU. XXX
+
+## 道歉
+
+道歉最简单的方式是 sorry. 其他的表达：
+- 与语气词 oops 搭配
+- 更正式、礼貌：I'm sorry. （更礼貌）
+- (It's) my fault.
+- 加重道歉程度：
+  - I'm so/awfully sorry. 非常抱歉。
+  - Please forgive me.
+  - I promise it won't happen again.
+- 非常正式：I apologize for ...
+
+道歉可以后面跟一些解释的话语：
+- I should've ...
+- 
+
+回答道歉：
+- That’s OK.
+- It happens.
+- No problem.
+- Don’t worry about it.
+- I forgive you. （程度重）
+
+
+
+
+## 陈述或表达感受
+
+陈述或表达感受时也有一些技巧，让自己说话更得体、委婉。
+- 使用模糊、软化的词汇（softening word），如 kind of 接形容词、just 接副词、... a little；
+- 多用从句表示转述、引用的语气，显得不那么直接；
+- 不轻易否定别人，要否定时可以把改句式转换为否定自己；
+- 用反意疑问句获得对方认同，显得更在意对方。
+
+- I think ... . （引用性从句）
+- I'm afraid ... . （引用性从句）
+- I don't think ... . 而不是 I think ... not ... . （否定别人转换为否定自己）
+- ..., isn't it?（反意疑问句）
+
+我们要回应别人的陈述或表达感受，不能一句话也不说。通用的话语：
+- 表示附和：
+  - 语气词 Uh-huh / Oh, wow! /  / Uh-oh
+  - Cool.
+  - I agree.
+  - Can't believe XXX.
+  - This is ridiculous.
+- 发表自己的评价：
+  - That's XXX.
+  - How XXX!
+  - What a XXX XXX!
+  - XXX are just XXX!
+
+
+
+## 结束谈话
+
+结束对话最简单的方式是 Goodbye / Bye。也有很多别的表达：
+- 表达对对方的祝愿：
+  - Have a nice day / Have a good time! / Have fun!
+- 表达自己还有别的事情：
+  - Excuse me, I'm going to ... . / I have a XXX date. I got to go.
+- 表达自己对谈话的满意：
+  - It was a pleasure chatting with you!
+  - Great to meet you!
+  - You made my day.
