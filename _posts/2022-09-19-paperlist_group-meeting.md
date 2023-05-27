@@ -22,7 +22,21 @@ math: true
 # 2022-2023 第二学期
 
 
-## 2022-03-02
+## 2023-05-25
+
+### [DualPrompt: Complementary Prompting for Rehearsal-free Continual Learning](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136860617.pdf)
+- 会议：ECCV 2022
+- 作者：东北大学，谷歌
+- 主讲人：H
+- 内容：
+
+
+### Prompt-Tuning Few-shot learning
+- 主讲人：L
+- 内容：讲解几篇使用 Prompt-Tuning 的小样本学习工作的思想。
+
+
+## 2023-03-02
 
 ### [Gradient Regularized Contrastive Learning for Continual Domain Adaptation]()
 

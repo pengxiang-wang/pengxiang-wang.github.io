@@ -239,9 +239,23 @@ conversational
 
 
 
+assembly line. 
+
 
 # 科研
 
+calibration
+
+a priori
+
+in the sense of 就...意义而言
+
+
+affinity
+
+prequsuity
+
+heuristics
 
 先修：
 
