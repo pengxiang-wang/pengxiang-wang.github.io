@@ -224,6 +224,7 @@ accordion Company to Melody
 ## 第七课：和声
 
 久久艳阳天
+故乡的云
 
 假如爱有天意
 贝加尔湖畔

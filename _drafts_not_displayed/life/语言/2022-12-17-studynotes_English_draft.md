@@ -223,6 +223,10 @@ concurrent
 
 
 
+、
+
+英语一般不表示顺便。要用的话 可以 Conveniently。Incidently不是这个意思
+
 
 
 # 描述人
@@ -242,7 +246,30 @@ conversational
 assembly line. 
 
 
-# 科研
+# 科研向抽象词
+
+intergrated
+
+differentiate
+distinguish
+
+extent 体量
+
+get a glimpse of
+
+inspire by
+
+analogy
+
+artificially;arbitrarily
+
+segregate 只有种族隔离的意思，不能用在别的地方
+
+consolidation   
+
+handcrafted
+
+external
 
 calibration
 
@@ -402,6 +429,8 @@ in essence
 
 
 除了xx之外：apart from Besides 
+
+Incidently = by the way = （用于链接作用）
 
 
 thus adv.

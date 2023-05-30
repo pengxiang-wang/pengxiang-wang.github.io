@@ -131,7 +131,7 @@ $$ R(\mathbf{m}^{(t)}, \mathbf{m}^{(\leq t-1)})= \frac{\sum_{l=1}^{L-1}\sum_{i=1
 
 ![HAT_forward_and_backward_passes](HAT_forward_and_backward_passes.png)
 
-注意，训练新任务时并没有实际使用旧任务的 mask 进行前向传播，而只是用在了稀疏正则项上（$$\mathbf{m}^{(\leq t-1)}$$）。各个任务 mask 之间的联系仅此而已。
+注意，训练新任务时并没有实际使用旧任务的 mask 进行前向传播，而只是用在了稀疏正则项上（$$\mathbf{m}^{(\leq t-1)}$$）。但是，不允许更新旧任务 mask 住的参数，图中 $$g_l$$ 到 $$g'_l$$，这个需要在反向传播时手动将对应的梯度乘以旧任务 mask 的反转值。各个任务 mask 之间的联系仅此而已。
 
 
 # APD
