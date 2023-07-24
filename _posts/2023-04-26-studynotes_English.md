@@ -140,10 +140,13 @@ img_path: /assets/img/
 
 - Do you mind ...?（问句）
 - Could you (please/just) ...?（问句/虚拟/please）
+- Could you (please) tell me ...? （问句/虚拟/please）
 - Would you mind doing sth?（问句/虚拟）
+- Would it be a problem if ...? （问句/虚拟）
 - I'd like ..., please.（虚拟/please，常用于餐厅点餐）
 - If I could ..., please. （假设/虚拟/please）
 - I was (just) wondering if you could ... .（假设，注意这里 wonder 用一般过去式或过去进行时可以表示礼貌）
+- Is there any chance ...?
 - Is this your ...? Could ...? （铺垫）
 - Excuse me. I'm doing ... . Could you tell me ...? (铺垫)
 
@@ -158,7 +161,7 @@ img_path: /assets/img/
 
 ## 道谢
 
-道谢最简单的方式是 thank you / thanks。
+**道谢**最简单的方式是 thank you / thanks。
 
 可以加重 thank you / thanks 感谢的程度：
 - Thank you very much.
@@ -168,10 +171,10 @@ img_path: /assets/img/
 除了 thank you 还有很多别的表达：
 - I appreciate it. 
 - I'm grateful.
-- You're so kind.
+- You're so kind. / That's very kind of you.
 - I'm honoured/flattered/humbled/blessed by ... . 
 
-并不是所有情况都需要回答道谢。只有帮比较多的忙才需要。回答道谢最简单的方式是 you're welcome. 除此之外还有很多别的表达：
+并不是所有情况都需要回答道谢。只有帮比较多的忙才需要。**回答道谢**最简单的方式是 you're welcome. 除此之外还有很多别的表达：
 - 表达对对方的安抚，劝对方不必客气：
   - No problem.
   - That's all right.
@@ -184,7 +187,6 @@ img_path: /assets/img/
   - It was my pleasure.
   - Happy to!
   - It's an honour.
-- 表达我很开心看到对你有所帮助：
   - I’m glad you liked it!
   - I’m so glad it was helpful!
 - 加重回应程度：
@@ -196,7 +198,7 @@ img_path: /assets/img/
 
 ## 道歉
 
-道歉最简单的方式是 sorry. 其他的表达：
+**道歉**最简单的方式是 sorry. 其他的表达：
 - 与语气词 oops 搭配
 - 更正式、礼貌：I'm sorry. （更礼貌）
 - (It's) my fault.
@@ -210,7 +212,7 @@ img_path: /assets/img/
 - I should've ...
 - 
 
-回答道歉：
+**回答道歉**：
 - That’s OK.
 - It happens.
 - No problem.
@@ -259,3 +261,318 @@ img_path: /assets/img/
   - It was a pleasure chatting with you!
   - Great to meet you!
   - You made my day.
+
+
+
+# 描述人
+
+描述人性格与外貌的形容词经常可以用于聊天中。
+
+## 性格（Personality）
+
+### 友善程度
+
+形容一般的友好、和善：
+- friendly 【A2】
+- kind 【A2】
+- pleasant 【A2】
+- warm 【B1】
+- hospitable 【C1】: 强调好客
+- affectionate 【C2】: 强调有爱心的，有感情的，有人情味的
+- affable: 强调容易说话
+- amiable
+- companionable: 强调容易陪伴
+- convivial: 一般形容气氛或活动，用于人时常用于形容活动的主人
+
+> 其他意思相近的词汇：
+> - amicable：友好的、不吵架的（形容关系或气氛，不形容人）
+
+形容不友好、冷淡、冷漠：
+- cold 【B1】: 冷漠的
+- distant 【C1】: 强调疏远
+- hostile 【C1】: 强调有敌意
+- impersonal 【C1】: 强调没有人情味
+- aloof
+- frigid: 形容女人性冷淡
+
+形容外向：
+- outgoing 【C1】
+- lively 【B1】
+- energetic 【B2】
+- enthusiastic 【B2】
+- extravert 【C1】: 性格外向的人
+- vivacious 【C2】: 形容女性活泼迷人
+- exuberant
+- hearty
+
+形容内向：
+- shy 【B1】: 强调害羞
+- silent 【B2】: 
+- placid: 强调安静
+- introvert 【C2】: 性格内向的人
+
+形容爱交际：
+- sociable 【B1】
+- gregarious
+
+形容爱说话：
+- communicative 【B2】: 强调提供信息
+- talkative 【C1】: 强调话多
+- chatty 【C1】: 强调闲聊
+- chatterbox：话匣子（贬义）
+- conversationalist
+- talker: 谈话的人（通常有定语修饰），空谈的人（贬义）
+- voluble: 强调能言善辩
+
+形容乐于助人：
+- helpful 【B1】
+- obliging
+- well-disposed
+
+形容有礼貌：
+- polite 【A2】
+- courteous 【C2】
+- gracious: 强调慈祥、和蔼
+- well-mannered
+
+形容粗鲁、令人讨厌：
+- disgusting 【B1】: 程度深
+- rude 【B1】
+- nuisance 【B2】: 麻烦的人
+- unpleasant 【C1】
+- creep 【C2】: （多形容男人）讨厌鬼，令人讨厌的人
+- despicable: 程度深
+- obnoxious: 程度深
+
+
+形容脾气好：
+- easy-going 【B1】
+- tender 【C2】: 强调温柔
+- good-natured
+
+形容脾气坏：
+- aggressive 【B2】: 强调有攻击性
+- bad-tempered 【B2】: 脾气坏的
+- irritable 【C2】: 易怒的
+- impulsive 【C2】: 强调容易冲动
+- belligerent: 同 aggressive
+- cantankerous: 强调爱争吵和抱怨
+- touchy: 易怒的
+
+形容古怪：
+- strange 【A2】
+- bizarre 【B2】: 程度深
+- odd 【B2】
+- weird 【B2】
+- eccentric
+- nerd / bookworm: 书呆子
+- psycho: 神经病
+- weirdo: 怪人
+
+形容花钱大方：
+- generous 【B1】
+
+形容花钱小气：
+- mean 【B2】
+- stingy
+
+形容心胸宽广、开明：
+- generous 【B1】
+- broad-minded 【C2】
+
+形容心胸狭窄、人品差：
+- mean 【B2】
+- narrow-minded 【C1】
+- contemptible
+- fussy 【C2】: 挑剔，难以满足
+
+形容坦率、实在：
+- honest 【B1】
+- open 【C2】
+- frank
+
+形容虚伪：
+- hypocritical 【C2】
+- hypocrite: 伪君子
+
+形容强大、强势：
+- brave 【B1】
+- bossy 【B2】: （贬义）
+- decisive 【B2】: 果断的
+- determined 【B2】: 有决心的
+- ambitious 【B2】: 有志向的，雄心勃勃的
+- pushy 【C2】: （贬义）
+
+形容懦弱、脆弱：
+- coward 【B2】: 胆小鬼，懦夫
+- cowardly 【B2】
+- timid 【C2】
+- vulnerable 【C2】: 脆弱的，易受伤的
+- craven
+- indecisive: 优柔寡断的
+- pusillanimous
+
+
+形容聪明：
+- clever 【A1】
+- smart 【B1】
+- creative 【B1】: 有创造力的
+- bright 【B2】
+- sharp 【B2】: 强调敏锐
+- resourceful 【C2】: 强调善于解决问题与决策
+- versatile 【C2】: 多才多艺的
+- inventive: 有创造力的
+- quick-witted: 强调反应快
+
+
+形容笨：
+- stupid 【B1】
+- silly 【B1】
+- foolish 【B2】
+- fool 【B1】: 傻瓜
+- asshole / arsehole（英）
+- dick
+- dickhead
+- gullible: 易受骗的
+- jerk
+- prick
+
+
+形容认真、勤奋：
+- hardworking 【B2】
+- conscientious 【C1】
+- diligent
+
+形容懒惰：
+- lazy 【A2】
+
+形容轻浮：
+- frivolous
+
+
+
+形容口才好：
+- humorous 【C1】: 幽默的
+- persuasive 【C1】: 有说服力的
+- eloquent
+- articulate: 表达清楚的，善于表达的，引申为口才好
+
+形容城府深、圆滑世故的：
+- sophisticated 【B2】
+- diplomatic 【C2】: 委婉的
+- tactful 【C2】: 强调不得罪人
+- adaptable: 灵活的
+- oily: 油头滑脑的（贬义）
+- worldly
+
+形容固执、不会来事：
+- stubborn 【B2】
+- obstinate
+- tactless: 强调脑筋不转弯容易得罪人
+
+
+形容谦虚：
+- modest 【C1】
+- humble 【C2】
+
+形容傲慢、自负、自以为是：
+- arrogant【B2】
+- vain【C2】: 有臭美的含义
+- conceited 【C2】
+- big-headed
+- dogmatic: 强调其他人都是错误的
+- overconfident
+- patronizing: 强调自认为高人一等
+- pretentious: 强调在文学艺术上的
+
+
+
+三观方面的：
+- materialistic 【C2】: 拜金的，物质主义的
+- optimistic 【B2】: 乐观的
+- pessimistic 【B2】: 悲观的
+- cynical 【C2】: 愤世嫉俗的
+- cynic: 愤青
+
+> 英语不会强调“三观”的概念，统称为 values。以下是相近的词汇：
+> - 世界观：world view / world outlook
+> - 人生观：philosophy / view of life
+> - 价值观：一般用 value
+{: .prompt-tip }
+
+形容亲密关系中的表现的：
+- sensitive 【B2】: 敏感的
+- rational 【C1】: 理性的
+- self-centred 【C1】: 以自我为中心的
+- possessive 【C2】: 控制欲强的
+- clingy: 粘人的
+- (emotional) detached: 对感情不敏感的
+- intuitive: 感性的
+
+
+
+## 外貌（Appearance）
+
+形容外貌的词有的可以形容事物。
+
+形容一般的美丽、漂亮：
+- beautiful 【A1】
+- attractive 【A2】
+- good-looking 【A2】
+- lovely 【A2】
+- pretty 【A2】:（只用于女）
+- charming 【B1】
+- gorgeous 【B1】
+- handsome 【B1】:（只用于男）
+- stunning 【B2】:（程度深）
+- glamorous
+
+形容丑或一般：
+- ugly 【B1】
+- plain 【C2】:（只用于女）相貌平平
+
+
+形容优雅：
+- elegant 【B2】 
+- graceful 【C1】
+- debonair:（只用于男）
+- polished
+
+
+形容整洁：
+- neat 【B1】
+- tidy 【A2】
+- trim
+- dapper:（只用于男）穿的讲究，衣冠楚楚
+
+
+形容邋遢、油腻：
+- untidy 【B1】
+- greasy: 油腻
+- oily
+
+
+
+
+形容性别、人群气质：
+- masculine 【C1】: 有男子气的，阳刚的
+- feminine 【C1】: 有女子气的，阴柔的
+- boyish: 像男孩的
+- girly: 像女孩的
+- manly: 有男子气的
+- womanly: 有女子气的
+- sissy: 娘娘腔的（贬义）
+
+
+形容时髦：
+- fashionable 【B1】
+- stylish 【B1】
+- classy
+
+形容俗气、土气：
+- unfashionable 【B2】
+- tacky
+- vulgar
+- cheesy
+
+### 客观形容

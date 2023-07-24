@@ -173,6 +173,11 @@ TensorBoard 通过 SummaryWriter 类的 `add_xx` 方法来画不同的内容，�
 
 深度学习的程序往往耗时很长，需要有存档机制，在代码中设置一些检查点（checkpoint），保存、加载训练到一半的模型参数等在[这篇笔记](https://pengxiang-wang.github.io/posts/readingnotes_Dive-into-DL_Part4/)中有详细的讨论。TensorBoard 也需要有存档机制，根据日志文件的组织方式——每次运行都会保存一个日志文件，画布会加载日志目录下的所有日志文件，所以我们无需手动保存、加载 TensorBoard 画图的进度。
 
+## 
+
+本文介绍 Python `logging`库的使用方法，该库是 Python 中更复杂的调试工具，可以将程序的调试信息输出为格式更丰富的日志或日志文件，适合大型项目（例如深度学习）的调试与监控。
+
+`logging`
 
 
 ## tqdm

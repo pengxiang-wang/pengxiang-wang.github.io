@@ -7,6 +7,8 @@ img_path: /assets/img/
 ---
 
 
+https://www.youtube.com/@EnglishwithLucy/videos
+
 
 ## Small Talks
 
@@ -18,8 +20,14 @@ small talks
 
 
 
+I'm easy. 随便。别人问的时候
 
+What's he on about
 
+Bob's your uncle!
+
+easy peasy: 小菜一碟
+lemon squeezy, easy peasy
 
 
 
@@ -101,16 +109,47 @@ toilet
 小费
 
 
+建筑：
+房间：
+- fence
+- basement
+- walls
+- roof
+- basement
+- chimney
+-  windoes
+-  shutters
+-  door
+-  stairs
+-  porch
+-  bbalcony
+-  drainpipes
+- path
+- lights
+- garage
+- driveway
+- mailbox
+- garden
+- swimming pool
+
+房间：
+- attic
+- bedroom
+- laundry room
+- bathroom
+- study
+- living room
+- hallway
+- dinning-room
+- kitchen
+
+- wall 
+- floor
+- 
+
+
 # 食物
 
-meatball
-
-jambalaya
-
-cuisine
-
-chip
-fries:
 
 ## 英国饮食
 
@@ -124,13 +163,37 @@ fries:
 烹饪方法
 
 
+## 水果
 
-# 物品
+## 蔬菜
+
+## 菜
+
+meatball
+
+jambalaya
+
+cuisine
+
+chip
+fries:
+
+## 零食
+
+
+
+
+# 物品（items）
 
 ## 一般物体
 
 slice: 
 
+## 家居（household）
+
+按房间来分：
+
+家具（furniture）、物品
 
 
 
@@ -138,7 +201,246 @@ slice:
 
 
 
-# 动作
+
+### 通用
+shelf
+家具：
+- carpet
+- clock
+blanket
+- chandelier
+- air conditioner
+door
+window
+chair
+table
+door handle
+curtains
+radiator:
+plug插头
+mirror
+stairs
+light bulb
+electric fan
+light switch
+
+
+
+telephone
+
+
+ashtray
+suitcase
+工具：
+key
+
+
+scales 秤
+
+
+
+fire extinguisher
+
+torch
+
+cushion
+
+### 客厅：
+- sofa
+- armchair
+- floor lamp
+- picture
+- television
+- television cabinet
+- remote control
+- fireplace 壁炉
+lamp
+
+### 卧室
+
+bedside table
+chest of drawers
+alarm
+dressing table
+
+pillow
+towel
+bed
+vacuum cleaner
+feather duster
+
+wardrobe
+duvet
+quilt
+
+rolling pin
+
+### 化妆品
+lipstick
+
+### 首饰
+
+earrings
+ring
+bracelet
+
+wallet
+purse
+handbag
+
+### 衣服
+jeans
+socks
+belt
+shirt
+T-shrirt
+dress
+sunglasses
+appron
+
+### 书房
+- bookshelf
+
+
+safety pin
+pen
+scissors
+ruler
+- speaker
+
+laptop
+headphones
+
+desk lamp
+monitor
+keyboard
+corkboard
+calendar
+drawers
+printer
+file racks
+folder
+clipboard
+trash bin
+
+
+
+文具
+
+ladder
+hammer
+screwdriver
+saw
+desk
+
+
+plant
+bin bag
+brush
+rug
+hairbrush
+
+### 卫生间：
+toaster
+sink池子
+tap 水龙头
+
+ironing board 熨衣服
+hairdryer
+toilet 马桶
+toothbrush
+toothpaste
+bathtub
+bath mat
+sponge
+stool
+towel
+shampoo
+
+
+toilet brush
+plunger
+sponge
+
+
+
+
+toilet paper / toilet roll
+soap
+comb
+shower
+
+### 洗衣间
+
+laundry basket
+iron 
+washing machine
+bucket
+rubber gloves
+mop
+broom
+dustpan
+boiler
+
+
+
+
+### 厨房
+
+家具：
+fridge、refri
+microwave
+dishwasher
+stove
+oven
+range hood
+glass hanger
+pot kettle cup
+counter
+dishes
+knives stand 
+blender
+napkin
+salt shaker
+
+tray
+baking tray
+plate rack
+egg beater
+strainer
+oven glove
+mean tenderizer
+soup ladle
+juicer
+
+bowl
+sandwich maker
+mixer
+food processor
+
+
+cabinet
+
+bottle opener
+
+工具：
+whisk
+bowl
+chopping board
+grater
+cup 
+plate
+knife
+fork
+spoon
+glass
+
+
+
+
+
+
+
 
 
 
@@ -195,6 +497,23 @@ XXX 外国人怎么表示？
 
 concurrent
 
+beforehand
+
+
+aforementioned
+
+
+## 动物
+
+
+## 植物
+
+
+
+
+
+
+
 
 
 # 英制单位
@@ -229,24 +548,243 @@ concurrent
 
 
 
-# 描述人
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- exquisite
+
+
+
+- corny
+
+
+- 
+
+
+
+
+
+
+身高：height
+- tall
+- short
+- - of medium height
+- of average height
+
+体重/T型：
+- light
+- heavy
+- slender
+- slim
+- lean
+- petite
+- slight
+- lanky
+- curvy
+- curvaceous
+- voluptuous
+- stocky
+- well built
+- muscly
+贬义：
+- plump
+- chubby
+- round
+- overweight
+- large
+- big
+- heavy
+- underweight
+- skinny
+- bony
+
+
+头发
+- 颜色：white、grey、blonde、golden、ginger、red、brown、brunette、black  fair（亮色）、dark（深色）  -haired
+- 长度：bald、short、、should-length、middle-length、long、
+- 发型：straight、wavy、curly、afro 、pixie cut、bob、short blonde、ringlets、ponytail、pigtails、plaits、man bun、combover、dreadlocks、mohawk
+- 质量soft、silky、shiny、damaged、dry
+
+皮肤
+- 肤色：white（fair)、pale、tanned、brown、black（dark）
+
+眼睛：
+- blue、brown、green、black、grey、hazel
+- -eyed
+
+嘴唇：
+- thin、full、pouty
+
+鼻子：
+- big、small、crooked、straright、button、hooked、turnedup
+
+脸型：
+- oval、round、heartshape square、long
+
+年龄：
+- young
+- middle-aged
+- old elder/senior
+
+
+## 人的情绪（Feelings / Emotions）
+
+形容开心：
+- happy：
+- excited：
+- 
+
+形容不开心：
+- unhappy：
+- upset：
+
+
+
+形容生气：
+mad：
+angry：
+resentful：气愤的
+
+形容恐惧：
+- 
+
+
+形容惊讶：
+
+
+形容热衷、好奇：
+
+- enthusiastic [B2]: 
+- passionate：充满激情的
+
+
+
+- chatter（贬义）：唠叨
+
+- brutal: 残酷的
+- callous: 冷酷无情的
+
+- giddy: 轻佻的
+
+## 身体动作
+
+
+### 说话
+
+bang on about sth.: 喋喋不休地说某事
+blabber on about sth.
+
+
+### 手部动作
+
+take off：脱衣服
+
 
 ## 人体
 
-## 性格
+### 部位
 
-## 外貌
+- head
+- hair
+- temple：太阳穴
+- forehead：额头
+- eyebrow
+- eyelash
+- eye
+- iris
+- ear
+- cheek
+- nose
+- nostril
+- jaw
+- nouth
+- lip
+- canine
+- hard palate
+- soft palate
+- uvula
+- tongue
+- gingiva(gums)
+- incisor
+- chin
+- neck
+- shoulder
+- arm
+- elbow
+- forearm
+
+- hand
+- thumb
+- index finger
+- middle finger
+- ring finger
+- little finger
+- palm
+- wrist
+- knuckle
+- phalanges
+- fingernail
+- armpit
+- back
+- chest
+- waist
+- abdonmen
+- hip
+- buttocks
+- leg
+- thigh
+- knee
+- calf
+- foot
+- heel
+- toe
+- 
 
 
-conversational
+屁股：buttock、ass（美式，脏话）、arse（英式，脏话）
+肛门：anus、asshole（美式，脏话）、arsehole（英式，脏话）
+阴茎：penis、dick（脏话）、cock、prick
+阴部：vagina、pussy（脏话）
+
+### 内部器官（Organ）
 
 
+
+
+
+
+
+
+
+
+## 疾病
+
+
+
+first aid kit
+plaster
+painkiller
+
+# 科研向抽象词
 
 
 assembly line. 
 
-
-# 科研向抽象词
 
 intergrated
 
@@ -359,6 +897,15 @@ notation
 公认的：acknowledged
 
 
+alleviate
+mitigate
+
+stay tuned: 敬请关注
+
+adaptively
+
+for the purpose of            
+
 degenerate 退化
 
 non-trivial 非平凡
@@ -388,7 +935,7 @@ declare: 声明
 construct/build  dataset 构造数据集
 overwrite: 重写
 pass: 传参
-
+greedy: 贪心
 
 
 # 网络用语
@@ -434,10 +981,20 @@ Incidently = by the way = （用于链接作用）
 
 
 thus adv.
-# 英语语言
 
-同义词
-反义词
+
+
+
+# 语言学概念
+
+
+同义词：synonym
+反义词：antonym
+同音词：homophone
+
+vowel：
+
+diphthong
 
 
 ## 符号
@@ -447,9 +1004,47 @@ hash
 
 ## 口音
 
+accent
+dialect
+
+
 不要有口音焦虑，没有标准，用自己的口音听得懂即可。在英国不要讲与自己身份地位不匹配的口音。把重点放在其他地方如表达和文化知识，而不是口音。
 
-RP (Received Pronunciation)：英国普通话，上流社会、社会威望很高，不要刻意模仿。BBC 口音。
+posh。与RP 不同。是区分等级的，而RP 是不区分的   上流社会、社会威望很高，不要刻意模仿
+
+### RP
+RP (Received Pronunciation)：英国普通话，。BBC 口音。
+很少有地道英国人使用纯正RP，一般是国外受教育的人才会。大部分都有地方口音。
+
 GA(General American)：美国普通话，大部分美国人用的。VOA 口音
 
+元音：
+- /e饿/ air：  air, ear are -ar- aer 
+- /i饿/ 
+- /饿u/
+
+
+
+地方口音。
+
+### 
 Cockney: 伦敦腔，伦敦东区工人阶层的口音
+
+drop T sound glottal stop
+drop H
+th -> f
+th中间 -> v
+结尾l -> w
+
+### George
+
+### 布里斯托口音
+
+在元音后面加l
+强调 r
+ing 去掉 g
+a 变得像 ae
+ai 变成更深 鼻化
+
+
+stay tuned
