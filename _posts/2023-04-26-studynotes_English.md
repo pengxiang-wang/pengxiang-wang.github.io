@@ -575,4 +575,125 @@ img_path: /assets/img/
 - vulgar
 - cheesy
 
-### 客观形容
+
+## 人体（Body）
+
+### 部位
+
+- 头部: head 【A1】
+  - 头发: hair 【A1】
+  - 太阳穴: temple
+  - 额头: forehead 【B1】
+  - 眼睛: eye 【A1】
+    - 眉毛: eyebrow 【B2】
+    - 睫毛: eyelash 【B2】
+    - 虹膜: iris
+- 耳朵: ear 【A1】
+- 脸颊: cheek 【B1】
+- 鼻子: nose 【A1】
+  - 鼻孔: nostril 【C2】
+- 嘴: mouth 【A1】
+  - 嘴唇: lip 【B1】
+  - 腭: palate
+  - 舌头: tongue 【B1】
+  - 牙: tooth 【A1】
+    - 牙龈: gum 【B2】 / gingiva
+    - 门牙: incisor
+    - 犬齿: canine
+- 下巴: chin 【B1】 / jaw 【B2】
+- 脖子: neck 【A2】
+- 肩膀: shoulder 【B1】
+- 关节: joint 【C2】
+- 胳膊: arm 【A1】
+  - 肘: elbow 【B1】
+  - 小臂: forearm
+  - 手: hand 【A1】
+    - 手指: finger 【A2】
+      - 拇指: thumb 【B1】
+      - 食指: index finger
+      - 中指: middle finger
+      - 无名指: ring finger
+      - 小指: little finger
+      - 手指甲: fingernail 【B2】
+      - 指关节: knuckle 【C2】
+    - 手掌: palm 【C2】
+  - 手腕: wrist 【B2】
+- 腋窝: armpit
+- 后背: back 【A2】
+- 胸部: chest 【B2】
+  - 乳房: breast 【B1】 / tit 
+  - 乳头: nipple
+- 腰部: waist 【B2】
+- 腹部: abdomen
+- 臀部: hip 【B2】
+  - 屁股: buttocks / ass（美）/ arse（英）
+ 
+- 腿: leg 【A1】
+  - 大腿: thigh 【B2】
+  - 小腿: calf 【C2】
+- 膝盖: knee 【B1】
+- 脚: foot 【A1】
+  - 脚趾: toe 【A2】
+  - 脚踝: ankle 【B1】
+  - 脚后跟: heel 【B2】
+
+### 内部器官（Organ）
+
+循环系统（Ciculatory System）
+- 心脏: heart 【A2】
+- 血液: blood 【A2】
+- 血管: vessel 
+- 动脉: artery
+- 静脉: vein 【C1】
+- 脉搏: pulse 【C1】
+- 心跳: heartbeat
+
+神经系统（Nervous System）
+- 大脑: brain 【A2】
+- 小脑: cerebellum
+- 神经: nerve 【C2】
+- 神经元: neuron
+- 突触: synapse
+
+呼吸系统（Respiratory System）
+- 喉咙: throat 【B1】
+- 气管: windpipe
+- 肺: lung 【B2】
+- 痰: sputum
+
+消化系统（Digestive System）
+- 食道: oesophagus
+- 唾液: spittle / saliva
+- 胃: stomach 【A2】
+- 肝: liver 【B2】
+- 胰: pancreas
+- 胆: gall bladder
+- 肠: intestine
+  - 小肠: small intestine
+  - 大肠: large intestine
+  - 直肠: rectum
+- 肛门: anus / asshole（美）/ arsehole（英）
+
+运动系统（Motor System）
+- 骨骼: skeleton 【B2】
+- 骨头: bone 【B1】
+- 头骨: skull 【C2】
+- 肌肉: muscle 【B2】
+- 皮肤: skin 【B1】
+
+泌尿系统（Urinary system）
+- 尿: urine
+- 肾: kidney 【C2】
+- 膀胱: bladder
+
+生殖系统（Reproductive System）
+- 阴茎：penis / dick / cock / prick
+- 阴道: vagina / pussy
+- 睾丸: testicle
+- 卵巢: ovary
+- 精子: sperm
+- 卵子: egg
+- 精液: semen
+
+内分泌系统（Endocrine System）
+- 肾上腺素: adrenalin

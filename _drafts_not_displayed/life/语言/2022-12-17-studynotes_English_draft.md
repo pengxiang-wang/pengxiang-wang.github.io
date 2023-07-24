@@ -578,7 +578,7 @@ aforementioned
 
 
 
-
+### 客观形容
 
 身高：height
 - tall
@@ -695,77 +695,6 @@ blabber on about sth.
 take off：脱衣服
 
 
-## 人体
-
-### 部位
-
-- head
-- hair
-- temple：太阳穴
-- forehead：额头
-- eyebrow
-- eyelash
-- eye
-- iris
-- ear
-- cheek
-- nose
-- nostril
-- jaw
-- nouth
-- lip
-- canine
-- hard palate
-- soft palate
-- uvula
-- tongue
-- gingiva(gums)
-- incisor
-- chin
-- neck
-- shoulder
-- arm
-- elbow
-- forearm
-
-- hand
-- thumb
-- index finger
-- middle finger
-- ring finger
-- little finger
-- palm
-- wrist
-- knuckle
-- phalanges
-- fingernail
-- armpit
-- back
-- chest
-- waist
-- abdonmen
-- hip
-- buttocks
-- leg
-- thigh
-- knee
-- calf
-- foot
-- heel
-- toe
-- 
-
-
-屁股：buttock、ass（美式，脏话）、arse（英式，脏话）
-肛门：anus、asshole（美式，脏话）、arsehole（英式，脏话）
-阴茎：penis、dick（脏话）、cock、prick
-阴部：vagina、pussy（脏话）
-
-### 内部器官（Organ）
-
-
-
-
 
 
 
@@ -779,6 +708,24 @@ take off：脱衣服
 first aid kit
 plaster
 painkiller
+
+## 人体动作
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # 科研向抽象词
 
