@@ -187,70 +187,60 @@ fries:
 
 ## 一般物体
 
-slice: 
+- 块: block 【B2】（直边的硬物）/ lump 【C2】（无固定形状）
+- 片: slice 【A2】
+-  
 
 ## 家居（household）
 
-按房间来分：
+以下为家居物品，我将按照房间场景分类，
 
-家具（furniture）、物品
-
-
-
-
-
-
+家具（furniture）和工具两类。
 
 
 ### 通用
-shelf
-家具：
-- carpet
-- clock
-blanket
-- chandelier
-- air conditioner
-door
-window
-chair
-table
-door handle
-curtains
-radiator:
-plug插头
-mirror
-stairs
-light bulb
-electric fan
-light switch
+
+- 椅子: chair 【A1】
+- 钟: clock 【A1】
+- 门: door 【A1】
+- 钥匙: key 【A1】
+- 桌子: table 【A1】
+- 电话: telephone 【A1】
+- 窗: window 【A1】
+- 毯子: blanket 【A2】
+- 柜子: cabinet 【A2】
+- 地毯: carpet 【A2】
+- 窗帘: curtains 【A2】
+- 灯: light 【A2】 / lamp 【A2】（带灯罩）
+  - 落地灯: floor lamp （美）/ standard lamp （英）
+- 镜子: mirror 【A2】
+- 架子（固定在墙上的）: shelf 【A2】
+- 楼梯: stairs 【A2】
+- 座垫 / 靠垫: cushion 【B1】
+- 电风扇: fan 【B1】
+- 电灯泡: light bulb 【B1】
+- 打火机: lighter 【B1】
+- 锁: lock 【B1】
+- 插头 / 插座: plug 【B1】
+- 开关: switch 【B1】
+- 把手: handle 【B2】
+- 秤: scales 【B2】
+- 手电筒: torch 【B2】（英）/ flashlight 【B2】（美）
+- 空调: air conditioner
+- 烟灰缸: ashtray
+- 大吊灯: chandelier
+- 灭火器: fire extinguisher
+- 暖气: radiator
+
+- 行李箱: suitcase 【A2】
 
 
+### 客厅
 
-telephone
-
-
-ashtray
-suitcase
-工具：
-key
-
-
-scales 秤
-
-
-
-fire extinguisher
-
-torch
-
-cushion
-
-### 客厅：
-- sofa
-- armchair
-- floor lamp
-- picture
-- television
+- 沙发: sofa 【A2】
+- 扶手椅: armchair 【A2】
+- 照片: picture 【A1】
+- 电视: television / TV 【A1】
 - television cabinet
 - remote control
 - fireplace 壁炉
