@@ -160,14 +160,125 @@ toilet
 
 
 
-烹饪方法
+## 烹饪方法
+
+pickle
 
 
-## 水果
 
-## 蔬菜
+
+
+## 水果（fruit）
+
+> 不可数。fruit and vegetables
+
+- 苹果: apple 【A1】
+- 香蕉: banana 【A1】
+- 橙子 / 橘子: orange 【A1】
+- 西红柿: tomato 【A1】
+- 葡萄: grape 【A2】
+- 柠檬: lemon 【A2】
+- 梨: pear 【A2】
+- 椰子: coconut 【B1】
+- 菠萝: pineapple 【B1】
+- 草莓: strawberry 【B1】
+- 猕猴桃: kiwi
+- 蓝莓: blueberry
+- 小红莓: cranberry
+- 火龙果: dragon fruit
+- 榴莲: durian
+- 无花果: fig
+- 青柠: lime
+- 李子: plum
+- 石榴: pomegranate
+- 覆盆子: raspberry
+- 西瓜: watermelon
+
+
+
+## 蔬菜（vegetables）
+
+- 胡萝卜: carrot 【A2】
+- 小萝卜（樱桃萝卜）: radish
+- 白萝卜: Chinese radish
+
+- 卷心菜: cabbage 【B1】
+- 白菜: Chinese cabbage
+
+
+
+谷物: corn 【B1】
+
+- 小麦: wheat
+- 玉米: corn （美） / maize （英）
+- 燕麦: oats
+- 大麦: barley
+- 豌豆: pea 【B1】
+- 南瓜: pumpkin
+
+
+- 土豆: patato 【A1】
+- 甜椒: pepper 【B1】/ sweet pepper
+- 辣椒: chilli 【A2】
+- 黄瓜: cucumber 【B1】
+- 酸黄瓜: gherkin （英） / pickle （美）
+- 茄子: aubergine 【B2】（英） / eggplant 【B2】（美）
+- 洋蓟: artichoke
+
+- 洋葱: onion 【A2】
+- 嫩洋葱: green onion（美） / scallion （美） / spring onion （英）
+- 大葱: leek 【B2】
+- : chives
+- 韭菜: Chinese chives
+
+
+
+- 大蒜: garlic 【A2】
+- 姜: ginger
+- 牛油果: avocado
+- 芦笋: asparagus
+- 西兰花: broccoli 【B1】
+- 蘑菇: mushroom 【A2】
+
+- 秋葵: okra
+
+
+## 调料
+
+
+- 盐: salt 【A1】
+- 油: oil 【A2】
+- 胡椒粉: pepper 【A2】
+- 醋: vinegar 【B2】
+- 酱油: soy sauce
+
+
+## 肉类
+
+- 鸡肉: chicken 【A2】
+- 牛肉: beef 【B1】
+- 羊肉: lamb 【B1】
+- 猪肉: pork 【B1】
+- 五花肉: pork belly
+- 排骨: rib
+
+## 坚果(nut)
+
+- 花生: peanut 【B1】
+- 核桃: walnut
+- 开心果: pistachio
+- 巴西坚果: brazil nut
+- 榛子: hazelnut
+- 澳大利亚坚果: macadamia
+- 杏仁: almond
+
+
+
+
 
 ## 菜
+
+flour
 
 meatball
 
@@ -178,6 +289,8 @@ cuisine
 chip
 fries:
 
+salad: 
+
 ## 零食
 
 
@@ -185,245 +298,323 @@ fries:
 
 # 物品（items）
 
-## 一般物体
-
-- 块: block 【B2】（直边的硬物）/ lump 【C2】（无固定形状）
-- 片: slice 【A2】
--  
-
-## 家居（household）
-
-以下为家居物品，我将按照房间场景分类，
-
-家具（furniture）和工具两类。
+## 量词
 
 
-### 通用
-
-- 椅子: chair 【A1】
-- 钟: clock 【A1】
-- 门: door 【A1】
-- 钥匙: key 【A1】
-- 桌子: table 【A1】
-- 电话: telephone 【A1】
-- 窗: window 【A1】
-- 毯子: blanket 【A2】
-- 柜子: cabinet 【A2】
-- 地毯: carpet 【A2】
-- 窗帘: curtains 【A2】
-- 灯: light 【A2】 / lamp 【A2】（带灯罩）
-  - 落地灯: floor lamp （美）/ standard lamp （英）
-- 镜子: mirror 【A2】
-- 架子（固定在墙上的）: shelf 【A2】
-- 楼梯: stairs 【A2】
-- 座垫 / 靠垫: cushion 【B1】
-- 电风扇: fan 【B1】
-- 电灯泡: light bulb 【B1】
-- 打火机: lighter 【B1】
-- 锁: lock 【B1】
-- 插头 / 插座: plug 【B1】
-- 开关: switch 【B1】
-- 把手: handle 【B2】
-- 秤: scales 【B2】
-- 手电筒: torch 【B2】（英）/ flashlight 【B2】（美）
-- 空调: air conditioner
-- 烟灰缸: ashtray
-- 大吊灯: chandelier
-- 灭火器: fire extinguisher
-- 暖气: radiator
-
-- 行李箱: suitcase 【A2】
 
 
-### 客厅
 
-- 沙发: sofa 【A2】
-- 扶手椅: armchair 【A2】
-- 照片: picture 【A1】
-- 电视: television / TV 【A1】
-- television cabinet
-- remote control
-- fireplace 壁炉
-lamp
+## 物块
 
-### 卧室
+- 条纹: stripe 【B1】
+- 粉: powder 【B1】
+- 块: piece 【A2】 / block 【B2】（直边的硬物）/ lump 【C2】（无固定形状的小块）/ chunk （大块）/bulk（大块）
+- 片: slice 【A2】（薄片）/ hunk （大片）
+- 箱: chest 【C2】（常为木制）
+- 盒: box 【A1】
+- 带: strap 【C2】
+- 粒: grain 【C2】 / particle 【C2】（微粒）
 
-bedside table
-chest of drawers
-alarm
-dressing table
+- 管: tube 【B2】
 
-pillow
-towel
-bed
-vacuum cleaner
-feather duster
 
-wardrobe
-duvet
-quilt
+## 几何图形
 
-rolling pin
+- 点: point
+- 线: line 【A2】 , linear
+- 线段: line segment
+- 射线: ray 【B2】
+- 曲线: curve 【B2】, curvy
+- 波浪线: wave 【B1】,	waved
+- 螺旋: spiral, spiral
+- 对角线: diagonal line, diagonal
 
-### 化妆品
-lipstick
+- 平行: parallel
+- 垂直 / 正交: vertical 【C1】/ orthogonal
 
-### 首饰
+- 锐角: acute angle
+- 直角: right angle
+- 钝角: obtuse angle
+- 平角: straight angle
 
-earrings
-ring
-bracelet
 
-wallet
-purse
-handbag
+- 圆形: circle 【A2】, circular 【B2】/ round 【A2】
+- 椭圆形: - , oval 【B2】
+- 三角形: triangle 【B2】, triangular
+- 四边形: quadrilateral, quadrilateral
+  - 长方形: rectangle 【C1】, rectangular 【B2】
+  - 正方形: square 【A2】, square 【A2】
+  - 平行四边形: parallelogram, parallelogram
+  - 梯形: trapezoid, trapezoidal
+  - 菱形: diamond 【B2】 / rhombus, rhombic
+- 五角形: pentagon, pentagonal
+- 六角形: hexagon, hexagonal
+- 七角形: heptagon, heptagonal
+- 八角形: octagon, octagonal
+
+- 球: sphere / globe, spherical / global
+- 半球形:	dome, dome
+- 正方体: cube, cubic
+- 圆柱: cylinder, cylindrical
+- 圆锥: cone, conical
+- 棱锥: pyramid 【C1】, pyramidic
+
+
+
+
+
+## 容器 
+
+basket
+- bucket
+
+
+
+
+
+
+
+
+
+
+
+#### 化妆品
+
+
+- 粉底: foundation
+- 发胶: hair spray
+- 口红: lipstick
+- 发泥 / 发蜡: pomade
+
 
 ### 衣服
-jeans
-socks
-belt
-shirt
-T-shrirt
+
+上衣: top 【B1】（英）
+- 袖子: sleeves 【B1】
+- 领子: collar 【B1】
+- 领口: neckline
+- 袖口: cuff
+- 衣服上的帽子: hood 【B2】
+- （西服上衣或夹克的）翻领: lapels
+- 衬衫: shirt 【A1】
+- 短袖 T 恤: T-shirt 【A1】
+- 带领 T 恤: polo shirt
+- （无袖）圆领背心: tank top
+- 露脐上衣: crop top
+- 长袖运动衫: sweatshirt 【B1】
+- 女士衬衫: blouse
+- 毛衣: jumper【A2】（英） / sweater【A2】（美）
+- 针织开衫: cardigan 【B2】
+- 夹克: jacket 【A1】
+  - 摩托骑手短夹克: leather jacket / biker jacket
+  - 牛仔布夹克: denim jacket
+  - bomber jacket / military jacket
+  - baseball varsity
+  - blazer
+  - tailored 
+  - dinner
+  - morning coat jacket
+- coat
+  - trench coat
+  - duffle coat
+  - parka jackets
+  - rain jackets
+  - ski jacket
+  - shooting coat
+  - overcoat
+  - poncho
+  - shawl
+  - wrap
+- 带帽卫衣: hoodie
+
+button : 扣子
+single-breasted
+double-breasted
+
+
+
+- 针织品: knitwear
+  - cable knit / chunky knit
+  - fair-isle print
+- stripes strippy
+
+
+
+
+- 腰带: belt 【A2】
+- 连衣裙: dress 【A1】
+
+
+- 裤子: pants 【A1】（美）/ trousers 【A1】（英）
+  - 牛仔裤: jeans 【A1】
+  - jeggings 
+  - leggings
+  - joggers / sweat pant
+  - harem pant
+  - wide-leg trousers
+  - corderoys
+  - cargo pants/trousers
+  - chinos
+  - shorts
+  - shortshorts/hotpants
+
+- 裙子: 
+  - skirt 
+  - jumpsuit
+  - playsuit / romper
+  - teadress / sundress
+
 dress
-sunglasses
-appron
+fit and flare
+wrap
+ballgown
+pepium
+bodycon
 
-### 书房
-- bookshelf
-
-
-safety pin
-pen
-scissors
-ruler
-- speaker
-
-laptop
-headphones
-
-desk lamp
-monitor
-keyboard
-corkboard
-calendar
-drawers
-printer
-file racks
-folder
-clipboard
-trash bin
+skirt 
+pleated
+skater
+tulip
+trumpet
+tiered/rara
+pencil
 
 
 
-文具
-
-ladder
-hammer
-screwdriver
-saw
-desk
+crotch
 
 
-plant
-bin bag
-brush
-rug
-hairbrush
-
-### 卫生间：
-toaster
-sink池子
-tap 水龙头
-
-ironing board 熨衣服
-hairdryer
-toilet 马桶
-toothbrush
-toothpaste
-bathtub
-bath mat
-sponge
-stool
-towel
-shampoo
+- 内衣: underwear 【B1】
+  - 内裤: pants【B1】
+    - 平角内裤: boxer shorts / boxers
+    - 三角内裤: briefs / Y-fronts （男）
+    - 女士内裤: panties 【B2】（美）/ knickers 【B1】（英）
+    - 丁字裤: G-string / thong / bikini 【B2】
+  - 胸罩: bra 【B2】 / brassiere
+    - triangle bra
+    - T-shirt bra
+    - 运动胸罩: sports bra
+    - 
+    - 托高型胸罩: push-up bra
+    - 抹胸: bandeau
+    - 少女胸罩: training bra
+  - 保暖内衣: thermals
+    - 背心: vest 【C1】（英） / undershirt （美）
+    - 秋裤: long johns
 
 
-toilet brush
-plunger
-sponge
+- 
+- 短袜: socks 【A2】
+- （仅到脚踝的）短袜: anker socks
+- （可拉伸至膝盖的）弹性尼龙长袜: pop socks
+- 长筒袜: stockings 【C1】
+- 连裤袜: pantyhose 【B1】（美）/ tights 【A2】（英）
+
+- 别针: pin 【B1】
+
+Accessories
+
+
+- 手链: bracelet 【A2】
+- 耳饰: earrings 【A2】
+- 项链: necklace 【A2】
+- 戒指: ring 【A2】
+- 包: bag 【A1】
+  - 钱包: wallet 【A2】（男） / purse 【A2】（女）
+  - 手提包: handbag 【A2】（女）
+  - 双肩包: backpack
+  - 单肩包: shoulder bag
+  - 公文包: briefcase
+  - 行李箱: suitcase 【A2】
+
+
+- 帽子: hat 【A1】
+  - cap
+  - visor
+  - beret
+  - Panama hat
+  - fedora
+  - top hat
+  - fascinator
+  - beanie/ woolly hat
+  - bobble hat
+
+- 墨镜: sunglasses 【A2】/ sunnies / shades
+- watches
+- scarf
+- gloves
+- umbrella
+- tie
+- cravat
+- bowtie
+
+
+- 鞋: shoes 【A1】
+  - 平底: flats
+    - trainer sneaker
+    - boots 
+    - sandals
+    - flipflops / thongs
+    - loafer
+    - boat shoes
+    - chelsea boots
+    - brogues
+    - 
+  - 高跟: heels
+ballet flats
+kitten heels
+stiletto heels
+platform heels
+wedges
+court shoes / pumps
 
 
 
+seam
 
-toilet paper / toilet roll
-soap
-comb
-shower
+VPL
 
-### 洗衣间
+seamless: 无痕的
 
-laundry basket
-iron 
-washing machine
-bucket
-rubber gloves
-mop
-broom
-dustpan
-boiler
+padded: 有垫的
+underwired: 无钢圈的
 
+mid-calf
+over-the-calf
+knee-high
+over-the-knee
+thigh-high
 
+denier: （尤指编织短袜和连裤袜所用织线的）纤度
 
+短袖: short-sleeved 
+长袖: long-sleeved
+无袖: sleeveless
 
-### 厨房
+有带子的: strappy
+无带子的: strapless
+非常细肩带的: spaghetti straps 
 
-家具：
-fridge、refri
-microwave
-dishwasher
-stove
-oven
-range hood
-glass hanger
-pot kettle cup
-counter
-dishes
-knives stand 
-blender
-napkin
-salt shaker
+圆领: crew neck
+V 领: V-neck
+船领: boat neck
+高翻领: polo neck / turtle neck
+重褶领: cowl neck
 
-tray
-baking tray
-plate rack
-egg beater
-strainer
-oven glove
-mean tenderizer
-soup ladle
-juicer
+高腰: high-rise / high-waisted
+mid
+low
 
-bowl
-sandwich maker
-mixer
-food processor
+skinny 
+straight-leg 
+boot-leg
+flared
+mom
 
+mini
+midi
+maxi
 
-cabinet
-
-bottle opener
-
-工具：
-whisk
-bowl
-chopping board
-grater
-cup 
-plate
-knife
-fork
-spoon
-glass
 
 
 
@@ -499,7 +690,7 @@ aforementioned
 ## 植物
 
 
-
+flirt
 
 
 
@@ -684,6 +875,10 @@ blabber on about sth.
 
 take off：脱衣服
 
+tap: 
+hit:
+beat:
+strike:
 
 
 
