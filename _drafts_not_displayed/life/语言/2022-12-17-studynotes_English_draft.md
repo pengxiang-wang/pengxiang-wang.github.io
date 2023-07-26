@@ -1124,9 +1124,134 @@ thus adv.
 反义词：antonym
 同音词：homophone
 
+paraphrase
+
 vowel：
 
 diphthong
+
+
+# 英语语法
+
+主要介绍术语。顺便讲语法
+
+从字母开始：
+- 字母: letter 【A2】
+- 字母表: alphabet 【B1】
+
+字母组成词：
+- 词: word 【A1】 / vocabulary 【A2】（总称）
+- 短语: 
+- 俚语
+- 词性: part of speech
+  - 名词: noun 【A2】
+  - 冠词: article 【B1】
+  - 代词: pronoun 【B1】
+  - 形容词: adjective 【A2】
+  - 数词: numeral 
+  - 副词: adverb 【A2】
+  - 介词: preposition 【B1】
+  - 感叹词: interjection
+  - 连词: conjunction 【B2】
+  - 动词: verb 【A2】
+    - 动词形式（verb forms）
+      - 原形: base / root
+      - 第三人称单数: third-person singular
+      - 现在分词: present participle
+      - 过去式: past
+      - 过去分词: past participle
+    - 实义动词
+      - 不及物动词: intransitive 【B2】
+        - 系动词: linking verb
+      - 及物动词: transitive 【B2】
+    - 助动词（非实义动词）
+      - 情态动词: modal 【B1】
+
+
+
+词组成句子成分:
+- 句子成分: sentence elements
+  - 主语: subject 【B1】
+  - 谓语: predicate
+  - 宾语: object 【B1】
+  - 定语: attributive
+  - 状语: adverbial
+  - 宾语补语: object complement
+  - 表语 / 主语补语: predicative / subject complement
+  - 同位语: appositive
+
+
+词如何构成句子成分:
+- 名词、代词: 构成主语
+- 谓语动词: 组成谓语
+  - 
+- 非谓语动词: 组成主语、
+  - 的
+- 副词: 组成状语
+
+
+句子类型: 
+- 简单句: simple sentence有以下五种类型
+  - 
+- 并列句: compound sentence
+- 复杂句: complex sentence
+
+
+
+其他
+
+
+
+
+句子成分: sent
+- 主语:
+- 谓语: 
+
+句子: sentence
+- 简单句: 
+  - 主语+ d
+
+
+
+并列句: 
+
+复合句: 
+- 从句 各种
+- 非谓语动词 各种
+
+谓语动词
+- 时（tense）: 
+- 态（aspect）:
+- 语气
+
+语气是语法上的语气，而不是
+
+
+
+# 动词形态
+
+
+
+动词时
+
+体（aspect）
+
+# 时态（tense）
+
+英语时态有一共有 16 种。（另一种说法是 12 种，因为
+
+
+|  |  现在（present） | 过去（past）| 将来（future）| 过去将来（past future / future-in-the-fast）| 
+|一般时（simple） | v+s  | v+ed | will v | would v |
+|进行时（continuous）| be+s v+ing | be+ed v+ing | will be v+ing | would be v+ing|
+|完成时（perfect）| have+s 
+|完成进行时（perfect continuous)|
+
+
+
+虚拟语气：subjunctive mood
+
+
 
 
 ## 符号
