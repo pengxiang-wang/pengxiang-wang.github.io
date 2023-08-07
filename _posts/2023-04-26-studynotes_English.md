@@ -17,10 +17,54 @@ img_path: /assets/img/
 这篇笔记将不区分单词、短语、句子等表达方式，混在一起，并以我自己喜欢的方式，将同一类意思的**分类**放在一起，并探讨它们的区别。这种分类记忆法我认为必须由自己建立、慢慢积累，而不是被动地接受一些词典、单词列表的分类法（我曾试图背 CEFR 的分类单词，效果不佳）；另外，此笔记也包含整理的大量文化知识，我认为学英语和学习他们的文化是分不开的。
 
 
+- [1. 交际](#1-交际)
+  - [1.1. 姓名（文化知识）](#11-姓名文化知识)
+  - [1.2.  称呼（文化知识）](#12--称呼文化知识)
+  - [1.3. 打招呼](#13-打招呼)
+  - [1.4. 询问或请求](#14-询问或请求)
+  - [1.5. 道谢](#15-道谢)
+  - [1.6. 道歉](#16-道歉)
+  - [1.7. 陈述或表达感受](#17-陈述或表达感受)
+  - [1.8. 结束谈话](#18-结束谈话)
+- [2. 人](#2-人)
+  - [2.1. 外貌](#21-外貌)
+  - [2.2. 性格](#22-性格)
+  - [2.3. 职业](#23-职业)
+  - [2.4. 人体](#24-人体)
+    - [2.4.1. 部位](#241-部位)
+    - [2.4.2. 内部器官](#242-内部器官)
+- [3. 地点](#3-地点)
+  - [3.1. 建筑](#31-建筑)
+  - [3.2. 房屋](#32-房屋)
+  - [3.3. 行政区划](#33-行政区划)
+  - [3.4. 地形（terrain）](#34-地形terrain)
+- [4. 物体](#4-物体)
+  - [4.1. 家居（household）](#41-家居household)
+    - [4.1.1. 通用](#411-通用)
+      - [4.1.1.1. 工具](#4111-工具)
+    - [4.1.2. 客厅](#412-客厅)
+    - [4.1.3. 卧室](#413-卧室)
+    - [4.1.4. 书房](#414-书房)
+      - [4.1.4.1. 文具（stationery）](#4141-文具stationery)
+    - [4.1.5. 卫生间](#415-卫生间)
+    - [4.1.6. 厨房](#416-厨房)
+- [5. 食物](#5-食物)
+  - [5.1. 水果](#51-水果)
+  - [5.2. 蔬菜](#52-蔬菜)
+  - [5.3. 粮食](#53-粮食)
+  - [5.4. 调料](#54-调料)
+  - [5.5. 肉类](#55-肉类)
+  - [5.6. 鱼类](#56-鱼类)
+  - [5.7. 坚果](#57-坚果)
+  - [5.8. 烹饪方法](#58-烹饪方法)
+- [6. 英语语言](#6-英语语言)
+  - [6.1. 语法](#61-语法)
+  - [6.2. 语义](#62-语义)
+  - [6.3. 语音](#63-语音)
 
 
 
-# 交际
+# 1. 交际
 
 中西交际文化是有差异的，以下是聊天时一些通用的应该注意的区别：
 - 注意 eye contact，说话时看着对方的眼睛，不要回避别人的视线，在外国人看来不礼貌；
@@ -29,7 +73,7 @@ img_path: /assets/img/
 - 外国人更注重个人隐私，如果不是特别熟，一般不要在聊天中触及中国人觉得家常的话题，如家庭情况、工作、婚姻，还有政治、宗教信仰等。
 
 
-## 文化知识：姓名
+## 1.1. 姓名（文化知识）
 
 欧美人士的姓名顺序是：名在前，姓在后，因此名称为 first name，姓称为 last name。有的还有中间名 middle name。
 
@@ -80,7 +124,7 @@ img_path: /assets/img/
 
 
 
-## 文化知识：称呼
+## 1.2.  称呼（文化知识）
 
 西方文化强调平等与尊重，他们的礼貌观也是基于此，而不是辈分。大部分情况可以直呼其名，不需要称谓、论辈分等，这种情况。
 - 大部分的场合称呼 first name，因为个性化的，会觉得受到尊重，有亲切感。如果名过于普通，可以用 middle name 或 first name + middle name
@@ -104,7 +148,7 @@ img_path: /assets/img/
 
 
 
-## 打招呼（寒暄）
+## 1.3. 打招呼
 
 初次见面：
 - (It's) nice to meet you. 
@@ -127,7 +171,7 @@ img_path: /assets/img/
   - Not too bad. （英式）
 
 
-## 询问或请求
+## 1.4. 询问或请求
 
 询问或请求别人事情需要通过各种方式保持语气的缓和与礼貌，否则会带来不客气、粗鲁的感觉：
 - 不用具有命令语气的祈使句，改用问句；
@@ -159,7 +203,7 @@ img_path: /assets/img/
 {: .prompt-tip }
 
 
-## 道谢
+## 1.5. 道谢
 
 **道谢**最简单的方式是 thank you / thanks。
 
@@ -196,7 +240,7 @@ img_path: /assets/img/
   - It was the least I could do.
   - (I should) Thank YOU. XXX
 
-## 道歉
+## 1.6. 道歉
 
 **道歉**最简单的方式是 sorry. 其他的表达：
 - 与语气词 oops 搭配
@@ -222,7 +266,7 @@ img_path: /assets/img/
 
 
 
-## 陈述或表达感受
+## 1.7. 陈述或表达感受
 
 陈述或表达感受时也有一些技巧，让自己说话更得体、委婉。
 - 使用模糊、软化的词汇（softening word），如 kind of 接形容词、just 接副词、... a little；
@@ -250,7 +294,7 @@ img_path: /assets/img/
 
 
 
-## 结束谈话
+## 1.8. 结束谈话
 
 结束对话最简单的方式是 Goodbye / Bye。也有很多别的表达：
 - 表达对对方的祝愿：
@@ -264,13 +308,14 @@ img_path: /assets/img/
 
 
 
-# 描述人
+# 2. 人
 
-描述人性格与外貌的形容词经常可以用于聊天中。
 
-## 外貌（Appearance）
 
-形容外貌的词有的可以形容事物。
+## 2.1. 外貌
+
+- 外貌: appearance 【B1】 / the look of sb 【B2】 / sb's looks 【C2】
+
 
 形容一般的美丽、漂亮：
 - beautiful 【A1】
@@ -332,9 +377,11 @@ img_path: /assets/img/
 - vulgar
 - cheesy
 
-## 性格（Personality）
+## 2.2. 性格
 
-### 友善程度
+- 性格: character 【B1】 / personality 【B2】 / quality 【B2】（品质）
+
+
 
 形容一般的友好、和善：
 - friendly 【A2】
@@ -552,11 +599,10 @@ img_path: /assets/img/
 
 
 三观方面的：
-- materialistic 【C2】: 拜金的，物质主义的
-- optimistic 【B2】: 乐观的
-- pessimistic 【B2】: 悲观的
-- cynical 【C2】: 愤世嫉俗的
-- cynic: 愤青
+- 拜金的，物质主义的: materialistic 【C2】
+- 乐观的: optimistic 【B2】 
+- 悲观的: pessimistic 【B2】
+- 愤世嫉俗的: cynical 【C2】
 
 > 英语不会强调“三观”的概念，统称为 values。以下是相近的词汇：
 > - 世界观：world view / world outlook
@@ -565,20 +611,217 @@ img_path: /assets/img/
 {: .prompt-tip }
 
 形容亲密关系中的表现的：
-- sensitive 【B2】: 敏感的
-- rational 【C1】: 理性的
-- self-centred 【C1】: 以自我为中心的
-- possessive 【C2】: 控制欲强的
-- clingy: 粘人的
-- (emotional) detached: 对感情不敏感的
-- intuitive: 感性的
+- 敏感的: sensitive 【B2】
+- 理性的: rational 【C1】
+- 以自我为中心的: self-centred 【C1】
+- 控制欲强的: possessive 【C2】
+- 粘人的: clingy
+- 对感情不敏感的: (emotional) detached
+- 感性的: intuitive
+
+
+
+## 2.3. 职业
+
+- 职业 / 工作: work 【A1】 / job 【A1】/ occupation 【A2】 / career 【B1】 / profession 【B1】 / vocation 【C2】（值得投入的工作）
+
+
+- 医生: doctor 【A1】
+  - 牙医: dentist 【A2】
+  - 外科医生: surgeon 【C1】
+  - 兽医: vet 【B1】 / veterinarian 
+  - 足科医生: podiatrist
+- 护士: nurse 【A2】
+  - 接生员: midwife
+- 药剂师: phamacist 【B2】
+- 辅助医护人员（急救）: paramedic
+- 验光师: optician
+
+
+- 从政者: politician 【B1】
+  - 公务员: civil servant
+  - 总统: president 【A2】
+- 律师: lawyer 【B1】
+- 法官: judge 【B2】
+- 检察官: prosecutor 【C2】
+
+
+- 办公室职员: office worker
+  - 秘书: secretary 【A2】
+  - 会计: accountant 【B1】
+  - 人事: HR
+  - 猎头: headhunter
+  - 顾问: adviser 【C1】
+
+
+- 企业家: businessman 【A2】 / entrepreneur
+  - 经理: manager 【A2】 / director 【B1】
+    - 项目经理: project manager
+  - 首席执行官: CEO
+- 经纪人: broker
+
+
+- 售货员: salesman【B1】/ saleswoman 【B1】
+- 小贩: vender
+- 收银员: cashier
+- 花店店员: florist
+- 房产中介: real estate agent
+
+- 服务员: waiter 【A1】 / waitress 【A1】
+- 前台接待: receptionist 【A2】
+- 乘务员: flight attendant
+- （宾馆）男服务生: bellboy / bellhop
+- 咖啡师: barista
+- 酒吧招待: bartender 【B2】
+- 门侍: doorman
+
+
+
+- 理发师: barber 【B1】 / hairdresser 【B1】
+- 美容师: beautician
+- 裁缝: tailor / seamstress
+- 纹身师: tattooist
 
 
 
 
-## 人体（Body）
 
-### 部位
+- 警察: policeman 【A2】 / policewoman 【A2】 / police officer 【A2】
+- 保安: security guard
+- 保镖: bodyguard
+- 侦探: spy 【B1】 / detective 【B1】 / agent 【B2】
+- 军人: soldier 【B1】 / warrior 【C1】（强调勇敢）
+
+- 小偷: thief 【B1】
+- 强盗: robber
+- 海盗: pirate 【B1】
+
+
+
+- 司机: driver 【A1】 / chauffeur （专职司机）
+- 飞行员: pilot 【A2】
+- 快递员: delieveryman / courier  
+- 邮递员: postman 【B1】
+
+
+
+- 厨师: cook 【A2】 / chef 【A2】（大厨）
+- 肉贩: butcher 【B1】
+- 鱼贩: fishmonger
+
+- 清洁工: janitor 【C2】
+- 家庭主妇: housewife 【A2】
+- 保姆: babysitter 【B1】/ nanny
+- 管家: housekeeper
+- 看护人: custodian
+
+
+
+- 修理工: mechanic 【A2】/ repairman
+- 园丁: gardener 【B2】
+- 电工: electrician 【B2】
+- 管道工: plumber 【B2】
+
+
+
+- 建筑工: builder 【B1】 / construction worker
+- 工头: foreman
+- 瓦工: bricklayer
+- 木工: carpenter
+- 焊工: welder
+- 玻璃工: glazier
+
+
+
+
+- 导游: tour guide 【A2】
+- 图书管理员: librarian 
+
+- 消防员: firefighter 【B1】 / fireman
+- 救生员: lifeguard
+- 护林员: forest ranger
+
+
+- 工程师: engineer 【A2】
+- 建筑师: architect 【B1】
+- 程序员: programmer 【C1】
+
+
+- 牧师: priest 【B1】
+- 大主教: archbishop
+- 主教: bishop
+- 教皇: pope
+- 僧侣: monk
+- 修女: nun
+
+
+- 农民: farmer 【A2】
+- 工人: worker 【A2】
+  - 矿工: miner 【C1】
+- 工匠: craftsman
+  - 铁匠: blacksmith
+
+
+
+- 运动员: player 【A1】 / sportsman / sportwoman
+  - 跳水运动员: diver 【B1】
+  - 拳击运动员: boxer
+- 裁判: referee 【B2】 / umpire 
+
+
+
+
+
+- 学生: student 【A1】
+- 教师: teacher 【A1】
+- 教授: professor 【B1】
+- 讲师: lecturer 【B2】
+- 校长: principal 【A2】 / chancellor 【C2】 / president / headmaster
+- 学院院长: dean
+
+
+
+
+- 记者: reporter 【B1】 / journalist 【B1】
+- 主持人: presenter 【B2】 / host 【C2】 / hostess
+
+- 导演: director 【B1】
+- 摄影师: photographer 【A2】
+- 摄像师: cameraman
+
+- 演员: actor 【A2】 / actress
+- 魔术师: magician
+- 小丑: clown 【A2】
+- 模特: model 【B1】
+- 舞蹈演员: dancer 【A2】
+
+
+- 作家: writer 【B1】 / author 【B1】
+- 编辑: editor 【B2】
+
+- 艺术家: artist 【A2】
+- 画家: painter 【A2】
+  - 插画画家: illustrator
+- 设计师: designer 【B1】
+- 雕塑家: sculptor
+
+
+- 音乐家: musician 【B1】
+- 歌手: singer 【A2】
+- 作曲家: composer 【B2】
+- 指挥: conductor 【B2】 / maestro
+- 写歌人: songwriter
+- 说唱音乐人: rapper
+- DJ / disc jockey 【B1】
+
+
+
+## 2.4. 人体
+
+- 人体: body 【A1】
+- （解剖）构造: anatomy 
+
+### 2.4.1. 部位
 
 - 头部: head 【A1】
   - 头发: hair 【A1】
@@ -637,7 +880,9 @@ img_path: /assets/img/
   - 脚踝: ankle 【B1】
   - 脚后跟: heel 【B2】
 
-### 内部器官（Organ）
+### 2.4.2. 内部器官
+
+- 器官: organ 【C1】
 
 循环系统（Ciculatory System）
 - 心脏: heart 【A2】
@@ -700,20 +945,238 @@ img_path: /assets/img/
 - 肾上腺素: adrenalin
 
 
-## 家居（household）
+
+
+# 3. 地点
+
+
+## 3.1. 建筑
+
+- 建筑: building 【A2】
+- 房产: property 【B2】
+- 房屋: house 【A1】
+
+房产类型
+- 公寓: flat 【A1】（英） / apartment 【A2】（美）
+  - 单间: studio
+  - 有独卫: ensuite
+- 半独栋: semi-detached 【C1】（英）
+- 独栋: detached 【C1】（英）
+- 排屋: terrace （英） / row （美） / townhouse
+- 平房: bungalow
+
+
+- 路: road【A1】（广义的） / street 【A1】（城市里的）/ path 【A2】（小路）/ lane 【B2】（小巷，胡同）/ avenue 【C1】（城市里的大道）/ boulevard （城市里的大道） 
+  - 十字路口: crossing 【B1】
+  - 红绿灯: traffic light 【A2】
+  - 交通标识: traffic sign
+  - 人行横道: crosswalk （美）/ zebra crossing （英）
+- 高速公路: highway 【A2】/ motorway 【A2】（英） / freeway （美）/ expressway（美）
+  - 减速带: ramp
+- 桥: bridge 【A2】
+- 立交桥: overpass
+  - 匝道: ramp / slip road
+- 隧道: tunnel 【B1】
+- 管道: pipeline
+
+
+
+
+
+- 礼堂，会堂: hall【A2】
+- 大厦（豪宅）: mansion 【C1】
+- 塔: tower 【B1】
+- 摩天大楼: skyscraper
+
+
+
+- 教堂: church 【A2】 / cathedral 【A2】 / chapel 【C2】
+- 寺庙: temple 【B1】
+- 清真寺: mosque 【A2】
+- 修道院: monastery
+
+
+- 餐馆: restaurant 【A1】/ diner （苍蝇馆子）
+- 食堂: coffee shop 【A1】（小吃部）/ cafeteria 【A2】/ canteen 【B1】
+- 咖啡馆: café 【A1】 / coffee shop 【A1】
+- 酒吧: bar 【A2】/ pub 【A2】（英国、爱尔兰）/ tavern
+
+
+- 医院: clinic 【B1】（小诊所）/ hospital 【A1】（大医院） / infirmary（医务室）
+
+- 公园: park 【A1】
+- 广场: square 【A2】/ plaza（西班牙式）
+- 纪念碑: memorial 【C2】
+
+
+
+- 机场: airport 【A2】
+  - 航站楼: terminal 【B2】
+  - 飞机跑道: runway 【C1】
+- 火车站: railway station
+- 汽车总站: bus station 【A2】
+- 公交车站: bus stop 【A2】
+- 码头: terminal 【B2】/ dock 【C1】/ basin / wharf
+
+
+- 体育场: playground 【A2】（操场）/ sports centre 【A2】 / stadium 【B2】（有一圈座位的）
+  - 跑道: track 【B1】
+  - 足球场: field 【B1】
+  - 篮球场 / 网球场 / 排球场 / 羽毛球场 / 壁球场: ~ court 【B1】
+  - 健身房: gym 【A2】 / gymnasium
+  - 游泳池: swimming pool 【A1】
+  
+- 博物馆: museum 【A1】
+- 图书馆: library 【A2】
+- 美术馆: gallery 【B1】
+- 电影院: movie theater【A1】（美）/ cinema 【A2】（英）
+- 剧院: theatre 【A2】
+- 音乐厅: concert hall / auditorium
+- 水族馆: aquarium
+
+- 学校: school 【A1】
+  - 幼儿园: nursery school / kindergarten / preschool
+  - 小学: elementary school 【B1】 / primary school
+  - 中学: high school 【A2】/ middle school
+  - 大学: university 【A1】/ college 【A2】 / institute 【B2】 / academy
+    - 大学校园: campus 【B2】
+    - 学院 / 系: school
+
+- 商店: shop 【A1】/ store 【A1】
+  - 超市: supermarket 【A1】
+  - 市场: market 【A2】
+  - 百货大楼: department store 【A2】
+  - 综合型商场: complex 【C1】/ plaza
+- 理发店: barber shop 【B1】 / hair salon
+- KTV: karaoke
+
+- 市政会: council 【B2】 / city hall
+
+
+
+
+
+
+
+## 3.2. 房屋
+
+
+
+- 门: door 【A1】
+  - 卷帘门: shutter
+- 窗: window 【A1】
+- 墙: wall 【A1】
+- 围栏: fence 【B2】
+- 地板: floor 【A1】
+- 天花板: ceiling 【A2】
+- 屋顶: roof 【A2】
+- 楼梯: stairs 【A2】
+- hallway
+- 烟囱: chimney 【B2】
+- 下水道: sewer / drainpipe
+- 门廊: porch
+- 车道（车库前面的）: driveway
+
+
+- 房间: room 【A1】
+- 阁楼: attic 【B2】
+- 客厅: living room 【A1】 / lounge （英） / parlor （旧时）
+- 餐厅: dinning room 【A1】
+- 厨房: kitchen 【A1】
+- 卧室: bedroom 【A1】
+- 洗手间: bathroom 【A1】（美）/ toilet （英）/ restroom 【A2】（公厕）
+- 洗衣房: laundry room
+- 书房: study 【B1】
+- 阳台: balcony 【B1】 / terrace 【B2】
+- 地下室: basement 【B2】
+- 花园: garden 【A1】
+- 车库: garage 【A2】
+
+
+
+
+## 3.3. 行政区划
+
+- 国家: country 【A1】 / nation 【B2】/ state 【C1】
+  - 共和国: republic 【C1】
+  - 帝国: empire 【C1】
+- 省: province 【C2】
+- 州 / 邦: state 【B1】（美国、澳大利亚、德国）
+- 县 / 州 / 区: prefecture （日本、法国、意大利）
+- 县 / 郡: county 【B2】（美国） / shire（英国）
+- 区: district 【B1】
+- 街区: neighbourhood 【B1】
+- 保留地（土著）: reservation
+- 自然保护区: researvation
+
+- 城市: city 【A1】 / town 【A1】（镇）/ urban 【B2】
+  - 天际线: skyline
+- 城郊: suburban
+- 乡间: country 【A2】/ countryside 【A2】/ landscape 【B1】/ rural 【B2】 / rustic / pastoral
+- 无人区: uninhabited 【C2】 / no man's land 
+
+
+## 3.4. 地形（terrain）
+
+
+
+- 地形: terrain / topography / landform
+
+
+
+
+
+- 山: mountain 【A2】（高大的山）/ hill 【A2】（小山，丘陵）/ range 【B1】（连绵不绝的山脉）
+  - 山谷: valley 【B1】 / canyon （大峡谷）
+  - 悬崖: cliff 【B1】
+- 平原: plain
+- 高原: plateau
+- 盆地: basin 
+- 沙漠: desert 【A2】
+  - 绿洲: oasis
+- 草原: grassland
+- 林: forest 【A2】（森林）/ woods【A2】（树林）
+  - 林中空地: glade
+- 沼泽: swamp / marsh / bog / fen / mire / slough / quagmire / morass
+
+
+- 河: river 【A1】/ stream 【B1】（小溪）/ canal 【B1】（运河）/ creek（小溪）
+  - 瀑布: waterfall 【B1】
+  - 河口: mouth 【C1】
+  - 三角洲: delta
+  - 流域: basin
+  - 峡谷: gorge / fjord （挪威的峡湾）
+- 湖: lake 【A2】
+  - 咸水湖: salt lake
+  - 淡水湖: freshwater lake
+- 海: sea 【A1】/ ocean 【A2】
+  - 海边: beach 【A1】 / coast 【B1】 / seaside 【B1】（尤指度假）
+  - 湾: bay 【B1】/ harbour 【B1】 / gulf 【B2】
+  - 海岸线: coastline 【C2】
+  - 冰山: iceberg
+- 岸: shore 【B1】 / bank 【B2】
+  - 堤: embankment
+- 岛: island 【A2】
+  - 半岛: peninsula
+  - 群岛: islands / archipelago
+
+
+# 4. 物体
+
+
+## 4.1. 家居（household）
 
 以下为家居物品，包含家具（furniture）、工具等。我将按照房间场景分类，
 
 
-### 通用
+### 4.1.1. 通用
 
 - 椅子: chair 【A1】
-- 门: door 【A1】
 - 桌子: table 【A1】
-- 窗: window 【A1】
 - 抽屉: drawer 【A2】
 - 凳子: stool 【B2】
-- 楼梯: stairs 【A2】
+
+- mailbox
 
 - 柜子: cabinet 【A2】
   - 电视柜: television cabinet
@@ -759,7 +1222,7 @@ img_path: /assets/img/
 
 
 
-#### 工具
+#### 4.1.1.1. 工具
 
 - 刷子: brush 【A2】
 - 梯子: ladder 【B1】
@@ -776,7 +1239,7 @@ img_path: /assets/img/
 
 
 
-### 客厅
+### 4.1.2. 客厅
 
 - 沙发: sofa 【A2】
 - 扶手椅: armchair 【A2】
@@ -785,7 +1248,7 @@ img_path: /assets/img/
 - 电视: television / TV 【A1】
 - 遥控器: remote / remote control 【B1】
 
-### 卧室
+### 4.1.3. 卧室
 
 - 床: bed 【A1】
 - 五斗橱: chest of drawers 【B1】
@@ -803,7 +1266,7 @@ img_path: /assets/img/
 
 
 
-### 书房
+### 4.1.4. 书房
 
 - 书桌: desk 【A1】
 - 书架: bookshelf 【A2】
@@ -819,7 +1282,7 @@ img_path: /assets/img/
 - 耳机: earphones / headphones
 
 
-#### 文具（stationery）
+#### 4.1.4.1. 文具（stationery）
 
 - 信: letter 【A1】
 - 纸: paper 【A1】
@@ -835,7 +1298,7 @@ img_path: /assets/img/
 
 
 
-### 卫生间
+### 4.1.5. 卫生间
 
 
 
@@ -878,10 +1341,10 @@ img_path: /assets/img/
 
 
 
-### 厨房
+### 4.1.6. 厨房
 
 
-- 冰箱: refrigerator 【A1】（美） / fridge 【A2】（英）
+- 冰箱: refrigerator 【A1】（美） / fridge 【A2】（英）（冷藏） / freezer 【B1】（冷冻）
 - 灶: stove 【A2】 / cooker 【A2】（英）/ range（美）
   - 煤气灶: gas ~
   - 电灶: electric ~
@@ -917,3 +1380,336 @@ img_path: /assets/img/
 - 汤勺: soup ladle
 - 餐巾纸: napkin 【B2】
 
+
+
+# 5. 食物
+
+## 5.1. 水果
+
+- 水果: fruit 【A1】
+
+- 苹果: apple 【A1】
+- 香蕉: banana 【A1】
+- 橙子 / 橘子: orange 【A1】
+- 西红柿: tomato 【A1】
+- 葡萄: grape 【A2】
+- 柠檬: lemon 【A2】
+- 梨: pear 【A2】
+- 椰子: coconut 【B1】
+- 菠萝: pineapple 【B1】
+- 草莓: strawberry 【B1】
+- 猕猴桃: kiwi
+- 蓝莓: blueberry
+- 小红莓: cranberry
+- 火龙果: dragon fruit
+- 榴莲: durian
+- 无花果: fig
+- 青柠: lime
+- 李子: plum
+- 石榴: pomegranate
+- 覆盆子: raspberry
+- 西瓜: watermelon
+- 牛油果: avocado
+
+
+
+## 5.2. 蔬菜
+
+
+- 蔬菜: vegetable 【A1】
+
+
+> 水果蔬菜合称时，应为 fruit and vegetables。水果是不可数的。
+{: .prompt-warning }
+
+- 胡萝卜: carrot 【A2】
+- 小萝卜（樱桃萝卜）: radish
+- 白萝卜: Chinese radish
+
+- 卷心菜: cabbage 【B1】
+- 白菜: Chinese cabbage
+
+
+- 甜椒: pepper 【B1】/ sweet pepper
+- 辣椒: chilli 【A2】
+- 黄瓜: cucumber 【B1】
+- 酸黄瓜: gherkin （英） / pickle （美）
+- 茄子: aubergine 【B2】（英） / eggplant 【B2】（美）
+- 洋蓟: artichoke
+
+
+- 洋葱: onion 【A2】
+- 嫩洋葱: green onion（美） / scallion （美） / spring onion （英）
+- 大葱: leek 【B2】
+- 细香葱: chives
+- 韭菜: Chinese chives
+
+
+
+- 大蒜: garlic 【A2】
+- 姜: ginger
+
+
+- 芦笋: asparagus
+- 西兰花: broccoli 【B1】
+- 蘑菇: mushroom 【A2】
+- 秋葵: okra
+
+
+
+## 5.3. 粮食
+
+- 谷物: corn 【B1】/ cereal 【C1】
+  - 水稻: 
+  - 小麦: wheat
+  - 玉米: corn （美） / maize （英）
+  - 燕麦: oats
+  - 大麦: barley
+  - 芝麻: sesame
+
+- 豆类: bean 【A1】
+  - 大豆: soybean / soya bean（英）
+  - 豌豆: pea 【B1】
+  - 咖啡豆: coffee bean
+  - 红豆: adzuki
+
+
+- 土豆: patato 【A1】
+- 红薯: sweet patato 
+- 南瓜: pumpkin
+- 山药: yam
+
+
+## 5.4. 调料
+
+- 调料: seasoning / flavouring
+
+- 盐: salt 【A1】
+- 糖: sugar 【A1】
+- 油: oil 【A2】
+- 胡椒粉: pepper 【A2】
+- 醋: vinegar 【B2】
+- 酱油: soy sauce / soy
+- 淀粉: starch 
+- 咖喱: curry 【A2】
+- 味精: MSG / monosodium glutamate
+
+
+## 5.5. 肉类
+
+- 肉: meet 【A1】
+
+- 鸡肉: chicken 【A2】
+- 牛肉: beef 【B1】
+- 羊肉: lamb 【B1】
+- 猪肉: pork 【B1】
+- 五花肉: pork belly
+- 排骨: rib
+
+## 5.6. 鱼类
+
+- 鱼肉: fish 【A1】
+
+## 5.7. 坚果
+
+- 坚果: nut 【B2】
+
+- 花生: peanut 【B1】
+- 核桃: walnut
+- 开心果: pistachio
+- 巴西坚果: brazil nut
+- 榛子: hazelnut
+- 澳大利亚坚果: macadamia
+- 杏仁: almond
+
+
+
+## 5.8. 烹饪方法
+
+
+
+
+- 烹饪: cook 【A1】
+- 煮: boil 【B1】/ poach 
+- 煎: fry 【B1】/ sear / brown / pan-fry （平底锅煎）
+- 炸: fry 【B1】 / deep-fry
+- 炒: stir-fry / sauté 
+- 烤: roast 【A2】（肉或蔬菜） / bake 【A2】（面食） / grill 【B1】（明火）
+- 蒸: steam
+- 炖: stew / braise （水比较少，烧） / simmer（小火慢炖）
+- 焯水: blanch
+- 撒调料: season
+
+- 磨粉: grind (过去式与过去分词: ground)
+- 搅拌: mix 【A2】/ blend 
+- 解冻: thaw / defrost
+- 腌（肉）: marinate
+- 腌（菜）: pickle
+
+- 大火: high heat
+- 中火: medium heat
+- 小火: low heat
+  
+
+
+# 6. 英语语言
+
+包含语法（grammar 【A2】）、语义（semantics）、语音（pronunciation 【B1】）等几个方面。
+
+
+## 6.1. 语法
+
+这里是英语语法的框架，主要介绍术语，不会涉及太多的知识点。
+
+从字母开始：
+- 字母: letter 【A2】
+- 字母表: alphabet 【B1】
+
+字母组成词：
+- 词: word 【A1】 / vocabulary 【A2】（总称）
+- 短语: phrase 
+- 词性: part of speech
+  - 名词: noun 【A2】
+    - 单数 / 复数: singular 【A2】 / plural 【A2】
+    - 可数 / 不可数: countable / uncountable 【B1】
+  - 冠词: article 【B1】
+  - 代词: pronoun 【B1】
+  - 形容词: adjective 【A2】
+  - 数词: numeral 
+  - 副词: adverb 【A2】
+  - 介词: preposition 【B1】
+  - 感叹词: interjection
+  - 连词: conjunction 【B2】
+  - 动词: verb 【A2】
+    - 动词变形（verb forms）
+      - 原形: base / root
+      - 第三人称单数: third-person singular
+      - 现在分词: present participle
+      - 过去式: past
+      - 过去分词: past participle
+    - 实义动词
+      - 不及物动词: intransitive 【B2】
+        - 系动词: linking verb
+      - 及物动词: transitive 【B2】
+    - 助动词（非实义动词）
+      - 情态动词: modal 【B1】
+- 规则的/不规则的: regular 【B1】/ irregular 【B1】
+
+
+简单句包含句子成分:
+- 句子成分: sentence elements
+  - 主语: subject 【B1】
+    - 形式主语: dummy subject 
+  - 谓语: predicate
+  - 宾语: object 【B1】
+    - 形式宾语: dummy object
+  - 定语: attributive
+  - 状语: adverbial
+  - 宾语补语: object complement
+  - 表语 / 主语补语: predicative / subject complement
+  - 同位语: appositive
+
+
+词如何构成句子成分:
+- 名词、代词、数词: 构成主、宾、定、补
+- 谓语动词: 构成谓语
+  - 谓语动词由动词的不同变形、与助动词的组合得到
+    - 时: tense 【B1】
+      - 现在时: present
+      - 过去时: past
+      - 将来时: future
+      - 过去将来时: past future / future-in-the-past
+    - 态/体: aspect
+      - 一般时: simple
+      - 进行时: continuous
+      - 完成时: perfect
+      - 完成进行时: perfect continuous
+    - 语态: voice
+      - 主动语态: active
+      - 被动语态: passive
+    - 语气: mood
+      - 陈述语气: indicative
+      - 祈使语气: imperative 
+      - 虚拟语气: subjunctive
+- 非谓语动词: 构成谓语以外的句子成分
+  - 不定式: infinitive  【B1】，构成主、宾、定、状、补
+    - 带 to 的不定式: full infinitive
+    - 不带 to 的不定式: bare infinitive
+  - 动名词: gerund 【C1】，构成主、宾、定
+  - 现在分词: 构成定、状、补
+  - 过去分词: 构成定、状、补
+- 形容词: 构成定、补
+- 副词: 构成状语
+
+
+
+句子类型: 
+- 简单句: simple sentence, 有以下五种类型
+  - 主语 + 不及物动词
+  - 主语 + 及物动词 + 宾语
+  - 主语 + 双及物动词 + 间接宾语 + 直接宾语
+  - 主语 + 混合及物动词 + 宾语（+ 宾语补语）
+  - 主语 + 系动词 + 表语
+- 复合句: compound sentence, 由并列连词（coordinating conjunction）连接多个简单句
+  - 并列连词: for, and（as well as）, nor, but, or, yet, so （用 “FANBOYS” 记忆）
+- 复杂句 / 主从复合句: complex sentence, 用简单句充当某个句子成分，构成附属于主句的从句（clause 【B2】）
+  - 主语从句
+  - 宾语从句 
+  - 定语从句 / 关系从句
+    - 关系词: relative word
+      - 关系代词: that 【B1】（可省略）/ which 【B1】, who 【A2】/ whom 【B2】（作宾语可代替）, whose 【B1】
+      - 关系副词: when = on/in which, where 【B2】= at/in which, why = for which
+    - 先行词: antecedent，即被修饰词
+    - 限定性定语从句 / 非限定性定语从句: defining / non-defining. 后者要加逗号与先行词隔开，仅表示补充信息
+  - 状语从句
+    - 时间状语从句: before, when, while, as, after, since, until / till, as soon as, the next time,  whenever / anytime / everytime
+    - 地点状语从句: where, wherever / anywhere / everywhere
+    - 比较状语从句: than, as, the + 比较级
+    - 条件状语从句: if, unless, provided, as long as, in case
+    - 让步状语从句: even if, although, though, even though, no matter + 疑问词, regardless of + 疑问词
+    - 方式状语从句: as if = the way (in which)
+    - 原因状语从句: because, since, as
+    - 目的状语从句: in order that, so that
+    - 结果状语从句: so that, so + adj. + that, such + n. + that
+  - 宾语补语从句
+  - 表语从句
+  - 同位语从句 
+
+
+
+> - 这里的语气是语法上的语气，会对谓语动词的形态产生作用，而不是说话的语气。
+> - 非谓语动词可以用于简化从句。加入额外的主语（不是整句的主语），称为独立主格（absolute construction）。
+> - 非谓语中动名词与现在分词都可以作定语，区别是动名词描述性质，现在分词描述状态。
+> - 过去分词作定语，如果有多个词要后置。
+> - 过去分词与现在分词的区别：暗含主动/被动关系。
+{: .prompt-tip }
+
+
+
+## 6.2. 语义
+
+
+
+
+- 同义词 / 近义词: synonym 【C2】, synonymous 【C2】
+- 反义词: antonym, antonymous
+- 同源词: cognate
+
+- 改述，换一种说法: paraphrase
+
+
+
+## 6.3. 语音
+
+- 元音: vowel 【B1】
+  - 单元音: monophthong
+  - 双元音: diphthong
+- 辅音: consonant 【B1】
+  - 清辅音: voiceless
+  - 浊辅音: voiced
+
+- 同音词：homophone
+
+
+
+- 口音: accent 【B1】（只有语音上的变化） / dialect 【C2】（语法和用词都有变化）
