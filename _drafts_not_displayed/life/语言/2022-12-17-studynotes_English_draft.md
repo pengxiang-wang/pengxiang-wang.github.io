@@ -85,7 +85,6 @@ senior/junior to
 
 
 
-- astronaut
 
 
 
@@ -96,7 +95,6 @@ senior/junior to
 - 
 
 
-sailor
 
 
 - 科学家: scientist 【B1】
@@ -108,178 +106,34 @@ sailor
 # 地址
 
 
-## 交通工具
 
 
-vehicle: 
 
 
-- 汽车: car 【A1】/ automobile
-  - 警车: police car
-  - 越野车: jeep
-  - 折篷轿车: convertible
-  - 双门小轿车: coupe
-  - 四轮货运马车（大篷车）: wagon
-  - 大型豪华轿车: limousine
-  - 休闲越野车: SUV
-  - （可以搭载四、五个人，有两个或四个门，后部有专门放置行李空间的）轿车: sedan （美） / saloon （英）
-  - 仓门式汽车，掀背式汽车: hatchback
-  - （常为双座的）跑车: sports car
 
 
 
-caravan / mobile home
 
 
 
-van
 
-消防车: fire engine
 
-缆车: aerial tramway
 
-- 飞机: airplane / aircraft
-- airship 
-- helicopter
-- float plane
-- biplane
-- glider
-- jet fighter
-- jet
 
 
-救护车: ambulance
 
-auto-rickshaw
 
 
 
 
-自行车: bike / bycycle
-unicycle
-tricycle
-pedicab
-mountain bike
-moped
-motor scooter
-motorcycle / motorbike
-踏板车: scooter 【A2】
 
 
-bullock cart 
-baby carriage / pram
-carriage
 
-- vessel
 
+- 海运的: maritime
 
 
-skateboard
-sled
-
-
-
-
-delivery van
-
-
-hot-air balloon
-
-
-
-snowmobile
-
-
-
-
-
-
-
-quad
-
-
-
-
-
-
-
-
-
-
-
-taxi (ying)/ cab
-
-
-
-train
-tram / street car
-subway / metro /
-
-
-van
-
-
-
-ship
-- row-boat
-- sailboat
-- barge
-- battleship
-- - boat
-- canoe
-- cargo ship
-- catamaran
-- destroyer
-- galleon
-- gondola
-- hovercraft
-- jet ski
-- kayak
-- motorboat
-- yacht
-- narrowboat
-- oil tanker
-- raft
-- submarine
-- - tugboat
-- ferry
-- schooner
-- surf boat
-- trawler
-maritime
-
-
-
-bus
-double-decker
-school bus
-coach
-Minibus
-shuttle
-
-
-
-
-- truck / lorry
-  - backhoe loader
-  - bulldozer
-  - concrete mixer truck / cement mixer
-  - crane truck
-  - dump truck
-  - excavator
-  - forklift
-  - front loader
-  - fuel truck
-  - road roller
-  - tractor
-  - diesel
-  - cranes
-  - pick-up truck
-  - garbage truck
-  - mail truck
-  - flat-bed truck
-  - locomotive
-  - skid steer loader
+  - 柴油车: diesel
 
 
 
@@ -419,6 +273,7 @@ salad:
 - 粒: grain 【C2】 / particle 【C2】（微粒）
 - 串: rope
 
+thread
 
 
 
@@ -495,54 +350,119 @@ basket
 - 发泥 / 发蜡: pomade
 
 
-### 衣服
+## 衣服
 
-上衣: top 【B1】（英）
+
+### 材质
+
+- 皮革: leather 【A2】
+- 棉织品: cotton 【B1】
+- 针织品: knitwear
+- 灯芯绒: corduroy
+
+
+- 合身的: tailored 
+
+
+
+
+denier: （尤指编织短袜和连裤袜所用织线的）纤度
+
+
+
+
+### 套装
+
+- 西服: suit 【A2】
+  - 
+  - 衬衫: shirt 【A1】
+  - 领带: tie 【A2】 / necktie 【C2】（美）
+  - 西装外套: blazer
+
+
+- 连衣裙: dress 【A1】
+  - 碎花裙: tea dress
+  - 太阳裙: sun dress
+  - 长舞裙: ballgown （裙摆非常大）
+- 连衣长裤: jumpsuit（女装）
+- 连衣短裤: playsuit （女装）/ romper （婴儿）
+
+
+- 婚纱: wedding dress
+- 晨礼服: morning suit
+  - 晚礼服: dinner jacket
+
+### 上衣
+
+- 上衣: top 【B1】（英）
+
+
+
+
+
 - 袖子: sleeves 【B1】
+- 扣子: button 【B1】
 - 领子: collar 【B1】
+- 衣服上的帽子: hood 【B2】
 - 领口: neckline
 - 袖口: cuff
-- 衣服上的帽子: hood 【B2】
 - （西服上衣或夹克的）翻领: lapels
-- 衬衫: shirt 【A1】
+
+
+短袖: short-sleeved 
+长袖: long-sleeved
+无袖: sleeveless
+
+
+
+圆领: crew neck
+V 领: V-neck
+船领: boat neck
+高翻领: polo neck / turtle neck
+重褶领: cowl neck
+
 - 短袖 T 恤: T-shirt 【A1】
 - 带领 T 恤: polo shirt
 - （无袖）圆领背心: tank top
-- 露脐上衣: crop top
 - 长袖运动衫: sweatshirt 【B1】
-- 女士衬衫: blouse
+
+
+
+
+
+
+
 - 毛衣: jumper【A2】（英） / sweater【A2】（美）
 - 针织开衫: cardigan 【B2】
+
+- 带帽卫衣: hoodie
 - 夹克: jacket 【A1】
-  - 摩托骑手短夹克: leather jacket / biker jacket
+  - 冲锋衣: jacket 【A1】
+  - 棒球服: baseball jacket （英） / letterman jacket （美）
   - 牛仔布夹克: denim jacket
-  - bomber jacket / military jacket
-  - baseball varsity
-  - blazer
-  - tailored 
-  - dinner
-  - morning coat jacket
-- coat
+  - 皮短夹克: bomber jacket
+  - 摩托骑手短夹克: biker jacket
+- 大衣: coat 【A1】
   - trench coat
   - duffle coat
   - parka jackets
   - rain jackets
   - ski jacket
   - shooting coat
-  - overcoat
-  - poncho
-  - shawl
-  - wrap
-- 带帽卫衣: hoodie
+  - 长大衣: overcoat
+  - 斗篷: poncho
 
-button : 扣子
+  - wrap
+
+
+
 single-breasted
 double-breasted
 
+- 女士衬衫: blouse 【A1】
+- 露脐上衣: crop top
 
-
-- 针织品: knitwear
-  - cable knit / chunky knit
+  - cable knit / chunky knit 
   - fair-isle print
 - stripes strippy
 
@@ -550,79 +470,112 @@ double-breasted
 
 
 - 腰带: belt 【A2】
-- 连衣裙: dress 【A1】
 
+### 下身
 
+- bottoms
 - 裤子: pants 【A1】（美）/ trousers 【A1】（英）
-  - 牛仔裤: jeans 【A1】
-  - jeggings 
-  - leggings
-  - joggers / sweat pant
-  - harem pant
-  - wide-leg trousers
-  - corderoys
-  - cargo pants/trousers
-  - chinos
-  - shorts
-  - shortshorts/hotpants
 
-- 裙子: 
-  - skirt 
-  - jumpsuit
-  - playsuit / romper
-  - teadress / sundress
 
-dress
+- 牛仔裤: jeans 【A1】
+
+
+- 紧身裤: leggings
+- 
+- 牛仔式样紧身裤: jeggings 
+- 束脚慢跑裤: joggers （英） / sweatpants （美）
+- 工装裤: cargo pants / combats （英）
+- 短裤: shorts 【A2】
+- 超短裤: short shorts / hot pants
+
+
+
+- 斜纹布裤: chinos 
+
+
+
+- 半身裙: skirt 【A1】
+
 fit and flare
-wrap
-ballgown
-pepium
-bodycon
 
-skirt 
-pleated
+
+（女式外衣或上衣腰部以下以及连衣裙上的）褶裥短饰边: pepium
+紧身的: bodycon
+
+
+- 灯笼裤: harem pant
+
+
+- 阔腿裤: wide-leg trousers
+
+
+
+（裙子）打褶的: pleated
 skater
 tulip
 trumpet
 tiered/rara
 pencil
 
+裤裆: crotch
 
 
-crotch
+高腰: high-rise / high-waisted
+mid
+low
 
+skinny 
+straight-leg 
+boot-leg
+flared
+mom
+
+### 内衣
 
 - 内衣: underwear 【B1】
-  - 内裤: pants【B1】
-    - 平角内裤: boxer shorts / boxers
-    - 三角内裤: briefs / Y-fronts （男）
-    - 女士内裤: panties 【B2】（美）/ knickers 【B1】（英）
-    - 丁字裤: G-string / thong / bikini 【B2】
-  - 胸罩: bra 【B2】 / brassiere
-    - triangle bra
-    - T-shirt bra
-    - 运动胸罩: sports bra
-    - 
-    - 托高型胸罩: push-up bra
-    - 抹胸: bandeau
-    - 少女胸罩: training bra
-  - 保暖内衣: thermals
-    - 背心: vest 【C1】（英） / undershirt （美）
-    - 秋裤: long johns
 
 
+- 内裤: pants【B1】（英） / underpants 【B1】（英） / shorts （美）（男） 
+  - 平角内裤: boxers
+  - 三角内裤: briefs / Y-fronts （男）
+  - 女士内裤: panties 【B2】（美）/ knickers 【B1】（英）
+  - 丁字裤: G-string / thong / bikini 【B2】
+
+
+- 胸罩: bra 【B2】 / brassiere
+  - triangle bra
+  - T-shirt bra
+  - 运动胸罩: sports bra
+  - 
+  - 托高型胸罩: push-up bra
+  - 抹胸: bandeau
+  - 少女胸罩: training bra
+- 保暖内衣: thermals
+  - 背心: vest 【C1】（英） / undershirt （美）
+  - 秋裤: long johns
+
+
+seam
+
+VPL
+
+seamless: 无痕的
+
+padded: 有垫的
+underwired: 无钢圈的
+
+有带子的: strappy
+无带子的: strapless
+非常细肩带的: spaghetti straps 
+
+
+
+smoking jacket
 - 
-- 短袜: socks 【A2】
-- （仅到脚踝的）短袜: anker socks
-- （可拉伸至膝盖的）弹性尼龙长袜: pop socks
-- 长筒袜: stockings 【C1】
-- 连裤袜: pantyhose 【B1】（美）/ tights 【A2】（英）
 
-- 别针: pin 【B1】
+### 配件 Accessories
 
-Accessories
-
-
+- scarf / shawl / wrap
 - 手链: bracelet 【A2】
 - 耳饰: earrings 【A2】
 - 项链: necklace 【A2】
@@ -657,6 +610,24 @@ Accessories
 - bowtie
 
 
+- 短袜: socks 【A2】
+- （仅到脚踝的）短袜: anker socks
+- （可拉伸至膝盖的）弹性尼龙长袜: pop socks
+- 长筒袜: stockings 【C1】
+- 连裤袜: pantyhose 【B1】（美）/ tights 【A2】（英）
+
+
+
+mid-calf
+over-the-calf
+knee-high
+over-the-knee
+thigh-high
+
+
+- 别针: pin 【B1】
+
+
 - 鞋: shoes 【A1】
   - 平底: flats
     - trainer sneaker
@@ -678,53 +649,9 @@ court shoes / pumps
 
 
 
-seam
-
-VPL
-
-seamless: 无痕的
-
-padded: 有垫的
-underwired: 无钢圈的
-
-mid-calf
-over-the-calf
-knee-high
-over-the-knee
-thigh-high
-
-denier: （尤指编织短袜和连裤袜所用织线的）纤度
-
-短袖: short-sleeved 
-长袖: long-sleeved
-无袖: sleeveless
-
-有带子的: strappy
-无带子的: strapless
-非常细肩带的: spaghetti straps 
-
-圆领: crew neck
-V 领: V-neck
-船领: boat neck
-高翻领: polo neck / turtle neck
-重褶领: cowl neck
-
-高腰: high-rise / high-waisted
-mid
-low
-
-skinny 
-straight-leg 
-boot-leg
-flared
-mom
-
 mini
 midi
 maxi
-
-
-
 
 
 
@@ -762,6 +689,29 @@ maxi
 
 
 积分榜: leaderboard
+
+
+
+
+
+
+
+
+
+
+
+
+- 
+
+- 战斗机: fighter
+- 轰炸机: bomber 【C2】
+
+- battleship
+- 驱逐舰: destroyer
+- 潜艇: submarine
+- 火箭: rocket 【B2】
+- 热气球: hot-air balloon
+
 
 # 历史地理
 
@@ -1004,30 +954,111 @@ resentful：气愤的
 
 - giddy: 轻佻的
 
-## 身体动作
 
 
-### 说话
+
+## 人体动作
+
+
+### 头部动作
+
+说话:
+- say 【A1】
+- talk 【A1】
+- speak 【A1】
+- 
+
+
+喊: 
+- shout 【A2】
+- scream 【B1】
 
 bang on about sth.: 喋喋不休地说某事
 blabber on about sth.
 
-notice 【B1】
-notify 【C1】（正式通知）
+
+
+询问: 
+- ask 【B1】
+
+告诉: 
+- tell 【A1】
+- notice 【B1】
+- notify 【C1】（正式通知）
+
+kiss
+
+笑: 
+- laugh 【A2】
+- smile 【B1】
+- giggle 【C2】
+
+
+点头: 
+- nod 【B2】
+
+
+
+看: 
+- look 【A1】
+- see 【A1】
+- watch 【A1】: 观看，注视
+- stare 【B2】: 盯
+- glare 【C2】: 瞪，怒视
+- glimpse: 瞥
 
 
 
 ### 手部动作
 
+
+clap
+wave
+point
+
+
+抓 / 握: 
+- catch 【A1】（接住）
+- hold 【A2】
+- scratch 【B2】（挠痒痒）
+
+
+tie
+
+
 take off：脱衣服
 
+打: hit / punch / 
+
 tap: 
-hit:
 beat:
 strike:
 
-tip
+
 喷: spray
+
+拉: drag /pull
+推: push
+
+lift  carry lean pick up
+put down 
+
+
+
+break
+open
+
+
+
+
+drive / steer / 
+
+dump throw pour drop
+
+
+
+
+stir
 
 
 
@@ -1035,11 +1066,46 @@ tip
 - 削: peel 
 
 
-###
+
+### 身体动作
+
+
+stretch
+
+坐: sit / be seated
+站: stand / rise
+躺: lie down
+爬: crawl
+跪: kneel
+蹲: squat
+弯腰: bend
+
+走: walk / march 
+散步: jog
+跑: run / rush
+
+踮脚: tiptoe
+
+slip
+
+trip
 
 
 
+侧手翻: cartwheel
 
+
+跳舞: dance
+跳: jump / leap / hop / bounce / skip
+
+ride
+
+
+serve  pass dribble shoot (投篮)
+kick / punt
+
+
+翻: tip（倾斜）
 
 
 ## 疾病
@@ -1050,7 +1116,6 @@ first aid kit
 plaster
 painkiller
 
-## 人体动作
 
 
 

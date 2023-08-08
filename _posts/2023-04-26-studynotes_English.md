@@ -48,6 +48,7 @@ img_path: /assets/img/
       - [4.1.4.1. 文具（stationery）](#4141-文具stationery)
     - [4.1.5. 卫生间](#415-卫生间)
     - [4.1.6. 厨房](#416-厨房)
+  - [交通工具](#交通工具)
 - [5. 食物](#5-食物)
   - [5.1. 水果](#51-水果)
   - [5.2. 蔬菜](#52-蔬菜)
@@ -700,6 +701,8 @@ img_path: /assets/img/
 
 - 司机: driver 【A1】 / chauffeur （专职司机）
 - 飞行员: pilot 【A2】
+- 水手: sailor 【B1】
+- 宇航员: astronaut
 - 快递员: delieveryman / courier  
 - 邮递员: postman 【B1】
 
@@ -943,6 +946,12 @@ img_path: /assets/img/
 
 内分泌系统（Endocrine System）
 - 肾上腺素: adrenalin
+
+
+
+
+
+
 
 
 
@@ -1379,6 +1388,145 @@ img_path: /assets/img/
 - 筷子: chopsticks
 - 汤勺: soup ladle
 - 餐巾纸: napkin 【B2】
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 交通工具
+
+
+交通工具: vehicle 【B1】
+
+
+- 汽车: car 【A1】/ automobile
+  - 双门小轿车: coupe
+  - 折篷轿车: convertible
+  - （可以搭载四、五个人，有两个或四个门，后部有专门放置行李空间的）轿车: sedan （美） / saloon （英）
+  - 大型豪华轿车: limousine
+  - 休闲越野车: SUV
+  - 越野车: jeep
+  - 仓门式汽车，掀背式汽车: hatchback
+  - （常为双座的）跑车: sports car
+  - 赛车: race car
+- 厢型车: van 【B1】
+  - 房车: mobile home / trailer（拖拽式）  / caravan （拖拽式）
+
+
+
+- 自行车: bike 【A1】 / bicycle 【A2】
+  - 山地自行车: mountain bike 
+  - 公路自行车: road bike
+- 电动车: e-bike / moped / motor scooter
+- 摩托车: motorbike 【A2】 / motorcycle 【A2】
+- 踏板车: scooter 【A2】
+  - 电动踏板车: e-scooter
+- 滑板: skateboard 【A2】
+- 独轮车: unicycle
+- 三轮车: tricycle （小孩玩的）/  pedicab （出租车）/ autorickshaw（印度）
+
+
+
+- 手推车: cart 【B2】（美） / trolley 【B2】（英）
+  - 购物车: shopping ~
+  - 牛车: bullock cart
+  - 推重物的手推车: hand truck （美） / sack truck （英） / sack barrow （英）
+- 婴儿车: baby carriage / pram
+- 四轮马车: carriage 【C2】（客运） / wagon （大篷车，货运）
+
+
+- 大巴车: bus 【A1】
+  - 公交车: bus 【A1】
+  - 双层巴士: double-decker
+  - 小车: school bus
+  - 长途汽车: coach 【A2】 / bus【A1】
+  - 摆渡车: shuttle 【C1】
+- 出租车: taxi 【A1】 /  cab 【B1】
+- 消防车: fire engine
+- 救护车: ambulance 【A2】
+- 警车: police car
+- 快递车: delivery van
+
+
+- 火车: train 【A1】
+  - 车厢: carriage 【C1】
+    - 行李车厢: baggage car （美）/ luggage van （英）
+    - 餐车: dining car （美） / restaurant car （英）
+  - 火车头: locomotive
+- 地铁: subway 【A1】（美） / underground 【A2】（英）/ metro （法）
+- 有轨电车: tram 【A2】（英） / streetcar （美） 
+- 高铁: high-speed train
+- 缆车: aerial tramway
+- 
+
+- 飞机: plane 【A1】/ aircraft 【B2】 /  airplane
+  - 喷气式飞机: jet 【B1】
+  - 双翼飞机: biplane
+  - 滑翔机: glider
+- 直升机: helicopter 【A2】
+- 飞艇: airship 
+
+
+
+
+- 船: boat 【A1】（小船） / ship 【A2】（大船） / vessel（大船）
+- 轮渡: ferry 【B1】
+- 帆船: sailboat （美） / sailing boat （英）
+  - 帆: sail 【C2】
+  - 大帆船: galleon （殖民时代）
+  - 纵帆船: schooner
+- 货船: cargo ship
+  - 油轮: oil tanker
+  - 运河船: canal boat / narrowboat
+  - 驳船: barge
+  - 拖网渔船: trawler
+  - 拖船: tug / tugboat
+- 划艇: rowboat （美） / rowing boat（英）
+  - 木筏: raft
+  - 独木舟: canoe
+  - 贡多拉: gondola
+  - 爱斯基摩划艇: kayak
+  - 双体船: catamaran
+- 气垫船: hovercraft
+- 摩托艇: jet-ski （小型喷气式） / motorboat （大）
+- 游艇: yacht 【B2】
+- 冲浪板: surfboard
+
+
+
+- 卡车: truck 【B1】（美） / lorry 【B1】 （英）
+  - 敞篷货车: pickup
+  - 起重机: crane  
+  - 推土机: bulldozer  
+  - 挖掘机: excavator （英） /  steam shovel （美）
+  - 叉车: forklift
+  - 反铲挖土机: backhoe loader
+  - 前斗挖土机: front loader
+  - 水泥搅拌机: concrete / cement mixer
+  - 翻斗车: dump truck（美） / dumper track （英）
+  - 油罐车: fuel truck
+  - 压路机: road roller
+- 拖拉机: tractor 【C2】
+
+
+
+- 滑雪板: ski 【B1】
+- 雪橇: sled
+- 摩托雪橇: snowmobile
 
 
 
