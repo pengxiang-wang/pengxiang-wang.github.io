@@ -956,123 +956,43 @@ resentful：气愤的
 
 
 
-
-## 人体动作
-
-
-### 头部动作
-
-说话:
-- say 【A1】
-- talk 【A1】
-- speak 【A1】
-- 
-
-
-喊: 
-- shout 【A2】
-- scream 【B1】
-
-bang on about sth.: 喋喋不休地说某事
-blabber on about sth.
+qualification
 
 
 
-询问: 
-- ask 【B1】
 
-告诉: 
-- tell 【A1】
-- notice 【B1】
-- notify 【C1】（正式通知）
-
-kiss
-
-笑: 
-- laugh 【A2】
-- smile 【B1】
-- giggle 【C2】
-
-
-点头: 
-- nod 【B2】
-
-
-
-看: 
-- look 【A1】
-- see 【A1】
-- watch 【A1】: 观看，注视
-- stare 【B2】: 盯
-- glare 【C2】: 瞪，怒视
-- glimpse: 瞥
-
-
-
-### 手部动作
-
-
-clap
-wave
-point
-
-
-抓 / 握: 
-- catch 【A1】（接住）
-- hold 【A2】
-- scratch 【B2】（挠痒痒）
-
-
-tie
-
+kiss 
 
 take off：脱衣服
 
-打: hit / punch / 
 
-tap: 
-beat:
-strike:
-
-
-喷: spray
-
-拉: drag /pull
-推: push
-
-lift  carry lean pick up
-put down 
-
-
-
-break
-open
 
 
 
 
 drive / steer / 
 
-dump throw pour drop
 
 
 
-
-stir
-
-
-
-- 切 / 剁: cut / chop / dice / mince
-- 削: peel 
-
+弯曲: 
+- buckle
 
 
 ### 身体动作
 
 
+just in case: 以防万一
+
+- shake 【B1】: 摇动
+- swing 【B2】: 摇摆
+- shiver 【B2】: 发抖
+
+
 stretch
 
-坐: sit / be seated
+坐:
+- sit / be seated
 站: stand / rise
 躺: lie down
 爬: crawl
@@ -1104,8 +1024,21 @@ ride
 serve  pass dribble shoot (投篮)
 kick / punt
 
-
+撞倒: knock 【B1】
 翻: tip（倾斜）
+
+lean
+
+
+
+反对: 
+- deny
+- refuse 
+- 
+
+summarise
+generalise
+
 
 
 ## 疾病

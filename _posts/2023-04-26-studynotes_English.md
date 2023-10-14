@@ -33,6 +33,11 @@ img_path: /assets/img/
   - [2.4. 人体](#24-人体)
     - [2.4.1. 部位](#241-部位)
     - [2.4.2. 内部器官](#242-内部器官)
+  - [动作](#动作)
+    - [说话相关](#说话相关)
+      - [表情](#表情)
+    - [感官](#感官)
+    - [手部动作](#手部动作)
 - [3. 地点](#3-地点)
   - [3.1. 建筑](#31-建筑)
   - [3.2. 房屋](#32-房屋)
@@ -433,6 +438,7 @@ img_path: /assets/img/
 - chatty 【C1】: 强调闲聊
 - chatterbox：话匣子（贬义）
 - conversationalist
+- garrulous: 强调唠叨小事
 - talker: 谈话的人（通常有定语修饰），空谈的人（贬义）
 - voluble: 强调能言善辩
 
@@ -949,9 +955,287 @@ img_path: /assets/img/
 
 
 
+## 动作
+
+
+### 说话相关
 
 
 
+说话:
+- say 【A1】
+- talk 【A1】
+- speak 【A1】
+- chat 【A2】: 聊天，闲聊 
+
+
+低声说: 
+- mutter 【B2】: 嘟囔，咕哝
+- murmur 【C2】
+- chunter （英）
+
+喊，叫: 
+- shout 【A2】
+- cry 【B1】
+- call 【B1】: 动物呼叫声
+- scream 【B1】
+- exclaim 【C2】
+- roar 【C2】: 吼叫，咆哮
+- snarl: 吼叫，咆哮
+
+吵架:
+- argue 【B1】
+- debate 【B2】
+- dispute 【C2】
+- rebut
+- refute
+
+
+唠叨，喋喋不休: 
+- chatter
+- bang on about sth.
+- blabber on about sth.
+
+
+
+
+以下是抽象的说话动词: 
+
+
+
+
+
+询问: 
+- ask 【B1】
+- inquire 【B2】 / enquire 【B2】（英）: 打听
+- consult 【C1】: 咨询
+
+
+
+告诉: 
+- tell 【A1】
+- inform 【B1】
+- notice 【B1】
+- notify 【C1】（正式通知）
+
+
+表达: 
+- describe 【A2】: 描述
+- express 【B2】: 表达
+- state 【B2】: 陈述
+- narrate: 叙述，讲故事
+
+
+
+宣布，声称: 
+- announce 【B1】
+- claim 【B2】: 声称
+- declare 【B2】
+- assert 【C1】: 断言，坚持认为
+- proclaim
+
+
+建议: 
+- advice 【A2】
+- suggest 【B1】
+- recommend 【B1】
+
+解释:
+- explain 【A2】
+- set out 【B2】: 书面
+- interpret 【C1】
+  
+
+
+
+
+#### 表情
+
+表情: expression 【B2】
+
+
+笑: 
+- laugh 【A2】: 出声地笑，包含声音
+- smile 【B1】: 泛指，不包含声音
+- grin 【C2】: 露出牙齿的笑
+- giggle 【C2】: 咯咯笑，傻笑
+- beam: 眉开眼笑
+- chortle: 幸灾乐祸地大笑
+- chuckle / snicker / snigger: 偷笑
+- force a smile / laugh: 挤出微笑，强颜欢笑
+- from ear to ear: 合不拢嘴地笑
+- guffaw: 大笑，狂笑
+- 嘲笑: laugh at 【B1】/ mock / sneer / ridicule 
+- 微笑: crack a smile
+- simper: 傻笑
+- smirk: 得意地笑
+- titter: 对不该笑的紧张地笑
+- in stitches: （笑话让人）捧腹大笑
+- laugh sth off: 一笑而过
+
+哭: 
+- cry 【A2】
+- sniffle: 抽泣
+
+皱眉头:
+- frown 【C2】
+
+耸肩: 
+- shrug 【C2】
+
+点头: 
+- nod 【B2】
+
+摇头: 
+- shake sb's head 【B2】
+
+
+扮鬼脸: 
+- make a face 【B1】（美） / pull a face （英）
+- grimace: 因为疼痛
+
+### 感官
+
+
+
+看: 
+- look 【A1】
+- see 【A1】: 看见
+- watch 【A1】: 观看，注视
+- stare 【B2】: 盯
+- glare 【C2】: 瞪，怒视
+- peer 【C2】: 费力看
+- glimpse: 瞥
+- scowl: 阴沉着脸
+
+听: 
+- listen 【A1】
+- hear 【A1】: 听见
+
+
+感觉: 
+- feel 【A1】
+- sense 【C2】
+- percept
+
+
+呼吸: 
+- breathe 【B1】
+- snore 【B2】: 打呼噜
+- sniff 【C2】: 闻，嗅
+- 吸气: breathe in / inhale
+- 呼气: breathe out / exhale
+- 鼻息: snort
+
+
+
+### 手部动作
+
+
+
+
+
+打: 
+- hit 【A2】
+- break 【A2】: 打破
+- strike 【B1】
+- beat 【B2】: 连续地打
+- punch 【B2】: 拳打
+- clout: 用手猛打
+
+
+
+敲:
+- knock 【B1】
+- tap 【B2】: 轻敲 
+
+拍: 
+- clap 【B1】: 拍手
+- slap 【C2】: 掴，掌击
+
+
+
+抓 / 握: 
+- catch 【A1】（接住）
+- hold 【A2】
+- seize 【B2】
+- scratch 【B2】（挠痒痒）
+
+拉: 
+- pull 【A2】 / drag 【B2】
+
+
+推: 
+- push 【A2】
+
+
+打开: 
+- open 【A1】
+- turn on 【A2】: 尤其指可以转动的开关
+
+关闭:
+- close 【A1】
+- turn off 【A2】: 尤其指可以转动的开关
+
+挥: 
+- wave 【B1】
+
+指: 
+- point 【A2】
+
+
+系，捆绑: 
+- tie 【B1】
+- strap
+
+扣: 
+- fasten 【B1】: 扣紧
+- buckle
+
+
+
+
+拿，带:
+- take 【A1】: 带走
+- carry 【A1】
+- lift 【B1】: 抬
+
+摘: 
+- pick 【B1】
+
+扔: 
+- throw 【A2】
+- pour 【B1】: 倒（液体）
+- drop 【B1】: 落下
+- dump 【C2】
+
+
+
+鞭打: 
+- lash
+- whip
+- flog
+- flagellate （宗教鞭笞）
+
+
+
+搅拌: 
+- mix 【A2】: 混合
+- stir 【B1】: 用勺子
+- agitate
+
+
+切: 
+- cut 【A2】
+- chop 【B2】: 切碎
+- dice 【C2】: 切丁
+- mince: 非常碎
+
+削: 
+- peel 【B2】
+
+喷: 
+- spray 【B2】
 
 
 

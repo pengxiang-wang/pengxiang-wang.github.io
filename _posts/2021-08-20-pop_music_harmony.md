@@ -383,11 +383,11 @@ Mixolydian 的 V 级和弦变成了小三和弦 Gm，解决倾向不如大三和
     - 属十一和弦：属九和弦加 11 音，记作 11，和属七和弦作用类似；
       - 属十三和弦：属十一和弦加 13 音，记作 13，和属七和弦作用类似；
   - [属七降九和弦](https://en.wikipedia.org/wiki/Ninth_chord#Dominant_minor_ninth)：属七和弦加 b9 音，记作 7b9，和属七和弦作用类似，比属九和弦更紧张；
-  - [属七增九和弦](https://en.wikipedia.org/wiki/Dominant_seventh_sharp_ninth_chord)：属七和弦加 b9 音，记作 7#9，有摇摆、缥缈的感觉，又称 Hendrix 和弦，因为常用于以 Jimmy Hendrix 为代表的摇滚乐、Funk、R & B 等流行音乐中；
+  - [属七增九和弦](https://en.wikipedia.org/wiki/Dominant_seventh_sharp_ninth_chord)：属七和弦加 #9 音，记作 7#9，有摇摆、缥缈的感觉，又称 Hendrix 和弦，因为常用于以 Jimmy Hendrix 为代表的摇滚乐、Funk、R & B 等流行音乐中；
 - 半减七和弦
   - 减九和弦：半减七和弦加 b9 音，记作 dim9；
 - 六和弦
-  - 六和弦加 9 音，记作 6/9；
+  - 六九和弦：六和弦加 9 音，记作 6/9；
 
 
 
