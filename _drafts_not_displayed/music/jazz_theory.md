@@ -100,6 +100,12 @@ Cmaj9 Cmaj11 Cmaj13
 
 ## 基础的 Shell Voicing
 
+
+
+两个音 root + 7， root + 3  3+7or 7+3（有bass时）
+
+三个音：
+
 壳，主干 137
 
 137 即不muddy，
@@ -119,7 +125,7 @@ Cmaj9 Cmaj11 Cmaj13
 练习，直接反映出来
 
 
-## 四音 Voicing
+## 四音 Voicing(rootless voicing)
 
 只有有人处理 bass note 的时候演奏的，因为它没有 bass note。即和弦转位。
 

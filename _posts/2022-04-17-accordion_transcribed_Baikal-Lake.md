@@ -18,9 +18,8 @@ img_path: /assets/img/
 
 
 
+![](贝加尔湖畔 (手风琴独奏）.pdf)
 
-![Baikal Lake](贝加尔湖畔 (手风琴独奏, 中文)1.pdf)
-![Baikal Lake](贝加尔湖畔 (手风琴独奏, 中文)2.pdf)
-![Baikal Lake](贝加尔湖畔 (手风琴独奏, 中文)3.pdf)
-![Baikal Lake](贝加尔湖畔 (手风琴独奏, 中文)4.pdf)
-![Baikal Lake]( 贝加尔湖畔 (手风琴独奏, 中文)5.pdf)
+乐谱PDF请扫码获取或访问：<https://disk.pku.edu.cn:443/link/D5F5BEB9667011C9AAD63F6FE3409E2E>，密码 **3Og9**。
+
+![2](sheet_music_share_code.png)
