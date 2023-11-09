@@ -17,7 +17,7 @@ img_path: /assets/img/
 开头部分打谱软件难以表现其速度与情感，可以参考[我演奏视频](https://www.bilibili.com/video/BV11Z4y1S7VD)里的感觉。（看看开头就好了……我演奏水平很差，视频是随便录的。注意那个视频不是按照此谱拉的，是复现 amarcordeon 的版本，勿将其作为此谱的演奏示范）
 
 
-![](喀秋莎 (手风琴独奏）.pdf)
+![](喀秋莎 (手风琴独奏).pdf)
 
 乐谱PDF请扫码获取或访问：<https://disk.pku.edu.cn:443/link/D5F5BEB9667011C9AAD63F6FE3409E2E>，密码 **3Og9**。
 
