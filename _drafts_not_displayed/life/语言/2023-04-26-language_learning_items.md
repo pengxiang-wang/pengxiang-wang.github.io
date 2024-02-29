@@ -161,17 +161,72 @@ household
 - 锅炉: boiler
 
 
+grooming
+（人的）打扮，装束；（对动物进行的）刷洗
 
-- 梳子: comb 【A2】
-- 毛巾: towel 【A2】
-- 肥皂: soap 【A2】
-- 毛刷: hairbrush
-- 牙刷: toothbrush 【A2】
-- 牙膏: toothpaste 【B1】
-- 洗发水: shampoo 【A2】
-- 沐浴露: body wash
-- 护发素: conditioner
-- 卫生纸: toilet paper / toilet roll
+|化妆品 | make-up | A2|
+cosmetics | -|
+
+
+|口红| lipstick | -|
+|眼影 | eye shadow | -| 
+
+
+| 补水 | hydration | -| 
+
+| 洗漱用品 | toiletries | -|
+
+| 护肤品 | skincare | -| 
+
+| 洗面奶 | cleanser | -|
+
+| 肥皂: soap 【A2】
+|牙膏| toothpaste |B1|
+|洗发水| shampoo |A2|
+|沐浴露| body wash|
+|护发素| conditioner|-|
+|精华素 | serum |-|
+|body spray
+|身体乳 body lotion
+|摩丝 hair mousse
+|洗手液：hand wash
+|漱口水：mouth wash
+|口喷：breath spray
+| 发胶，定型喷雾：hair spray
+
+|爽肤水 | toner | - | 
+|乳液|  lotion | - |
+| 凝胶 gel
+|cream
+|保湿霜 | | | moisturizer| - | moisturiser |- | 
+|去角质 | Exfoliator
+|妆前乳| Face Primer
+
+
+
+|梳子: comb 【A2】
+|毛巾: towel 【A2】
+| 毛刷: hairbrush
+| 牙刷: toothbrush 【A2】
+|化妆棉：cotton wool
+|美妆蛋：make-up sponge
+|牙线棒：flosser
+|指甲锉|Nail File 
+|棉花棒| cotton bud
+|denture 假牙
+|vapour rub
+
+|cuticle stick
+
+|海绵 bath sponge
+
+
+| 卫生纸: toilet paper / toilet roll/ tissue
+| 卫生巾：sanitary towel
+| 卫生棉条 tampon
+|擦脸巾： face vipes
+
+
 
 
 

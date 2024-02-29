@@ -38,6 +38,8 @@ img_path: /assets/img/
 ## 上衣
 
 
+tummy
+
 |单词 | 英美通用 | 难度 | 英式 | 难度  | 美式 | 难度 | 备注 |  
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-|
 |短袖 T 恤| T-shirt |A1|
@@ -57,6 +59,12 @@ img_path: /assets/img/
 |大衣| coat |A1|
 | 风衣|trench coat|-|||||（通常以防水材料制成、样式类似军大衣的）有腰带的宽松大衣|
 |长大衣| overcoat|-|
+|保暖夹克 | puffer jacket | - | 
+|（通常指带有风帽的）防寒短上衣，短风雨衣| parka | - | anorak | -| 
+|softshell jacket|
+|软壳冲锋衣 | shell jacket |
+|（穿在其他衣服之上起保暖作用的）背心，马甲，防护背心| | | gilet / bodywarmer | -| vest | - | 
+
 |羽绒服| | | | | down jacket |-|
 |棒球服| ||baseball jacket|-| letterman jacket|-|
 |派克大衣 |parka jacket|-|||||一种连帽大衣，[维基](https://en.wikipedia.org/wiki/Parka)|

@@ -224,46 +224,6 @@ estate
 
 
 
-# 食物
-
-
-## 英国饮食
-
-- full breakfast
-- Sunday roast or roast dinner: 
-- fish and chips:
-
-
-
-kimchi
-
-
-
-
-
-
-
-
-## 菜
-
-- 面粉: flour 【B1】
-
-meatball
-
-jambalaya
-
-cuisine
-
-chip
-fries:
-
-salad: 
-
-## 零食
-
-麦片: cereal 【A2】
-
-
 
 # 物品（items）
 
